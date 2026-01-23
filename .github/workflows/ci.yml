@@ -28,3 +28,7 @@ jobs:
         run: |
           python -m py_compile streamlit_dashboard.py
           python -m py_compile train_zone_model.py
+
+      - name: Run training
+        run: |
+          python train_zone.py
