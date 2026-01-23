@@ -1,0 +1,1001 @@
+Incident_ID,Type_of_Crime,Severity,Date,Time,Day,Area,Lat,Lon,Street_Light,CCTV,Police_Distance_km,Victim_Age_Group,Arrest_Made,Case_Status,Risk_Label,Is_Real,Source
+2502,Sexual Assault (workplace),High,24-03-2023,15:00,Thursday,Sama,22.274475,73.156199,Yes,No,8.2,45+,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2718,Stalking,Medium,21-08-2020,19:00,Sunday,Alkapuri,22.398476,73.034289,Yes,No,8.5,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2721,Molestation,Medium,20-05-2024,20:30,Sunday,Akota,22.267441,73.065028,Yes,No,8,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2641,Attempted Theft & Harassment,Low,16-07-2022,20:30,Monday,Chhani,22.243286,73.152388,No,Yes,9.7,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2392,Theft (with harassment),Medium,24-01-2020,20:30,Saturday,Vasna,22.184378,73.078315,Yes,Yes,0.7,Teen,No,Sentenced,Low,FALSE,SYNTHETIC
+2659,Sexual Harassment (Public Transport),Medium,11-09-2018,23:30,Tuesday,Sayajigunj,22.394962,73.109911,Yes,No,5.6,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2607,Assault & Harassment,Medium,15-09-2023,20:30,Wednesday,Ajwa Road,22.274647,73.146067,No,Yes,5,25-35,No,Under Trial,Medium,FALSE,SYNTHETIC
+2494,Stalking,Medium,10-02-2019,06:00,Tuesday,Ajwa Road,22.328953,73.271066,No,No,2.7,45+,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2840,Eve-teasing,Low,23-11-2021,17:30,Friday,Padra,22.221961,73.151659,Yes,Yes,3.5,18-25,No,Closed,Low,FALSE,SYNTHETIC
+2117,Assault & Harassment,Medium,01-07-2018,19:00,Monday,Harni,22.353377,73.073772,No,Yes,11.7,35-45,No,Investigation,High,FALSE,SYNTHETIC
+2792,Sexual Assault (workplace),High,13-12-2018,06:00,Monday,Karjan,22.176762,73.178585,Yes,Yes,12.4,45+,No,Investigation,High,FALSE,SYNTHETIC
+2057,Sexual Assault (workplace),High,19-10-2018,15:00,Sunday,Karjan,22.297447,73.230976,Yes,Yes,3.1,Teen,Yes,Investigation,High,FALSE,SYNTHETIC
+2617,Molestation,Medium,04-12-2019,08:30,Wednesday,Harni,22.158015,73.202256,Yes,Yes,7.4,18-25,Yes,Open,High,FALSE,SYNTHETIC
+2954,Harassment,Low,22-12-2024,19:00,Friday,Alkapuri,22.232896,73.252205,Yes,Yes,0.7,18-25,No,Open,Low,FALSE,SYNTHETIC
+2919,Assault & Harassment,Medium,10-05-2020,17:30,Saturday,Manjalpur,22.310509,73.048517,No,No,13.5,35-45,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2880,Eve-teasing,Low,26-01-2021,23:30,Tuesday,Gorwa,22.235363,73.172043,Yes,Yes,10.5,45+,No,Open,High,FALSE,SYNTHETIC
+2261,Rape (motel),High,26-04-2023,12:00,Wednesday,Padra,22.350216,73.085943,No,No,9.2,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2864,Eve-teasing,Low,24-06-2022,06:00,Wednesday,Sama,22.25887,73.103556,Yes,Yes,13.8,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2742,Rape (motel),High,18-09-2022,23:30,Wednesday,Padra,22.244389,73.117021,No,Yes,14.3,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2300,Eve-teasing,Low,27-08-2025,19:00,Thursday,Chhani,22.246469,73.165059,Yes,No,4.4,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2530,Assault & Harassment,Medium,25-09-2021,15:00,Thursday,Vasna,22.399185,73.26483,No,No,14.5,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2155,Theft (with harassment),Medium,18-08-2025,08:30,Tuesday,Ajwa Road,22.282043,73.120446,Yes,Yes,13.8,Teen,Yes,Under Trial,High,FALSE,SYNTHETIC
+2352,Theft (with harassment),Medium,20-01-2024,15:00,Tuesday,Waghodia,22.226967,73.133051,No,No,2.5,Teen,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2508,Rape (motel),High,28-03-2022,20:30,Saturday,Kunal Crossroads,22.174431,73.15209,No,Yes,10.4,18-25,No,Investigation,High,FALSE,SYNTHETIC
+2191,Attempted Rape,High,11-04-2018,22:00,Sunday,Manjalpur,22.253994,73.270432,Yes,No,1.9,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2216,Gang Rape,High,06-07-2022,08:30,Wednesday,Harni,22.304012,73.099367,No,Yes,4.8,45+,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2082,Sexual Assault (workplace),High,09-09-2025,19:00,Saturday,Harni,22.239668,73.129535,Yes,Yes,3,Teen,No,Open,Low,FALSE,SYNTHETIC
+2967,Attempted Theft & Harassment,Low,26-03-2024,17:30,Sunday,Sayajigunj,22.303279,73.269819,Yes,No,1.1,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2883,Eve-teasing,Low,28-11-2020,22:00,Tuesday,Karjan,22.272471,73.174674,Yes,No,5.4,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2928,Eve-teasing,Low,14-05-2023,08:30,Thursday,Nizampura,22.269009,73.054969,Yes,No,8.9,45+,No,Open,Low,FALSE,SYNTHETIC
+2327,Stalking,Medium,11-11-2024,17:30,Wednesday,Chhani,22.253307,73.225947,No,Yes,7.3,25-35,No,Open,Low,FALSE,SYNTHETIC
+2120,Attempted Theft & Harassment,Low,28-10-2023,17:30,Saturday,Waghodia,22.256125,73.137652,No,No,14.9,18-25,No,Open,Low,FALSE,SYNTHETIC
+2602,Gang Rape,High,30-10-2018,19:00,Tuesday,Alkapuri,22.178797,73.102644,No,Yes,3.1,45+,No,Open,Low,FALSE,SYNTHETIC
+2480,Assault & Harassment,Medium,17-06-2022,12:00,Saturday,Suncity,22.246528,73.033048,No,No,5.3,25-35,No,Closed,Low,FALSE,SYNTHETIC
+2351,Attempted Theft & Harassment,Low,25-02-2024,22:00,Wednesday,Akota,22.284822,73.177708,No,No,7,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2179,Theft (with harassment),Medium,02-05-2018,17:30,Sunday,Nizampura,22.207035,73.168259,Yes,Yes,5.8,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2668,Attempted Theft & Harassment,Low,31-07-2024,22:00,Wednesday,Karjan,22.33634,73.228586,Yes,Yes,2.9,35-45,No,Open,Low,FALSE,SYNTHETIC
+2565,Eve-teasing,Low,29-11-2020,23:30,Sunday,Gorwa,22.161933,73.192741,Yes,No,2,25-35,Yes,Investigation,High,FALSE,SYNTHETIC
+2882,Attempted Theft & Harassment,Low,25-06-2021,06:00,Tuesday,Chhani,22.221769,73.099741,Yes,No,8.6,35-45,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2040,Attempted Rape,High,08-05-2023,06:00,Thursday,Gorwa,22.338369,73.243362,Yes,No,14.3,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2309,Theft (with harassment),Medium,07-02-2019,15:00,Tuesday,Padra Road,22.387885,73.119285,No,No,10.1,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2077,Attempted Theft & Harassment,Low,18-11-2020,22:00,Saturday,Sama,22.367599,73.231058,No,No,7.1,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2293,Harassment,Low,31-08-2025,17:30,Sunday,Akota,22.322649,73.103785,Yes,No,11.4,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2955,Stalking,Medium,15-02-2019,06:00,Friday,Gorwa,22.173031,73.277048,No,Yes,1.9,35-45,No,Sentenced,High,FALSE,SYNTHETIC
+2280,Molestation,Medium,09-04-2019,12:00,Wednesday,Gotri,22.175928,73.257807,Yes,Yes,7.3,45+,No,Open,Low,FALSE,SYNTHETIC
+2258,Harassment,Low,13-12-2019,15:00,Friday,Sayajigunj,22.212373,73.144112,No,Yes,13.8,Child,Yes,Open,High,FALSE,SYNTHETIC
+2905,Rape (motel),High,30-01-2021,17:30,Friday,Nizampura,22.347565,73.188714,No,No,1.6,18-25,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2582,Sexual Assault (workplace),High,17-08-2025,20:30,Monday,Gorwa,22.203189,73.240171,Yes,No,4.4,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2420,Attempted Theft & Harassment,Low,12-09-2023,08:30,Friday,Chhani,22.349189,73.111467,Yes,Yes,9.8,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2818,Assault & Harassment,Medium,14-03-2024,15:00,Monday,Manjalpur,22.331228,73.226985,Yes,No,0.7,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2551,Sexual Assault (workplace),High,16-03-2024,08:30,Tuesday,Karjan,22.254284,73.148334,No,Yes,7.5,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2860,Rape (motel),High,10-12-2018,12:00,Wednesday,Chhani,22.359518,73.160851,No,Yes,12.6,18-25,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2242,Stalking,Medium,03-10-2024,19:00,Tuesday,Vadodara Railway Station,22.309912,73.056028,Yes,No,7.5,25-35,Yes,Open,High,FALSE,SYNTHETIC
+2559,Gang Rape,High,22-01-2025,15:00,Friday,Akota,22.255431,73.087046,No,Yes,12.1,35-45,No,Closed,High,FALSE,SYNTHETIC
+2004,Eve-teasing,Low,06-01-2024,08:30,Tuesday,Chhani,22.28801,73.237351,No,Yes,9.4,25-35,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2011,Stalking,Medium,02-03-2025,23:30,Monday,Vadodara Railway Station,22.18821,73.220628,No,No,8.2,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2598,Molestation,Medium,18-07-2024,23:30,Sunday,Akota,22.267381,73.180832,Yes,No,4.5,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+1011,Rape (motel),High,15-12-2023,23:30,Friday,Nizampura,22.298,73.174,No,No,2,16,Yes,Closed,High,TRUE,"Times of India (Dec 16, 2023) - motel owner arrested"
+2202,Stalking,Medium,11-11-2019,12:00,Wednesday,Sayajigunj,22.35136,73.172519,No,Yes,8.1,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2801,Rape (motel),High,20-08-2021,19:00,Thursday,Padra Road,22.357472,73.046892,No,No,0.6,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2277,Attempted Theft & Harassment,Low,04-01-2019,23:30,Sunday,Waghodia,22.330894,73.256195,Yes,Yes,9.7,35-45,No,Open,Low,FALSE,SYNTHETIC
+2035,Sexual Harassment (Public Transport),Medium,08-11-2024,08:30,Saturday,Nizampura,22.371534,73.173918,Yes,Yes,10.8,35-45,No,Open,Low,FALSE,SYNTHETIC
+2523,Sexual Assault (workplace),High,23-04-2018,06:00,Tuesday,Padra,22.260851,73.190275,Yes,Yes,0.2,18-25,No,Open,Low,FALSE,SYNTHETIC
+2190,Stalking,Medium,13-02-2018,08:30,Sunday,Karjan,22.277669,73.159699,Yes,No,8.8,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2585,Sexual Assault (workplace),High,28-05-2022,23:30,Sunday,Waghodia,22.312817,73.164662,No,No,13.4,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2673,Stalking,Medium,10-02-2020,12:00,Monday,Sama,22.389356,73.180536,No,No,3.4,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2643,Sexual Assault (workplace),High,11-05-2023,06:00,Tuesday,Gorwa,22.32664,73.037064,No,Yes,10.1,18-25,No,Investigation,High,FALSE,SYNTHETIC
+2847,Rape (motel),High,08-06-2018,20:30,Wednesday,Karjan,22.245073,73.175975,No,No,9.6,35-45,Yes,Closed,High,FALSE,SYNTHETIC
+2051,Attempted Rape,High,02-02-2023,17:30,Wednesday,Sama,22.207635,73.210321,No,Yes,4.9,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2524,Theft (with harassment),Medium,30-08-2024,20:30,Thursday,Kunal Crossroads,22.269591,73.213793,No,Yes,4.1,Child,No,Under Trial,Low,FALSE,SYNTHETIC
+2088,Attempted Theft & Harassment,Low,11-02-2019,08:30,Saturday,Harni,22.366373,73.137517,Yes,No,13.3,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2474,Molestation,Medium,30-05-2021,12:00,Tuesday,Sama,22.347317,73.086695,Yes,No,5.7,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2571,Stalking,Medium,19-07-2018,17:30,Thursday,Sama,22.195769,73.214915,No,No,0.2,45+,No,Open,Low,FALSE,SYNTHETIC
+2722,Sexual Assault (workplace),High,01-04-2019,12:00,Thursday,Gotri,22.15803,73.217783,No,No,7.6,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2273,Rape (motel),High,07-03-2025,17:30,Thursday,Harni,22.162147,73.27867,No,Yes,10,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2270,Harassment,Low,12-08-2021,23:30,Friday,Sayajigunj,22.319187,73.186672,No,Yes,3.9,Child,No,Open,Low,FALSE,SYNTHETIC
+2633,Stalking,Medium,28-03-2018,08:30,Tuesday,Sama,22.334478,73.219311,No,Yes,9.4,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2020,Molestation,Medium,21-08-2018,23:30,Friday,Waghodia,22.16713,73.04699,Yes,Yes,13,35-45,Yes,Closed,Medium,FALSE,SYNTHETIC
+2570,Attempted Rape,High,11-05-2019,19:00,Tuesday,Padra Road,22.160071,73.068326,Yes,No,5.7,25-35,No,Open,Low,FALSE,SYNTHETIC
+2288,Theft (with harassment),Medium,10-07-2018,08:30,Thursday,Nizampura,22.314614,73.269048,No,Yes,2.2,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2660,Assault & Harassment,Medium,07-02-2018,23:30,Saturday,Nizampura,22.186175,73.265722,Yes,No,12.6,35-45,No,Open,Low,FALSE,SYNTHETIC
+2047,Sexual Harassment (Public Transport),Medium,23-01-2022,22:00,Friday,Akota,22.194034,73.160437,No,No,9.8,45+,No,Investigation,High,FALSE,SYNTHETIC
+2256,Attempted Theft & Harassment,Low,27-06-2021,17:30,Saturday,Vasna,22.321213,73.273124,No,Yes,3.6,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2048,Theft (with harassment),Medium,02-10-2020,08:30,Tuesday,Karjan,22.210966,73.146177,No,Yes,9.2,35-45,No,Open,High,FALSE,SYNTHETIC
+2299,Rape (motel),High,17-01-2022,17:30,Tuesday,Sayajigunj,22.282625,73.279158,Yes,Yes,12.4,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2529,Assault & Harassment,Medium,12-02-2018,22:00,Monday,Akota,22.3936,73.129389,Yes,Yes,3.3,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2979,Sexual Harassment (Public Transport),Medium,21-12-2024,22:00,Tuesday,Padra,22.200537,73.243994,No,Yes,7.4,25-35,No,Closed,Medium,FALSE,SYNTHETIC
+2695,Sexual Harassment (Public Transport),Medium,17-05-2023,06:00,Monday,Ajwa Road,22.310968,73.106072,Yes,Yes,4.2,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2734,Sexual Harassment (Public Transport),Medium,26-09-2019,08:30,Thursday,Sama,22.189551,73.12982,No,Yes,1.3,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2308,Attempted Rape,High,24-01-2020,15:00,Saturday,Vadodara Railway Station,22.198582,73.075339,Yes,No,12,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2363,Gang Rape,High,22-06-2023,15:00,Saturday,Kunal Crossroads,22.34714,73.219174,Yes,No,12.1,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2432,Molestation,Medium,16-12-2021,17:30,Tuesday,Sama,22.158832,73.260716,Yes,No,11.3,Child,No,Open,Medium,FALSE,SYNTHETIC
+2503,Theft (with harassment),Medium,18-01-2023,19:00,Saturday,Chhani,22.264914,73.038215,No,No,8.4,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2199,Harassment,Low,17-11-2019,08:30,Saturday,Padra Road,22.34897,73.085132,No,Yes,0.7,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2768,Rape (motel),High,02-06-2019,19:00,Thursday,Akota,22.37195,73.271459,No,No,6.3,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2417,Sexual Harassment (Public Transport),Medium,09-08-2018,08:30,Sunday,Suncity,22.194746,73.17903,Yes,Yes,9,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2745,Theft (with harassment),Medium,29-11-2024,20:30,Saturday,Manjalpur,22.337486,73.185956,No,No,8.3,Child,No,Investigation,High,FALSE,SYNTHETIC
+2069,Assault & Harassment,Medium,07-09-2021,23:30,Saturday,Chhani,22.3067,73.25186,No,Yes,7.4,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2044,Rape (motel),High,02-06-2019,22:00,Saturday,Manjalpur,22.386939,73.146258,Yes,Yes,4,25-35,Yes,Investigation,High,FALSE,SYNTHETIC
+2807,Gang Rape,High,02-08-2020,06:00,Sunday,Vadodara Railway Station,22.23273,73.086005,Yes,No,14.1,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2697,Molestation,Medium,01-02-2019,06:00,Friday,Harni,22.232803,73.215323,No,Yes,5.5,45+,No,Open,Low,FALSE,SYNTHETIC
+2332,Rape (motel),High,05-07-2025,20:30,Friday,Chhani,22.200078,73.033842,No,No,10.6,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2917,Attempted Rape,High,02-12-2022,22:00,Saturday,Gotri,22.352916,73.237077,No,No,10.9,Teen,No,Open,High,FALSE,SYNTHETIC
+2237,Rape (motel),High,13-12-2019,12:00,Friday,Raopura,22.229501,73.214526,Yes,Yes,5.5,45+,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2616,Stalking,Medium,14-09-2021,20:30,Saturday,Chhani,22.387173,73.045927,No,Yes,5.9,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2625,Eve-teasing,Low,09-06-2023,22:00,Tuesday,Waghodia,22.287107,73.090573,Yes,Yes,14.3,18-25,No,Under Trial,High,FALSE,SYNTHETIC
+2535,Eve-teasing,Low,13-07-2023,08:30,Tuesday,Akota,22.237401,73.080933,Yes,Yes,4.4,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2940,Assault & Harassment,Medium,30-07-2019,08:30,Wednesday,Kunal Crossroads,22.376276,73.14146,Yes,No,13.3,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2149,Harassment,Low,19-12-2019,20:30,Friday,Padra,22.399293,73.129249,Yes,No,7.5,Child,No,Closed,Low,FALSE,SYNTHETIC
+2898,Attempted Theft & Harassment,Low,08-09-2019,06:00,Monday,Kunal Crossroads,22.297538,73.079403,Yes,No,12.2,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2509,Sexual Harassment (Public Transport),Medium,23-11-2024,17:30,Friday,Gorwa,22.20044,73.188861,No,Yes,14.6,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2804,Gang Rape,High,04-04-2020,12:00,Monday,Suncity,22.352168,73.078074,No,No,8.8,Child,Yes,Open,High,FALSE,SYNTHETIC
+2966,Sexual Harassment (Public Transport),Medium,20-07-2018,20:30,Monday,Sama,22.375239,73.273002,Yes,No,13.4,35-45,No,Open,High,FALSE,SYNTHETIC
+2797,Sexual Harassment (Public Transport),Medium,13-02-2022,17:30,Friday,Chhani,22.324413,73.056834,No,Yes,6.4,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2067,Attempted Theft & Harassment,Low,28-06-2018,19:00,Friday,Vasna,22.378358,73.125308,No,Yes,14.8,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2413,Stalking,Medium,07-02-2019,23:30,Saturday,Akota,22.331143,73.144842,Yes,No,10.8,45+,Yes,Open,High,FALSE,SYNTHETIC
+2165,Molestation,Medium,03-09-2022,23:30,Saturday,Ajwa Road,22.247105,73.093749,Yes,Yes,5.1,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2959,Sexual Assault (workplace),High,01-07-2024,06:00,Thursday,Chhani,22.162005,73.079474,No,Yes,2.9,18-25,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2515,Harassment,Low,15-10-2019,17:30,Monday,Akota,22.214599,73.230885,Yes,Yes,9.9,18-25,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2275,Eve-teasing,Low,06-03-2019,23:30,Tuesday,Vadodara Railway Station,22.220677,73.22619,No,No,7.6,45+,Yes,Under Trial,High,FALSE,SYNTHETIC
+2873,Sexual Harassment (Public Transport),Medium,23-10-2020,08:30,Friday,Harni,22.313023,73.074503,Yes,No,13,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2406,Eve-teasing,Low,04-04-2021,15:00,Friday,Alkapuri,22.155997,73.186365,Yes,Yes,1.9,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2694,Rape (motel),High,22-08-2019,20:30,Tuesday,Alkapuri,22.199911,73.246088,No,No,5.8,45+,No,Under Trial,High,FALSE,SYNTHETIC
+2241,Attempted Rape,High,19-06-2025,12:00,Friday,Chhani,22.333499,73.103629,Yes,Yes,2.8,Teen,No,Closed,Medium,FALSE,SYNTHETIC
+2218,Molestation,Medium,21-02-2018,12:00,Sunday,Alkapuri,22.274103,73.116676,No,Yes,7.9,Child,No,Open,Low,FALSE,SYNTHETIC
+2540,Sexual Assault (workplace),High,04-07-2023,20:30,Thursday,Sama,22.300878,73.119761,No,No,1.6,25-35,Yes,Investigation,High,FALSE,SYNTHETIC
+2564,Harassment,Low,06-11-2023,19:00,Monday,Padra,22.156973,73.22915,Yes,No,9,18-25,No,Under Trial,High,FALSE,SYNTHETIC
+2426,Attempted Theft & Harassment,Low,08-05-2018,15:00,Tuesday,Suncity,22.297541,73.186304,No,Yes,10.7,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2848,Assault & Harassment,Medium,24-01-2025,20:30,Saturday,Vadodara Railway Station,22.285853,73.103854,No,Yes,3.4,25-35,No,Sentenced,Low,FALSE,SYNTHETIC
+2781,Theft (with harassment),Medium,28-09-2021,23:30,Saturday,Vadodara Railway Station,22.17819,73.201446,Yes,No,11,Teen,Yes,Sentenced,High,FALSE,SYNTHETIC
+2580,Rape (motel),High,22-03-2024,12:00,Sunday,Sama,22.251686,73.050977,Yes,No,9.6,18-25,Yes,Open,High,FALSE,SYNTHETIC
+2830,Sexual Harassment (Public Transport),Medium,01-04-2022,06:00,Friday,Akota,22.340653,73.192303,Yes,No,14.3,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2246,Rape (motel),High,07-05-2018,20:30,Saturday,Padra,22.372438,73.069276,No,No,1.7,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2976,Attempted Rape,High,26-01-2025,19:00,Tuesday,Manjalpur,22.380167,73.230474,No,No,11,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2510,Eve-teasing,Low,02-01-2025,08:30,Monday,Padra Road,22.297966,73.098341,No,No,8.6,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2036,Attempted Theft & Harassment,Low,08-10-2022,15:00,Friday,Padra,22.279489,73.042555,No,No,3.9,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2101,Theft (with harassment),Medium,13-01-2025,19:00,Thursday,Akota,22.167072,73.140552,No,Yes,4.7,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2196,Rape (motel),High,03-12-2024,12:00,Tuesday,Sama,22.297542,73.198028,No,No,4.8,18-25,No,Open,Low,FALSE,SYNTHETIC
+2006,Theft (with harassment),Medium,28-12-2023,15:00,Sunday,Padra,22.244864,73.277381,Yes,Yes,9.7,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2053,Attempted Rape,High,25-02-2019,06:00,Sunday,Padra Road,22.267349,73.140117,Yes,No,2.9,Teen,No,Closed,Medium,FALSE,SYNTHETIC
+2025,Attempted Theft & Harassment,Low,24-10-2019,22:00,Friday,Harni,22.256922,73.032417,Yes,No,1.3,Child,Yes,Investigation,High,FALSE,SYNTHETIC
+2228,Stalking,Medium,10-05-2019,23:30,Saturday,Gorwa,22.262979,73.145837,Yes,Yes,12.8,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2702,Molestation,Medium,23-10-2024,17:30,Wednesday,Sayajigunj,22.1509,73.172974,No,Yes,9,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2262,Sexual Assault (workplace),High,12-06-2020,22:00,Wednesday,Sama,22.280159,73.185902,No,Yes,8.9,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2874,Stalking,Medium,13-03-2022,12:00,Wednesday,Alkapuri,22.26052,73.161501,Yes,No,0.3,25-35,No,Open,Low,FALSE,SYNTHETIC
+2895,Attempted Rape,High,28-07-2025,22:00,Saturday,Gotri,22.389628,73.135434,Yes,No,2.6,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2791,Molestation,Medium,20-09-2020,23:30,Thursday,Gorwa,22.305222,73.254978,No,Yes,13.2,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2225,Sexual Harassment (Public Transport),Medium,20-04-2020,23:30,Sunday,Raopura,22.273007,73.044974,No,No,15,Child,No,Open,High,FALSE,SYNTHETIC
+2803,Assault & Harassment,Medium,14-03-2022,06:00,Saturday,Padra,22.176915,73.142377,No,Yes,2.2,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2302,Attempted Theft & Harassment,Low,02-03-2019,15:00,Monday,Harni,22.369659,73.215344,Yes,Yes,6.6,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2624,Sexual Harassment (Public Transport),Medium,20-04-2018,08:30,Tuesday,Nizampura,22.235914,73.129835,No,No,3.1,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2139,Sexual Harassment (Public Transport),Medium,16-11-2024,19:00,Sunday,Padra,22.397654,73.21483,Yes,No,4.6,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2958,Attempted Theft & Harassment,Low,15-07-2020,17:30,Thursday,Padra,22.314842,73.112156,No,Yes,14.6,Child,No,Under Trial,Low,FALSE,SYNTHETIC
+2410,Assault & Harassment,Medium,04-09-2019,17:30,Sunday,Alkapuri,22.395905,73.186628,No,No,12.7,45+,No,Open,Low,FALSE,SYNTHETIC
+2922,Attempted Rape,High,25-04-2018,15:00,Wednesday,Padra Road,22.187091,73.033017,Yes,No,5.6,45+,No,Investigation,High,FALSE,SYNTHETIC
+2443,Molestation,Medium,28-03-2025,22:00,Monday,Manjalpur,22.285158,73.137813,Yes,No,9.3,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2290,Theft (with harassment),Medium,18-06-2022,19:00,Wednesday,Sama,22.351199,73.064545,Yes,Yes,9.1,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2678,Molestation,Medium,24-10-2024,08:30,Monday,Gotri,22.229499,73.217968,Yes,Yes,2.9,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2041,Theft (with harassment),Medium,08-10-2021,20:30,Sunday,Padra,22.379885,73.27518,No,Yes,8.1,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2865,Rape (motel),High,03-04-2021,23:30,Saturday,Sayajigunj,22.387999,73.122813,Yes,Yes,9.1,35-45,No,Open,Low,FALSE,SYNTHETIC
+2576,Sexual Harassment (Public Transport),Medium,07-07-2023,06:00,Friday,Kunal Crossroads,22.195127,73.036014,Yes,No,8,35-45,No,Open,High,FALSE,SYNTHETIC
+2748,Attempted Theft & Harassment,Low,21-09-2019,19:00,Friday,Ajwa Road,22.299986,73.113772,No,Yes,14.4,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2630,Assault & Harassment,Medium,25-05-2020,08:30,Sunday,Gorwa,22.193405,73.130535,No,No,4.9,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2631,Sexual Harassment (Public Transport),Medium,29-06-2018,08:30,Wednesday,Sayajigunj,22.225384,73.179717,No,Yes,14.7,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2846,Sexual Assault (workplace),High,03-03-2021,12:00,Friday,Sayajigunj,22.368966,73.267708,Yes,Yes,12.9,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2649,Stalking,Medium,02-11-2021,06:00,Friday,Padra Road,22.269474,73.198201,Yes,Yes,1.7,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2279,Assault & Harassment,Medium,28-11-2022,17:30,Thursday,Waghodia,22.353741,73.075717,No,Yes,6.1,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2670,Gang Rape,High,19-09-2024,12:00,Wednesday,Alkapuri,22.261808,73.108574,Yes,Yes,0.8,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2295,Sexual Assault (workplace),High,16-12-2024,22:00,Wednesday,Raopura,22.326157,73.191908,No,Yes,11.4,45+,Yes,Under Trial,High,FALSE,SYNTHETIC
+2291,Sexual Assault (workplace),High,08-05-2020,17:30,Friday,Gorwa,22.183168,73.207599,No,No,14.6,18-25,No,Under Trial,Medium,FALSE,SYNTHETIC
+2342,Rape (motel),High,19-02-2021,22:00,Sunday,Padra,22.182785,73.173973,No,Yes,3.6,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2460,Stalking,Medium,28-08-2021,15:00,Thursday,Manjalpur,22.334437,73.247472,Yes,Yes,5.8,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2091,Molestation,Medium,01-03-2019,23:30,Tuesday,Sayajigunj,22.314184,73.086061,No,Yes,1.8,45+,No,Open,Low,FALSE,SYNTHETIC
+2970,Attempted Rape,High,22-09-2019,08:30,Tuesday,Kunal Crossroads,22.387372,73.040243,No,No,12.6,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2467,Sexual Assault (workplace),High,26-02-2022,22:00,Friday,Alkapuri,22.167675,73.253359,Yes,Yes,5.1,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2344,Stalking,Medium,10-02-2019,12:00,Friday,Gotri,22.353455,73.149135,No,No,9.5,35-45,No,Open,Low,FALSE,SYNTHETIC
+2235,Sexual Harassment (Public Transport),Medium,10-11-2021,23:30,Friday,Kunal Crossroads,22.217609,73.036516,No,Yes,9,Teen,No,Open,High,FALSE,SYNTHETIC
+2240,Molestation,Medium,10-10-2021,17:30,Friday,Kunal Crossroads,22.393965,73.213088,No,Yes,6.7,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2783,Gang Rape,High,11-01-2025,23:30,Wednesday,Nizampura,22.193738,73.257582,No,Yes,5.4,25-35,No,Investigation,High,FALSE,SYNTHETIC
+2658,Attempted Theft & Harassment,Low,02-04-2019,08:30,Thursday,Kunal Crossroads,22.29805,73.077039,Yes,No,14.1,45+,No,Open,Low,FALSE,SYNTHETIC
+2475,Molestation,Medium,17-01-2020,12:00,Friday,Akota,22.209476,73.040288,Yes,No,4.9,18-25,No,Open,Low,FALSE,SYNTHETIC
+2651,Sexual Assault (workplace),High,15-07-2021,15:00,Thursday,Gorwa,22.249618,73.182702,Yes,Yes,14.6,25-35,Yes,Open,High,FALSE,SYNTHETIC
+2358,Gang Rape,High,27-12-2020,20:30,Tuesday,Waghodia,22.267537,73.078048,No,No,12.7,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2507,Assault & Harassment,Medium,27-11-2019,06:00,Friday,Harni,22.159344,73.194442,Yes,No,6.5,45+,No,Open,Medium,FALSE,SYNTHETIC
+2826,Eve-teasing,Low,06-12-2024,06:00,Monday,Raopura,22.31365,73.076064,No,No,7.7,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2118,Stalking,Medium,16-04-2021,15:00,Tuesday,Gotri,22.371448,73.108899,No,No,4.8,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2336,Sexual Harassment (Public Transport),Medium,13-10-2020,17:30,Friday,Waghodia,22.318424,73.235269,No,Yes,1.3,18-25,No,Open,Low,FALSE,SYNTHETIC
+2346,Attempted Rape,High,18-11-2018,20:30,Thursday,Vadodara Railway Station,22.265938,73.269149,Yes,Yes,13.1,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2923,Theft (with harassment),Medium,14-11-2023,19:00,Wednesday,Chhani,22.312094,73.247696,Yes,No,7.3,35-45,No,Open,High,FALSE,SYNTHETIC
+2730,Rape (motel),High,06-09-2020,15:00,Sunday,Vadodara Railway Station,22.16875,73.0681,No,Yes,9.5,35-45,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2929,Sexual Assault (workplace),High,17-03-2025,15:00,Friday,Padra Road,22.303603,73.144064,No,No,0.2,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2810,Rape (motel),High,15-07-2023,08:30,Monday,Padra Road,22.325773,73.221394,No,Yes,0.7,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2637,Stalking,Medium,13-12-2019,23:30,Tuesday,Sayajigunj,22.276856,73.13656,No,No,7.1,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2180,Sexual Harassment (Public Transport),Medium,03-12-2018,17:30,Wednesday,Akota,22.327919,73.188475,No,No,11.1,25-35,No,Open,Low,FALSE,SYNTHETIC
+2194,Harassment,Low,16-01-2023,20:30,Wednesday,Chhani,22.326184,73.081446,No,Yes,11.3,Teen,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2389,Molestation,Medium,16-11-2023,12:00,Tuesday,Suncity,22.314058,73.171211,Yes,No,2.5,Teen,Yes,Open,High,FALSE,SYNTHETIC
+2313,Gang Rape,High,13-08-2024,15:00,Sunday,Gotri,22.215154,73.253496,No,Yes,8.2,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2189,Sexual Assault (workplace),High,13-10-2020,19:00,Sunday,Padra,22.303169,73.170805,No,Yes,9.7,Child,No,Sentenced,Low,FALSE,SYNTHETIC
+2594,Harassment,Low,07-07-2021,08:30,Friday,Akota,22.379779,73.14048,Yes,No,4.7,Child,No,Open,Medium,FALSE,SYNTHETIC
+2059,Attempted Theft & Harassment,Low,26-11-2018,06:00,Wednesday,Suncity,22.23058,73.092592,Yes,Yes,1.6,Child,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2010,Sexual Assault (workplace),High,24-08-2025,23:30,Friday,Karjan,22.235044,73.103375,Yes,No,2.5,Teen,No,Sentenced,Medium,FALSE,SYNTHETIC
+2516,Sexual Harassment (Public Transport),Medium,09-07-2021,17:30,Friday,Waghodia,22.374193,73.197918,Yes,No,13.3,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2676,Sexual Harassment (Public Transport),Medium,17-12-2023,08:30,Wednesday,Harni,22.16649,73.190044,Yes,Yes,5.6,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2538,Harassment,Low,20-05-2024,12:00,Monday,Sayajigunj,22.350389,73.100739,No,No,12,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2817,Attempted Theft & Harassment,Low,28-11-2023,17:30,Tuesday,Kunal Crossroads,22.285355,73.056095,Yes,No,5.3,35-45,No,Open,Low,FALSE,SYNTHETIC
+2577,Eve-teasing,Low,13-08-2019,12:00,Wednesday,Karjan,22.188557,73.268041,No,Yes,10.2,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2146,Stalking,Medium,17-12-2022,17:30,Friday,Vasna,22.200517,73.164644,Yes,Yes,14,Child,No,Open,Medium,FALSE,SYNTHETIC
+2899,Rape (motel),High,01-03-2023,19:00,Wednesday,Gotri,22.321597,73.093082,No,Yes,5.2,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2476,Theft (with harassment),Medium,09-11-2021,12:00,Thursday,Gorwa,22.284967,73.070649,No,Yes,4.7,Teen,No,Closed,Medium,FALSE,SYNTHETIC
+2805,Assault & Harassment,Medium,16-05-2024,23:30,Sunday,Waghodia,22.196326,73.212494,No,No,13.7,Child,No,Open,Low,FALSE,SYNTHETIC
+2046,Harassment,Low,20-05-2021,08:30,Thursday,Padra Road,22.236801,73.137095,Yes,No,5.7,45+,No,Open,Medium,FALSE,SYNTHETIC
+2122,Harassment,Low,28-01-2022,23:30,Wednesday,Padra,22.185695,73.181893,No,No,11.8,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2906,Assault & Harassment,Medium,05-08-2024,20:30,Tuesday,Vadodara Railway Station,22.285364,73.148901,No,No,8.5,25-35,No,Open,High,FALSE,SYNTHETIC
+2808,Stalking,Medium,03-11-2018,23:30,Friday,Padra Road,22.363299,73.262952,No,No,7.6,35-45,Yes,Investigation,High,FALSE,SYNTHETIC
+2636,Theft (with harassment),Medium,06-11-2023,19:00,Tuesday,Padra,22.307446,73.046154,Yes,Yes,7.5,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2312,Molestation,Medium,29-03-2025,08:30,Sunday,Karjan,22.372824,73.079108,Yes,No,11.1,Child,Yes,Under Trial,High,FALSE,SYNTHETIC
+2645,Gang Rape,High,01-11-2020,17:30,Sunday,Ajwa Road,22.314622,73.125697,No,Yes,4.8,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2230,Eve-teasing,Low,27-03-2024,23:30,Tuesday,Raopura,22.265511,73.230974,Yes,No,2.3,Teen,Yes,Under Trial,High,FALSE,SYNTHETIC
+2888,Sexual Assault (workplace),High,27-09-2024,19:00,Friday,Vasna,22.250288,73.040032,No,Yes,13.9,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2689,Eve-teasing,Low,24-01-2018,19:00,Tuesday,Sayajigunj,22.197392,73.040064,No,No,6,Child,No,Closed,Low,FALSE,SYNTHETIC
+2286,Sexual Assault (workplace),High,28-01-2023,08:30,Tuesday,Manjalpur,22.205437,73.115339,No,Yes,12.5,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2715,Attempted Theft & Harassment,Low,03-06-2025,19:00,Saturday,Karjan,22.349671,73.227214,No,Yes,13,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2956,Theft (with harassment),Medium,06-10-2024,06:00,Monday,Sama,22.267372,73.255721,No,No,2.1,Child,No,Sentenced,Medium,FALSE,SYNTHETIC
+2030,Attempted Theft & Harassment,Low,09-09-2024,20:30,Monday,Gorwa,22.346607,73.139098,No,Yes,14.8,Teen,No,Closed,Low,FALSE,SYNTHETIC
+2877,Harassment,Low,06-12-2018,20:30,Friday,Manjalpur,22.260845,73.207648,Yes,No,4.9,45+,No,Sentenced,Low,FALSE,SYNTHETIC
+1003,Sexual Assault (Minor),High,30-08-2024,18:00,Saturday,Sindhrot,22.22,73.32,No,Yes,12,5,Yes,Investigation,High,TRUE,Times of India (Sep 2024) - Sindhrot assault
+2525,Stalking,Medium,31-05-2022,20:30,Tuesday,Padra Road,22.155184,73.035743,No,Yes,8.5,45+,Yes,Closed,High,FALSE,SYNTHETIC
+2331,Attempted Theft & Harassment,Low,18-05-2018,23:30,Wednesday,Ajwa Road,22.207918,73.072371,No,No,0.7,18-25,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2885,Stalking,Medium,04-10-2023,15:00,Wednesday,Karjan,22.266922,73.037862,No,No,1.9,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2517,Rape (motel),High,27-07-2023,08:30,Thursday,Raopura,22.180569,73.231672,Yes,Yes,5.1,45+,No,Under Trial,Medium,FALSE,SYNTHETIC
+2325,Stalking,Medium,03-07-2019,17:30,Saturday,Vasna,22.377521,73.050954,Yes,Yes,9.1,45+,No,Open,Low,FALSE,SYNTHETIC
+2975,Theft (with harassment),Medium,13-06-2018,19:00,Friday,Nizampura,22.293336,73.160691,Yes,Yes,14.1,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2462,Theft (with harassment),Medium,14-07-2019,08:30,Friday,Nizampura,22.254556,73.220085,Yes,Yes,3.5,25-35,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2556,Theft (with harassment),Medium,13-10-2023,08:30,Monday,Gotri,22.349747,73.270662,Yes,Yes,11.4,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2014,Rape (motel),High,20-09-2018,19:00,Sunday,Alkapuri,22.28848,73.17711,No,Yes,0.3,Child,Yes,Open,High,FALSE,SYNTHETIC
+2012,Rape (motel),High,07-09-2020,06:00,Friday,Raopura,22.386737,73.051413,Yes,No,7.4,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2212,Rape (motel),High,16-02-2019,12:00,Friday,Manjalpur,22.332502,73.117884,No,Yes,6.6,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2944,Assault & Harassment,Medium,27-10-2018,12:00,Friday,Padra Road,22.263512,73.225278,No,Yes,11.1,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2173,Gang Rape,High,10-03-2018,23:30,Monday,Karjan,22.39437,73.034286,Yes,Yes,12.2,Child,No,Under Trial,High,FALSE,SYNTHETIC
+2314,Eve-teasing,Low,19-03-2023,23:30,Tuesday,Ajwa Road,22.249196,73.155542,Yes,Yes,10,45+,Yes,Under Trial,Low,FALSE,SYNTHETIC
+1004,Repeated Rape (Domestic),High,01-02-2024,Various,Various,Vadodara (residential),22.3072,73.1812,Yes,No,2,40,Yes,Investigation,High,TRUE,Local reports (2024) - Domestic repeated rape allegation
+2185,Assault & Harassment,Medium,06-08-2021,15:00,Wednesday,Vasna,22.194409,73.12956,No,No,4.9,Child,No,Sentenced,Medium,FALSE,SYNTHETIC
+2495,Sexual Assault (workplace),High,11-08-2024,12:00,Monday,Nizampura,22.389437,73.075212,No,Yes,5.5,35-45,No,Open,Low,FALSE,SYNTHETIC
+2780,Theft (with harassment),Medium,14-02-2019,17:30,Sunday,Kunal Crossroads,22.272665,73.117695,No,No,8.3,Child,No,Open,Medium,FALSE,SYNTHETIC
+2287,Rape (motel),High,04-08-2022,08:30,Wednesday,Karjan,22.19898,73.060186,Yes,No,12.8,18-25,No,Under Trial,Low,FALSE,SYNTHETIC
+2090,Gang Rape,High,28-03-2024,06:00,Wednesday,Padra Road,22.290421,73.197503,No,No,6.3,Child,No,Closed,Medium,FALSE,SYNTHETIC
+2411,Eve-teasing,Low,10-05-2018,17:30,Wednesday,Suncity,22.274264,73.089411,Yes,Yes,6.9,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2058,Rape (motel),High,02-09-2018,12:00,Wednesday,Sama,22.337239,73.172302,No,No,4.5,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2065,Eve-teasing,Low,20-02-2020,23:30,Wednesday,Akota,22.219062,73.227502,No,Yes,6.3,45+,No,Under Trial,Low,FALSE,SYNTHETIC
+2267,Stalking,Medium,08-08-2018,08:30,Tuesday,Vasna,22.275119,73.246874,Yes,No,5.8,25-35,No,Open,High,FALSE,SYNTHETIC
+2063,Harassment,Low,30-11-2022,22:00,Monday,Manjalpur,22.393287,73.182218,Yes,Yes,3.7,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2972,Attempted Theft & Harassment,Low,21-08-2018,08:30,Wednesday,Karjan,22.333111,73.256183,Yes,Yes,9.7,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2770,Harassment,Low,19-07-2023,06:00,Sunday,Sayajigunj,22.317625,73.147038,No,No,5.9,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2875,Sexual Harassment (Public Transport),Medium,18-05-2018,17:30,Sunday,Vasna,22.160979,73.203875,No,No,3.9,Child,Yes,Sentenced,High,FALSE,SYNTHETIC
+2379,Theft (with harassment),Medium,24-05-2023,23:30,Thursday,Sayajigunj,22.24883,73.172833,No,Yes,8.5,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2304,Harassment,Low,20-07-2025,08:30,Friday,Harni,22.310356,73.184587,Yes,No,11.4,45+,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2500,Sexual Harassment (Public Transport),Medium,29-12-2021,22:00,Tuesday,Vadodara Railway Station,22.396881,73.157854,Yes,Yes,2.4,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2897,Assault & Harassment,Medium,08-10-2024,22:00,Friday,Ajwa Road,22.345251,73.208006,No,Yes,12.7,25-35,Yes,Under Trial,High,FALSE,SYNTHETIC
+2903,Attempted Rape,High,22-04-2019,15:00,Sunday,Padra Road,22.39873,73.183895,No,No,8.2,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+1006,Assault & Harassment,Medium,12-08-2024,15:00,Monday,Padra,22.346,73.031,Yes,No,6,30-45,Yes,Investigation,Medium,TRUE,"Times of India (Aug 12, 2024) - Padra assault"
+2712,Harassment,Low,04-08-2019,06:00,Saturday,Raopura,22.206669,73.126346,Yes,No,5.4,25-35,Yes,Closed,Medium,FALSE,SYNTHETIC
+2446,Harassment,Low,27-09-2021,17:30,Sunday,Chhani,22.308068,73.269706,No,Yes,1.5,45+,No,Open,Medium,FALSE,SYNTHETIC
+2078,Attempted Rape,High,05-01-2019,20:30,Wednesday,Alkapuri,22.284143,73.143697,Yes,Yes,10.2,Child,No,Investigation,High,FALSE,SYNTHETIC
+2247,Harassment,Low,03-05-2021,15:00,Sunday,Manjalpur,22.248226,73.167416,No,Yes,7.5,Teen,No,Open,Low,FALSE,SYNTHETIC
+2338,Sexual Assault (workplace),High,13-03-2019,08:30,Wednesday,Waghodia,22.388945,73.153166,No,No,0.3,45+,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2849,Sexual Assault (workplace),High,23-12-2019,22:00,Monday,Kunal Crossroads,22.178384,73.204242,No,No,10.6,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2779,Stalking,Medium,16-07-2024,06:00,Tuesday,Vasna,22.268142,73.041294,Yes,Yes,0.5,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2361,Eve-teasing,Low,17-11-2019,17:30,Sunday,Padra Road,22.248952,73.090772,Yes,Yes,14.5,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2612,Attempted Rape,High,10-10-2024,12:00,Monday,Harni,22.152133,73.104869,No,Yes,12.4,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2362,Sexual Assault (workplace),High,08-10-2019,22:00,Saturday,Waghodia,22.304661,73.262712,Yes,Yes,15,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2471,Stalking,Medium,26-01-2023,19:00,Tuesday,Waghodia,22.372976,73.144469,No,Yes,1.4,18-25,No,Sentenced,Low,FALSE,SYNTHETIC
+2099,Molestation,Medium,22-10-2021,15:00,Saturday,Kunal Crossroads,22.169095,73.188306,Yes,Yes,8.1,18-25,No,Open,High,FALSE,SYNTHETIC
+2881,Harassment,Low,24-07-2021,06:00,Sunday,Padra,22.204381,73.123632,Yes,Yes,1.4,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2231,Rape (motel),High,05-03-2022,08:30,Tuesday,Padra Road,22.214705,73.233187,Yes,No,0.5,Teen,Yes,Closed,Medium,FALSE,SYNTHETIC
+2504,Sexual Assault (workplace),High,25-03-2019,22:00,Thursday,Harni,22.284848,73.147455,No,No,8.5,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+1010,Sexual Assault (Workplace),High,11-01-2025,11:00,Monday,SSG Hospital vicinity,22.3072,73.1812,Yes,Yes,0.8,54,Yes,Investigation,High,TRUE,Times of India (Jan 2025) - hospital staff allegation
+2177,Stalking,Medium,05-01-2020,19:00,Friday,Alkapuri,22.296759,73.218064,No,No,10.7,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2584,Rape (motel),High,31-10-2021,15:00,Tuesday,Nizampura,22.232114,73.258505,No,No,2.2,Teen,No,Open,Low,FALSE,SYNTHETIC
+2062,Sexual Harassment (Public Transport),Medium,17-05-2025,23:30,Friday,Nizampura,22.163551,73.15961,Yes,No,9.4,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2764,Harassment,Low,10-03-2021,12:00,Sunday,Chhani,22.373957,73.259509,No,No,0.8,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2568,Theft (with harassment),Medium,16-12-2020,22:00,Saturday,Suncity,22.322254,73.266955,No,Yes,11,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2778,Sexual Assault (workplace),High,08-02-2023,12:00,Monday,Alkapuri,22.26865,73.113514,No,No,2.8,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2220,Eve-teasing,Low,15-02-2022,12:00,Tuesday,Karjan,22.373567,73.19853,Yes,No,1.9,Child,Yes,Open,High,FALSE,SYNTHETIC
+2271,Attempted Rape,High,25-09-2018,06:00,Wednesday,Sama,22.263982,73.160072,Yes,Yes,8,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2192,Theft (with harassment),Medium,27-11-2021,22:00,Monday,Manjalpur,22.330498,73.143112,Yes,Yes,1.2,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2698,Eve-teasing,Low,12-03-2019,12:00,Monday,Vadodara Railway Station,22.16026,73.272083,No,No,13.3,18-25,Yes,Under Trial,High,FALSE,SYNTHETIC
+2340,Eve-teasing,Low,12-09-2025,12:00,Wednesday,Nizampura,22.324561,73.145018,No,Yes,10.4,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2430,Eve-teasing,Low,16-05-2024,22:00,Friday,Gorwa,22.295067,73.270434,Yes,Yes,1.4,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2208,Eve-teasing,Low,05-05-2025,19:00,Thursday,Karjan,22.242961,73.25595,Yes,Yes,2.6,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2931,Theft (with harassment),Medium,31-07-2021,23:30,Saturday,Vasna,22.190783,73.04639,Yes,Yes,6.6,25-35,Yes,Closed,Medium,FALSE,SYNTHETIC
+2927,Stalking,Medium,11-11-2023,17:30,Wednesday,Gotri,22.206897,73.176419,Yes,Yes,8.8,35-45,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2777,Attempted Theft & Harassment,Low,22-01-2019,12:00,Tuesday,Ajwa Road,22.30553,73.214773,Yes,No,12.8,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2482,Harassment,Low,16-08-2024,20:30,Tuesday,Waghodia,22.252365,73.258603,Yes,Yes,6.3,45+,No,Under Trial,Medium,FALSE,SYNTHETIC
+2445,Attempted Theft & Harassment,Low,13-05-2023,20:30,Thursday,Chhani,22.345234,73.226345,Yes,No,8.2,Teen,No,Sentenced,High,FALSE,SYNTHETIC
+2343,Harassment,Low,21-08-2019,12:00,Friday,Vasna,22.194152,73.154899,Yes,No,14.9,Child,No,Under Trial,Low,FALSE,SYNTHETIC
+2449,Assault & Harassment,Medium,01-06-2018,19:00,Friday,Gotri,22.346945,73.040704,Yes,Yes,1.9,Child,No,Closed,High,FALSE,SYNTHETIC
+2916,Attempted Theft & Harassment,Low,09-03-2023,08:30,Wednesday,Alkapuri,22.158081,73.199218,Yes,Yes,13,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2409,Attempted Rape,High,23-08-2022,06:00,Sunday,Ajwa Road,22.291236,73.199549,No,Yes,8.4,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+1008,Stalking and Threats,Medium,15-11-2024,19:30,Friday,Sayajiganj,22.307,73.18,Yes,No,3,25,No,Open,High,TRUE,Local media (Nov 2024) - stalking reports
+2136,Sexual Harassment (Public Transport),Medium,08-01-2024,06:00,Friday,Manjalpur,22.183484,73.096118,Yes,No,5.6,35-45,No,Open,Low,FALSE,SYNTHETIC
+2522,Eve-teasing,Low,19-08-2022,19:00,Saturday,Suncity,22.3561,73.204621,No,No,7.7,25-35,No,Investigation,High,FALSE,SYNTHETIC
+2421,Assault & Harassment,Medium,30-05-2023,20:30,Saturday,Waghodia,22.20206,73.203515,Yes,No,6.6,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2463,Theft (with harassment),Medium,21-12-2018,20:30,Sunday,Ajwa Road,22.36555,73.084111,Yes,Yes,7.2,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2403,Eve-teasing,Low,29-06-2024,19:00,Thursday,Gotri,22.342128,73.110705,Yes,Yes,13.5,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2759,Molestation,Medium,04-02-2025,08:30,Friday,Nizampura,22.372362,73.269524,No,No,3.9,35-45,No,Investigation,High,FALSE,SYNTHETIC
+2930,Gang Rape,High,28-03-2025,17:30,Tuesday,Karjan,22.212256,73.098822,No,Yes,8.5,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2315,Stalking,Medium,04-06-2023,19:00,Sunday,Gotri,22.340368,73.087937,No,No,4.1,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2557,Attempted Theft & Harassment,Low,21-04-2020,19:00,Sunday,Padra,22.223031,73.140379,Yes,Yes,7.7,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2915,Theft (with harassment),Medium,24-02-2023,15:00,Sunday,Vadodara Railway Station,22.397428,73.229188,Yes,Yes,14.6,45+,Yes,Under Trial,High,FALSE,SYNTHETIC
+2548,Eve-teasing,Low,20-11-2022,23:30,Saturday,Sayajigunj,22.225229,73.145856,No,No,7.2,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2575,Harassment,Low,08-05-2019,23:30,Wednesday,Padra,22.218741,73.081451,No,Yes,12.5,45+,No,Open,Medium,FALSE,SYNTHETIC
+2511,Stalking,Medium,09-11-2022,23:30,Friday,Kunal Crossroads,22.253579,73.092816,Yes,No,7.8,Child,Yes,Closed,Medium,FALSE,SYNTHETIC
+2562,Gang Rape,High,10-11-2021,06:00,Friday,Karjan,22.3026,73.066715,No,No,6.2,Child,Yes,Closed,Medium,FALSE,SYNTHETIC
+2688,Assault & Harassment,Medium,08-06-2022,19:00,Tuesday,Sama,22.257085,73.075546,No,No,12.2,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2429,Sexual Harassment (Public Transport),Medium,26-12-2021,15:00,Wednesday,Padra,22.301143,73.174485,Yes,Yes,12.7,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2434,Attempted Theft & Harassment,Low,02-04-2019,12:00,Sunday,Padra Road,22.187784,73.141663,Yes,No,12.2,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2209,Eve-teasing,Low,05-01-2018,15:00,Sunday,Vasna,22.183175,73.086548,No,Yes,10.3,Teen,Yes,Investigation,High,FALSE,SYNTHETIC
+2333,Stalking,Medium,06-02-2021,15:00,Friday,Vadodara Railway Station,22.26369,73.130989,No,No,0.3,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2709,Sexual Harassment (Public Transport),Medium,07-10-2024,08:30,Wednesday,Chhani,22.155179,73.236641,Yes,Yes,11.5,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2193,Molestation,Medium,15-10-2023,12:00,Thursday,Harni,22.232747,73.136592,Yes,Yes,7,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2060,Attempted Rape,High,12-04-2023,23:30,Wednesday,Nizampura,22.195372,73.176332,Yes,Yes,9.6,35-45,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2129,Assault & Harassment,Medium,30-05-2021,12:00,Saturday,Padra,22.383684,73.086368,No,Yes,14.2,45+,No,Under Trial,Low,FALSE,SYNTHETIC
+2283,Assault & Harassment,Medium,09-11-2019,08:30,Thursday,Vasna,22.210223,73.272536,No,No,0.9,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2609,Gang Rape,High,11-12-2018,17:30,Thursday,Nizampura,22.237894,73.175991,No,No,7.1,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2758,Theft (with harassment),Medium,23-04-2020,22:00,Friday,Suncity,22.255934,73.21677,No,No,12.3,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2487,Gang Rape,High,09-04-2021,23:30,Sunday,Waghodia,22.198454,73.187007,No,No,11.5,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2323,Theft (with harassment),Medium,16-10-2024,08:30,Friday,Padra,22.375402,73.179953,Yes,No,13.2,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2466,Harassment,Low,26-04-2021,15:00,Tuesday,Waghodia,22.269946,73.106209,No,Yes,10.6,45+,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2692,Sexual Harassment (Public Transport),Medium,01-03-2021,22:00,Saturday,Waghodia,22.211937,73.068124,Yes,No,7.8,18-25,No,Under Trial,High,FALSE,SYNTHETIC
+2114,Attempted Rape,High,01-04-2019,17:30,Thursday,Raopura,22.180462,73.08961,Yes,Yes,9.7,45+,No,Open,High,FALSE,SYNTHETIC
+2684,Gang Rape,High,04-11-2018,19:00,Saturday,Akota,22.238323,73.042727,Yes,Yes,7.5,18-25,No,Sentenced,Low,FALSE,SYNTHETIC
+2292,Sexual Harassment (Public Transport),Medium,24-07-2025,23:30,Sunday,Sama,22.352076,73.160682,Yes,No,0.6,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2703,Eve-teasing,Low,28-04-2021,17:30,Tuesday,Harni,22.192777,73.041403,No,Yes,3.7,Teen,Yes,Closed,Low,FALSE,SYNTHETIC
+2610,Harassment,Low,22-07-2021,17:30,Friday,Chhani,22.194891,73.088448,Yes,No,9.8,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+1001,Gang Rape,High,04-10-2024,22:00,Friday,Bhayli,22.1769,73.1201,No,Yes,5,16,Yes,Under Trial,High,TRUE,"DeshGujarat (Oct 7, 2024) - Bhayli gang rape"
+2297,Molestation,Medium,26-03-2023,12:00,Wednesday,Gotri,22.382157,73.17922,Yes,No,11.7,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2687,Stalking,Medium,20-02-2019,20:30,Wednesday,Vasna,22.171186,73.15858,Yes,No,2.5,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2528,Molestation,Medium,05-08-2025,15:00,Wednesday,Suncity,22.252131,73.066486,No,Yes,4.5,25-35,Yes,Investigation,High,FALSE,SYNTHETIC
+2853,Molestation,Medium,23-01-2022,23:30,Tuesday,Sayajigunj,22.359537,73.128882,Yes,Yes,10.8,25-35,Yes,Closed,Low,FALSE,SYNTHETIC
+2513,Sexual Harassment (Public Transport),Medium,08-09-2025,17:30,Tuesday,Suncity,22.229663,73.237554,No,Yes,1.2,18-25,No,Open,Low,FALSE,SYNTHETIC
+2458,Attempted Rape,High,13-03-2021,15:00,Tuesday,Suncity,22.233574,73.231288,Yes,Yes,11.4,Teen,Yes,Under Trial,High,FALSE,SYNTHETIC
+2385,Assault & Harassment,Medium,09-04-2022,23:30,Monday,Manjalpur,22.271166,73.179277,Yes,No,1.5,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2153,Harassment,Low,01-05-2025,19:00,Wednesday,Raopura,22.316947,73.146349,No,Yes,2.6,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2106,Rape (motel),High,11-05-2025,20:30,Sunday,Akota,22.327209,73.05118,Yes,No,8.5,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2375,Molestation,Medium,13-11-2018,19:00,Thursday,Vasna,22.272069,73.254756,Yes,Yes,10.6,Teen,No,Open,High,FALSE,SYNTHETIC
+2401,Gang Rape,High,28-09-2024,06:00,Wednesday,Raopura,22.219528,73.187159,Yes,Yes,12.3,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2533,Attempted Theft & Harassment,Low,20-11-2022,12:00,Tuesday,Kunal Crossroads,22.398641,73.220919,Yes,Yes,2.4,Child,No,Open,Low,FALSE,SYNTHETIC
+2884,Stalking,Medium,30-09-2019,23:30,Friday,Padra Road,22.398439,73.138463,No,Yes,9.8,Child,No,Open,Medium,FALSE,SYNTHETIC
+2071,Gang Rape,High,31-10-2022,12:00,Saturday,Raopura,22.253013,73.20045,Yes,No,2.9,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2920,Attempted Rape,High,19-01-2023,17:30,Wednesday,Padra Road,22.298607,73.220331,No,No,2.4,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2162,Attempted Rape,High,20-08-2018,12:00,Saturday,Ajwa Road,22.20854,73.259099,Yes,No,8.7,45+,No,Open,High,FALSE,SYNTHETIC
+2255,Sexual Harassment (Public Transport),Medium,13-08-2019,20:30,Monday,Gotri,22.372394,73.112874,No,No,3.7,Child,No,Closed,High,FALSE,SYNTHETIC
+2876,Attempted Theft & Harassment,Low,02-07-2023,12:00,Tuesday,Vasna,22.368734,73.217647,Yes,Yes,12.1,Teen,No,Open,High,FALSE,SYNTHETIC
+2050,Harassment,Low,30-03-2025,22:00,Thursday,Nizampura,22.173263,73.085399,No,No,10.4,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2272,Stalking,Medium,11-07-2022,06:00,Sunday,Raopura,22.331792,73.062801,Yes,No,11.1,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2112,Harassment,Low,28-06-2020,22:00,Monday,Gorwa,22.253724,73.129113,No,Yes,5.7,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2281,Sexual Harassment (Public Transport),Medium,02-06-2023,22:00,Wednesday,Manjalpur,22.260172,73.045834,Yes,No,9.9,Teen,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2405,Gang Rape,High,29-10-2024,19:00,Thursday,Karjan,22.293786,73.185811,Yes,Yes,13.9,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2307,Rape (motel),High,21-06-2018,06:00,Sunday,Padra Road,22.24852,73.166881,Yes,Yes,1.5,18-25,No,Open,High,FALSE,SYNTHETIC
+2125,Theft (with harassment),Medium,18-05-2019,12:00,Friday,Waghodia,22.193164,73.208342,No,No,15,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2404,Sexual Harassment (Public Transport),Medium,29-01-2021,19:00,Sunday,Ajwa Road,22.281162,73.203957,No,No,9.3,Teen,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2561,Harassment,Low,28-05-2025,12:00,Saturday,Padra Road,22.394433,73.275012,No,No,12,45+,No,Investigation,High,FALSE,SYNTHETIC
+2116,Assault & Harassment,Medium,10-04-2023,06:00,Sunday,Chhani,22.213413,73.034061,No,Yes,11.9,25-35,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2431,Rape (motel),High,20-04-2023,08:30,Friday,Harni,22.228125,73.043194,No,No,5.3,Teen,No,Investigation,High,FALSE,SYNTHETIC
+2145,Sexual Assault (workplace),High,24-03-2021,08:30,Saturday,Padra Road,22.285798,73.25394,Yes,No,6,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2009,Sexual Assault (workplace),High,12-07-2018,08:30,Wednesday,Akota,22.189996,73.20012,Yes,Yes,9,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2754,Sexual Assault (workplace),High,06-01-2025,08:30,Tuesday,Sayajigunj,22.254977,73.252428,Yes,Yes,9.6,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2174,Gang Rape,High,14-09-2020,15:00,Tuesday,Vadodara Railway Station,22.213105,73.11861,Yes,No,12,Teen,No,Sentenced,Medium,FALSE,SYNTHETIC
+2369,Harassment,Low,27-08-2018,17:30,Thursday,Ajwa Road,22.333575,73.238614,Yes,Yes,1.4,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2833,Molestation,Medium,12-09-2022,15:00,Wednesday,Padra Road,22.381429,73.091236,No,Yes,13.7,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2150,Gang Rape,High,11-03-2021,22:00,Tuesday,Harni,22.273478,73.26464,No,No,12.8,35-45,No,Open,Low,FALSE,SYNTHETIC
+2686,Assault & Harassment,Medium,05-12-2024,22:00,Thursday,Gotri,22.151473,73.145088,No,Yes,4.6,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2121,Attempted Theft & Harassment,Low,01-01-2023,20:30,Monday,Padra,22.260977,73.141782,Yes,No,11,25-35,No,Open,High,FALSE,SYNTHETIC
+2154,Molestation,Medium,16-06-2020,12:00,Sunday,Vasna,22.263745,73.277209,Yes,Yes,5.7,Child,No,Under Trial,High,FALSE,SYNTHETIC
+1007,Rape (minor),High,09-10-2020,NA,NA,Vadodara (school area),22.3072,73.1812,Yes,Yes,1.5,13,Yes,Closed,High,TRUE,NDTV (2020) - school assault case
+2726,Theft (with harassment),Medium,15-12-2018,06:00,Friday,Padra Road,22.16142,73.108645,Yes,No,14.2,Teen,No,Under Trial,High,FALSE,SYNTHETIC
+2459,Eve-teasing,Low,10-06-2023,23:30,Wednesday,Manjalpur,22.37377,73.210351,Yes,Yes,9,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2054,Sexual Assault (workplace),High,08-07-2023,08:30,Sunday,Padra Road,22.321613,73.067932,No,Yes,12.2,25-35,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2891,Sexual Assault (workplace),High,05-01-2019,15:00,Thursday,Akota,22.288837,73.223902,Yes,No,0.3,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2794,Molestation,Medium,15-04-2019,08:30,Thursday,Alkapuri,22.300948,73.060259,No,Yes,1.6,18-25,Yes,Investigation,High,FALSE,SYNTHETIC
+2219,Attempted Rape,High,01-05-2018,19:00,Monday,Suncity,22.280964,73.095737,No,Yes,14.6,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2126,Gang Rape,High,08-10-2019,12:00,Wednesday,Gorwa,22.20606,73.276283,No,Yes,11.9,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2773,Assault & Harassment,Medium,04-06-2025,23:30,Friday,Nizampura,22.216395,73.261732,No,Yes,1.4,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2215,Eve-teasing,Low,16-02-2024,12:00,Wednesday,Vasna,22.154172,73.046883,No,No,4.1,Teen,Yes,Closed,Low,FALSE,SYNTHETIC
+2201,Assault & Harassment,Medium,13-05-2018,22:00,Saturday,Karjan,22.36555,73.051746,No,No,13,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2904,Sexual Assault (workplace),High,31-01-2020,17:30,Sunday,Ajwa Road,22.161436,73.129668,No,Yes,2.9,25-35,No,Open,Low,FALSE,SYNTHETIC
+2481,Attempted Theft & Harassment,Low,18-12-2022,17:30,Sunday,Padra,22.39259,73.135958,No,Yes,13.5,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2113,Theft (with harassment),Medium,18-07-2019,06:00,Tuesday,Sama,22.324018,73.064698,Yes,No,10.6,35-45,Yes,Closed,Low,FALSE,SYNTHETIC
+2971,Eve-teasing,Low,09-07-2020,23:30,Sunday,Manjalpur,22.399401,73.180829,No,No,9.1,25-35,Yes,Closed,Medium,FALSE,SYNTHETIC
+2755,Rape (motel),High,05-11-2021,19:00,Monday,Vasna,22.299998,73.031254,Yes,Yes,7.9,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2166,Rape (motel),High,04-01-2021,20:30,Wednesday,Vadodara Railway Station,22.159887,73.048196,No,Yes,12.1,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2022,Gang Rape,High,21-02-2023,08:30,Sunday,Waghodia,22.203289,73.0963,No,Yes,14,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2677,Eve-teasing,Low,25-03-2022,15:00,Friday,Chhani,22.345683,73.060876,No,No,8,25-35,No,Open,Low,FALSE,SYNTHETIC
+2089,Assault & Harassment,Medium,15-10-2022,19:00,Saturday,Karjan,22.388398,73.201705,No,Yes,7.2,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2569,Attempted Theft & Harassment,Low,04-10-2023,23:30,Sunday,Manjalpur,22.203161,73.148339,No,Yes,11.2,45+,No,Closed,Low,FALSE,SYNTHETIC
+2037,Gang Rape,High,14-11-2024,23:30,Wednesday,Suncity,22.261478,73.069789,No,Yes,13,35-45,No,Under Trial,High,FALSE,SYNTHETIC
+2386,Attempted Theft & Harassment,Low,28-09-2021,22:00,Friday,Chhani,22.189251,73.116695,No,Yes,5.4,Child,No,Open,High,FALSE,SYNTHETIC
+2423,Stalking,Medium,18-07-2023,06:00,Thursday,Waghodia,22.354258,73.251815,No,No,13.6,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2738,Sexual Harassment (Public Transport),Medium,01-12-2018,17:30,Sunday,Nizampura,22.281194,73.197411,No,Yes,4,Teen,Yes,Closed,Medium,FALSE,SYNTHETIC
+2978,Rape (motel),High,31-12-2018,19:00,Saturday,Gorwa,22.284559,73.231289,No,No,14.5,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2005,Attempted Rape,High,11-08-2020,08:30,Saturday,Chhani,22.263353,73.238528,Yes,Yes,2.6,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2448,Attempted Theft & Harassment,Low,27-05-2018,15:00,Sunday,Alkapuri,22.399096,73.089621,No,Yes,6,45+,No,Investigation,High,FALSE,SYNTHETIC
+2520,Sexual Assault (workplace),High,13-03-2024,20:30,Thursday,Sama,22.389621,73.120714,No,No,12.2,Teen,Yes,Closed,Low,FALSE,SYNTHETIC
+2512,Sexual Assault (workplace),High,22-05-2020,22:00,Tuesday,Karjan,22.28318,73.183606,Yes,Yes,11.6,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2599,Sexual Assault (workplace),High,09-11-2021,15:00,Friday,Sayajigunj,22.377125,73.226316,No,No,5.3,Child,No,Investigation,High,FALSE,SYNTHETIC
+2675,Molestation,Medium,05-03-2022,23:30,Monday,Vadodara Railway Station,22.254922,73.068373,No,Yes,14.9,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2907,Sexual Assault (workplace),High,12-05-2020,23:30,Wednesday,Padra,22.247515,73.130735,Yes,Yes,10,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2319,Theft (with harassment),Medium,26-08-2022,19:00,Friday,Manjalpur,22.318807,73.149755,Yes,Yes,8.9,Child,No,Open,Low,FALSE,SYNTHETIC
+2032,Gang Rape,High,29-08-2021,20:30,Friday,Sama,22.181822,73.135112,Yes,No,14.1,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2488,Gang Rape,High,08-09-2025,19:00,Wednesday,Manjalpur,22.295012,73.235829,Yes,Yes,0.4,45+,No,Open,Medium,FALSE,SYNTHETIC
+2497,Stalking,Medium,25-09-2024,17:30,Saturday,Nizampura,22.288479,73.102647,No,Yes,12.9,18-25,Yes,Closed,High,FALSE,SYNTHETIC
+2901,Attempted Rape,High,05-02-2025,22:00,Monday,Suncity,22.236347,73.144508,Yes,Yes,9.3,Child,No,Open,Low,FALSE,SYNTHETIC
+2762,Sexual Assault (workplace),High,25-10-2024,08:30,Thursday,Padra Road,22.255438,73.21905,Yes,No,4.9,25-35,Yes,Open,High,FALSE,SYNTHETIC
+2245,Eve-teasing,Low,24-03-2018,19:00,Monday,Karjan,22.16855,73.072526,No,No,5.8,Child,Yes,Investigation,High,FALSE,SYNTHETIC
+2798,Sexual Assault (workplace),High,05-07-2024,17:30,Wednesday,Gotri,22.312606,73.194298,Yes,Yes,6.8,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2691,Harassment,Low,30-09-2019,19:00,Thursday,Ajwa Road,22.341846,73.089126,No,No,10.2,25-35,No,Sentenced,Medium,FALSE,SYNTHETIC
+2663,Eve-teasing,Low,27-11-2021,20:30,Sunday,Chhani,22.281961,73.10076,Yes,No,10.5,18-25,No,Open,Low,FALSE,SYNTHETIC
+2813,Eve-teasing,Low,15-10-2022,23:30,Monday,Akota,22.259488,73.254287,Yes,Yes,14.7,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2499,Stalking,Medium,29-01-2022,15:00,Friday,Kunal Crossroads,22.29874,73.277665,No,No,2,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2428,Eve-teasing,Low,18-05-2025,20:30,Thursday,Akota,22.184305,73.231485,No,No,12.9,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+1019,Suicide after testifying,High,20-02-2025,NA,NA,Por village,22.1,73.2,No,No,20,17,No,Closed,High,TRUE,"Times of India (Feb 27, 2025) - suicide after testimony"
+2696,Stalking,Medium,03-01-2018,06:00,Wednesday,Kunal Crossroads,22.221329,73.10004,No,Yes,9.2,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2464,Stalking,Medium,02-09-2021,20:30,Thursday,Padra Road,22.372956,73.177943,Yes,No,2.4,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2549,Rape (motel),High,16-04-2023,06:00,Sunday,Nizampura,22.210657,73.103708,No,No,12.5,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2414,Gang Rape,High,28-03-2023,06:00,Wednesday,Manjalpur,22.341545,73.216389,No,No,0.5,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2348,Harassment,Low,23-08-2022,12:00,Monday,Padra,22.18126,73.088657,Yes,No,3.9,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2064,Theft (with harassment),Medium,06-03-2023,08:30,Friday,Akota,22.383163,73.102965,Yes,No,10.6,35-45,No,Sentenced,Low,FALSE,SYNTHETIC
+2042,Assault & Harassment,Medium,25-07-2018,17:30,Wednesday,Chhani,22.202915,73.111711,Yes,No,11.5,35-45,No,Under Trial,High,FALSE,SYNTHETIC
+2619,Molestation,Medium,09-10-2018,20:30,Wednesday,Sayajigunj,22.367612,73.107439,Yes,No,12.3,Child,No,Open,Medium,FALSE,SYNTHETIC
+2253,Gang Rape,High,09-05-2022,23:30,Friday,Chhani,22.231532,73.09905,Yes,Yes,7,Teen,No,Open,Low,FALSE,SYNTHETIC
+2266,Stalking,Medium,16-08-2025,19:00,Sunday,Waghodia,22.238821,73.216052,Yes,No,4.7,25-35,No,Open,Low,FALSE,SYNTHETIC
+2341,Attempted Rape,High,25-02-2024,17:30,Wednesday,Raopura,22.267836,73.183271,No,No,5.6,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2335,Eve-teasing,Low,31-07-2024,06:00,Wednesday,Vasna,22.214455,73.125668,Yes,No,11.9,18-25,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2437,Attempted Rape,High,13-12-2023,20:30,Wednesday,Alkapuri,22.381806,73.142205,No,No,10.2,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2259,Assault & Harassment,Medium,22-08-2025,06:00,Wednesday,Raopura,22.272197,73.141526,Yes,No,14.4,35-45,No,Open,High,FALSE,SYNTHETIC
+1013,Neighbour Rape,High,12-12-2023,20:30,Tuesday,Chhani,22.36,73.08,Yes,No,3,30-40,Yes,Investigation,High,TRUE,"Times of India (Dec 14, 2023) - neighbour arrested"
+2163,Gang Rape,High,15-05-2021,17:30,Wednesday,Gotri,22.38713,73.249928,No,No,13.7,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2349,Sexual Harassment (Public Transport),Medium,25-02-2024,06:00,Thursday,Alkapuri,22.280996,73.279003,No,Yes,1.7,45+,Yes,Open,High,FALSE,SYNTHETIC
+2862,Gang Rape,High,05-03-2023,22:00,Sunday,Ajwa Road,22.364663,73.278189,Yes,Yes,1.4,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2596,Gang Rape,High,20-04-2025,06:00,Friday,Nizampura,22.232048,73.07812,Yes,No,1.7,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2204,Sexual Harassment (Public Transport),Medium,06-08-2019,17:30,Wednesday,Suncity,22.262998,73.188407,No,No,13.2,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2553,Molestation,Medium,20-07-2025,19:00,Friday,Vasna,22.305461,73.100614,No,Yes,11.3,Child,No,Open,Low,FALSE,SYNTHETIC
+2951,Theft (with harassment),Medium,28-07-2020,08:30,Friday,Chhani,22.153963,73.271059,Yes,Yes,11,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2634,Attempted Theft & Harassment,Low,14-03-2025,06:00,Sunday,Raopura,22.299519,73.266469,Yes,No,11.1,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2526,Sexual Harassment (Public Transport),Medium,23-07-2018,20:30,Sunday,Vadodara Railway Station,22.300098,73.067313,No,No,14.4,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+2563,Attempted Rape,High,11-04-2025,20:30,Tuesday,Sayajigunj,22.17107,73.164358,Yes,No,6,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2614,Stalking,Medium,09-02-2020,20:30,Thursday,Suncity,22.25967,73.243236,No,No,0.6,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+2157,Theft (with harassment),Medium,28-04-2024,06:00,Monday,Harni,22.318192,73.107042,No,No,0.5,25-35,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2646,Attempted Theft & Harassment,Low,06-01-2021,15:00,Friday,Chhani,22.227025,73.276756,No,No,12.3,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2654,Gang Rape,High,18-04-2021,15:00,Sunday,Akota,22.369059,73.226215,No,Yes,10.8,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+2566,Sexual Assault (workplace),High,10-05-2021,17:30,Sunday,Padra Road,22.184993,73.124416,No,No,11.1,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2854,Eve-teasing,Low,28-05-2018,06:00,Saturday,Ajwa Road,22.275375,73.227836,Yes,Yes,0.8,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2374,Assault & Harassment,Medium,22-01-2019,06:00,Friday,Nizampura,22.189027,73.096247,No,Yes,13.4,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2144,Gang Rape,High,27-02-2020,15:00,Thursday,Karjan,22.224625,73.265371,No,No,14.7,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2229,Attempted Theft & Harassment,Low,04-09-2021,12:00,Monday,Waghodia,22.212055,73.118936,No,No,7.8,Child,No,Open,High,FALSE,SYNTHETIC
+2615,Sexual Assault (workplace),High,12-07-2020,20:30,Monday,Suncity,22.338157,73.22071,Yes,Yes,10.4,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2866,Assault & Harassment,Medium,18-11-2023,22:00,Monday,Alkapuri,22.254076,73.067587,No,No,1.2,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2650,Sexual Harassment (Public Transport),Medium,14-05-2020,23:30,Wednesday,Alkapuri,22.300746,73.276724,No,No,11.5,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2356,Harassment,Low,06-08-2021,06:00,Monday,Akota,22.392429,73.035533,Yes,Yes,14.6,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2393,Rape (motel),High,28-09-2018,12:00,Saturday,Nizampura,22.272486,73.111224,No,No,7,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2055,Theft (with harassment),Medium,11-11-2023,20:30,Sunday,Nizampura,22.224338,73.177131,Yes,Yes,6.5,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2094,Harassment,Low,30-09-2019,12:00,Friday,Vadodara Railway Station,22.318492,73.098026,Yes,No,10,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2579,Assault & Harassment,Medium,17-04-2019,17:30,Friday,Gotri,22.266206,73.131769,Yes,Yes,7.4,35-45,Yes,Closed,Low,FALSE,SYNTHETIC
+2942,Theft (with harassment),Medium,28-08-2023,19:00,Friday,Harni,22.220662,73.113438,Yes,Yes,1.2,Teen,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2371,Gang Rape,High,03-03-2019,12:00,Friday,Padra,22.250389,73.114378,No,No,2.5,45+,No,Closed,High,FALSE,SYNTHETIC
+2085,Molestation,Medium,15-12-2019,17:30,Monday,Gotri,22.33543,73.161521,No,Yes,11.2,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2095,Sexual Assault (workplace),High,27-10-2022,08:30,Monday,Sama,22.319622,73.151658,Yes,No,10.1,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2398,Rape (motel),High,16-11-2023,20:30,Tuesday,Ajwa Road,22.387438,73.12467,Yes,Yes,5.8,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2506,Assault & Harassment,Medium,14-11-2021,19:00,Wednesday,Suncity,22.164112,73.091057,Yes,No,3.7,25-35,Yes,Closed,Low,FALSE,SYNTHETIC
+2438,Eve-teasing,Low,04-10-2021,17:30,Tuesday,Karjan,22.213836,73.176044,No,Yes,7,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2390,Theft (with harassment),Medium,23-08-2022,20:30,Tuesday,Sama,22.336402,73.235425,Yes,Yes,9.6,Child,No,Open,Low,FALSE,SYNTHETIC
+2073,Theft (with harassment),Medium,02-03-2025,20:30,Friday,Karjan,22.361326,73.079804,No,No,5.9,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2911,Theft (with harassment),Medium,11-07-2020,20:30,Wednesday,Vasna,22.221571,73.261138,No,Yes,2.5,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2070,Sexual Assault (workplace),High,06-01-2019,20:30,Wednesday,Manjalpur,22.325973,73.055127,No,No,2.7,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2317,Rape (motel),High,01-05-2025,20:30,Sunday,Gorwa,22.313334,73.238867,No,No,7.8,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2969,Assault & Harassment,Medium,22-12-2022,12:00,Sunday,Karjan,22.152692,73.059323,Yes,No,4.8,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2902,Assault & Harassment,Medium,14-04-2022,23:30,Saturday,Waghodia,22.38186,73.217317,Yes,No,6.5,Teen,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2914,Attempted Theft & Harassment,Low,24-10-2019,22:00,Monday,Gorwa,22.368663,73.073803,Yes,No,14.1,18-25,No,Open,Low,FALSE,SYNTHETIC
+2586,Eve-teasing,Low,04-05-2022,12:00,Saturday,Alkapuri,22.265673,73.264062,No,Yes,6.8,18-25,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2574,Sexual Assault (workplace),High,31-05-2024,17:30,Sunday,Harni,22.180945,73.169838,No,Yes,3,45+,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2592,Eve-teasing,Low,05-11-2019,19:00,Thursday,Sama,22.306499,73.054182,Yes,No,7.3,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2075,Attempted Rape,High,16-06-2020,15:00,Wednesday,Vadodara Railway Station,22.319441,73.210232,No,Yes,10,18-25,Yes,Closed,Medium,FALSE,SYNTHETIC
+1012,Spiked Drink and Rape,High,09-10-2023,22:00,Monday,Karelibaug,22.33,73.16,Yes,No,1.8,46,Yes,Closed,High,TRUE,"Times of India (Oct 10, 2023) - spiked drink rape"
+2377,Molestation,Medium,31-07-2021,23:30,Friday,Padra Road,22.231708,73.204442,Yes,Yes,2.5,Child,No,Sentenced,Medium,FALSE,SYNTHETIC
+2514,Molestation,Medium,21-07-2022,15:00,Saturday,Manjalpur,22.197979,73.091397,Yes,Yes,12.4,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2024,Theft (with harassment),Medium,10-02-2025,17:30,Wednesday,Ajwa Road,22.21278,73.25704,Yes,No,1,Child,No,Under Trial,Low,FALSE,SYNTHETIC
+2023,Sexual Assault (workplace),High,28-06-2025,23:30,Saturday,Sama,22.175897,73.249532,No,Yes,4.1,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2310,Sexual Assault (workplace),High,20-01-2023,19:00,Wednesday,Vadodara Railway Station,22.226419,73.176042,Yes,Yes,8.6,25-35,No,Sentenced,Low,FALSE,SYNTHETIC
+2148,Sexual Assault (workplace),High,28-04-2025,22:00,Friday,Vasna,22.199864,73.270979,Yes,Yes,5,Child,Yes,Closed,Low,FALSE,SYNTHETIC
+2478,Sexual Assault (workplace),High,16-05-2023,06:00,Friday,Akota,22.28774,73.107021,Yes,Yes,6.1,18-25,No,Open,Low,FALSE,SYNTHETIC
+2857,Eve-teasing,Low,27-01-2021,22:00,Friday,Sayajigunj,22.216067,73.194013,No,No,7.2,25-35,No,Open,High,FALSE,SYNTHETIC
+2578,Assault & Harassment,Medium,03-08-2021,12:00,Tuesday,Suncity,22.214484,73.265394,No,No,13.5,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2737,Stalking,Medium,24-04-2023,15:00,Monday,Gotri,22.367005,73.268161,No,No,10.3,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2081,Rape (motel),High,27-08-2022,08:30,Sunday,Vasna,22.252029,73.26788,No,Yes,0.7,25-35,Yes,Investigation,High,FALSE,SYNTHETIC
+2407,Attempted Rape,High,08-03-2025,15:00,Thursday,Sama,22.347549,73.106943,Yes,Yes,7.7,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2159,Sexual Harassment (Public Transport),Medium,16-04-2022,22:00,Thursday,Chhani,22.170062,73.271036,Yes,Yes,13.1,18-25,No,Open,High,FALSE,SYNTHETIC
+2425,Gang Rape,High,14-07-2024,06:00,Wednesday,Vadodara Railway Station,22.251049,73.061889,Yes,No,4.6,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2397,Eve-teasing,Low,14-08-2024,15:00,Saturday,Nizampura,22.212521,73.202929,No,Yes,13.6,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+2851,Sexual Assault (workplace),High,12-06-2023,15:00,Monday,Kunal Crossroads,22.354631,73.107128,No,Yes,6.3,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2863,Stalking,Medium,31-10-2023,08:30,Thursday,Padra,22.2594,73.272979,Yes,No,0.8,35-45,No,Open,High,FALSE,SYNTHETIC
+2661,Attempted Rape,High,19-06-2021,23:30,Monday,Manjalpur,22.399212,73.206631,No,Yes,7.3,18-25,No,Open,High,FALSE,SYNTHETIC
+2158,Eve-teasing,Low,19-09-2018,23:30,Saturday,Gotri,22.396534,73.148018,No,No,4.4,18-25,Yes,Under Trial,High,FALSE,SYNTHETIC
+2376,Sexual Harassment (Public Transport),Medium,01-10-2021,19:00,Monday,Suncity,22.382562,73.060135,No,Yes,11.6,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2892,Attempted Theft & Harassment,Low,30-06-2025,20:30,Wednesday,Nizampura,22.210686,73.259237,No,No,5.9,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2774,Eve-teasing,Low,13-12-2022,17:30,Wednesday,Gorwa,22.162284,73.125631,No,No,13.9,18-25,No,Open,Low,FALSE,SYNTHETIC
+2941,Eve-teasing,Low,11-11-2020,06:00,Monday,Akota,22.31056,73.136833,No,Yes,12.1,Teen,Yes,Closed,Medium,FALSE,SYNTHETIC
+2665,Sexual Harassment (Public Transport),Medium,15-06-2024,08:30,Monday,Akota,22.3876,73.136778,Yes,No,12.7,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2364,Gang Rape,High,11-06-2018,22:00,Sunday,Nizampura,22.223679,73.204259,Yes,Yes,3,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2937,Attempted Theft & Harassment,Low,22-09-2020,12:00,Thursday,Kunal Crossroads,22.269921,73.210316,Yes,No,7.2,Teen,No,Investigation,High,FALSE,SYNTHETIC
+2732,Sexual Assault (workplace),High,23-04-2023,17:30,Thursday,Nizampura,22.38104,73.264957,Yes,No,14.6,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2238,Molestation,Medium,10-07-2023,23:30,Friday,Sama,22.272609,73.052564,Yes,Yes,3.6,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2519,Molestation,Medium,28-08-2025,15:00,Monday,Karjan,22.24075,73.208918,Yes,No,12.4,Teen,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2316,Harassment,Low,08-04-2023,22:00,Friday,Gotri,22.395147,73.111018,Yes,No,10.6,45+,No,Under Trial,Low,FALSE,SYNTHETIC
+1016,Sexual Assault (workplace),High,17-01-2025,02:00,Friday,Private Hospital area,22.31,73.17,Yes,Yes,1,22,Yes,Open,High,TRUE,"Times of India (Jan 17, 2025) - nurse alleges rape by colleague"
+2305,Eve-teasing,Low,10-09-2025,17:30,Tuesday,Vadodara Railway Station,22.220379,73.261673,No,No,5.8,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2739,Theft (with harassment),Medium,24-03-2020,19:00,Thursday,Suncity,22.268875,73.202208,Yes,Yes,2.6,Child,No,Open,Medium,FALSE,SYNTHETIC
+2203,Attempted Rape,High,10-07-2019,20:30,Sunday,Gotri,22.366762,73.061722,No,No,13,18-25,Yes,Under Trial,High,FALSE,SYNTHETIC
+2160,Theft (with harassment),Medium,15-01-2018,06:00,Tuesday,Sama,22.318375,73.166111,Yes,Yes,8.1,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2964,Molestation,Medium,20-12-2021,23:30,Friday,Vadodara Railway Station,22.290721,73.16264,Yes,No,0.9,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2003,Stalking,Medium,25-10-2021,17:30,Sunday,Akota,22.389303,73.114149,Yes,No,1.6,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2337,Attempted Theft & Harassment,Low,30-08-2025,15:00,Friday,Vasna,22.199917,73.213857,No,Yes,13.1,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2647,Assault & Harassment,Medium,01-11-2022,12:00,Tuesday,Padra,22.1966,73.063583,Yes,Yes,7.4,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2842,Stalking,Medium,24-06-2023,06:00,Monday,Gorwa,22.220459,73.26697,Yes,No,6.5,35-45,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2321,Theft (with harassment),Medium,06-06-2020,22:00,Tuesday,Vadodara Railway Station,22.366826,73.072642,No,Yes,12.5,45+,Yes,Under Trial,High,FALSE,SYNTHETIC
+2412,Harassment,Low,15-01-2019,22:00,Sunday,Ajwa Road,22.349756,73.256239,No,Yes,2.5,25-35,No,Under Trial,Medium,FALSE,SYNTHETIC
+2532,Harassment,Low,02-12-2020,08:30,Wednesday,Kunal Crossroads,22.394629,73.154803,No,No,14.6,25-35,No,Closed,Low,FALSE,SYNTHETIC
+2814,Sexual Harassment (Public Transport),Medium,12-01-2019,06:00,Saturday,Raopura,22.336869,73.252084,Yes,Yes,11.9,45+,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2184,Attempted Rape,High,19-02-2023,08:30,Sunday,Akota,22.151692,73.128923,Yes,No,12.7,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2611,Eve-teasing,Low,21-07-2020,08:30,Sunday,Manjalpur,22.240059,73.166507,No,Yes,5.1,Child,No,Open,Medium,FALSE,SYNTHETIC
+2074,Harassment,Low,31-03-2018,20:30,Sunday,Karjan,22.291482,73.20145,Yes,No,11.2,Teen,No,Under Trial,High,FALSE,SYNTHETIC
+2539,Eve-teasing,Low,31-12-2019,15:00,Tuesday,Chhani,22.155128,73.082056,Yes,No,5.9,35-45,No,Investigation,High,FALSE,SYNTHETIC
+2049,Attempted Rape,High,24-12-2021,17:30,Thursday,Kunal Crossroads,22.37008,73.205296,Yes,No,4.3,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2603,Assault & Harassment,Medium,15-06-2020,17:30,Saturday,Padra,22.361884,73.091491,Yes,No,3.1,18-25,No,Closed,Low,FALSE,SYNTHETIC
+2265,Sexual Assault (workplace),High,29-06-2020,23:30,Saturday,Vasna,22.239624,73.105049,No,Yes,2.7,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2825,Rape (motel),High,01-07-2024,08:30,Tuesday,Karjan,22.287862,73.268323,Yes,Yes,6.7,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2415,Molestation,Medium,11-07-2025,08:30,Wednesday,Karjan,22.189374,73.058615,No,Yes,14.4,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2134,Molestation,Medium,25-11-2024,20:30,Thursday,Raopura,22.353369,73.263438,No,No,10.9,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2056,Stalking,Medium,19-12-2020,08:30,Saturday,Padra,22.193453,73.048766,No,No,0.2,35-45,No,Open,Low,FALSE,SYNTHETIC
+2711,Stalking,Medium,20-09-2021,22:00,Wednesday,Akota,22.163969,73.20301,Yes,No,9.5,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2427,Assault & Harassment,Medium,10-02-2020,23:30,Monday,Chhani,22.359991,73.068567,Yes,No,15,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2169,Stalking,Medium,23-08-2022,06:00,Tuesday,Padra Road,22.335313,73.034055,No,Yes,8.4,45+,No,Open,Low,FALSE,SYNTHETIC
+2252,Sexual Harassment (Public Transport),Medium,29-02-2020,12:00,Saturday,Gotri,22.169592,73.200781,Yes,Yes,3.2,Child,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2217,Harassment,Low,24-06-2021,20:30,Saturday,Raopura,22.21112,73.261157,Yes,Yes,1.9,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2468,Gang Rape,High,16-12-2024,19:00,Wednesday,Gotri,22.386331,73.198663,No,Yes,13.3,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2098,Theft (with harassment),Medium,23-08-2021,12:00,Monday,Vadodara Railway Station,22.358006,73.259942,No,No,1.5,Teen,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2924,Attempted Rape,High,25-04-2020,15:00,Saturday,Akota,22.30216,73.21219,Yes,Yes,2,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2493,Stalking,Medium,30-09-2024,15:00,Tuesday,Padra Road,22.196195,73.117883,Yes,Yes,1.5,Child,No,Closed,Low,FALSE,SYNTHETIC
+2806,Eve-teasing,Low,31-12-2021,23:30,Monday,Akota,22.25972,73.186368,Yes,No,13.1,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2572,Attempted Theft & Harassment,Low,15-10-2021,20:30,Tuesday,Vasna,22.358421,73.063202,No,Yes,2.3,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2107,Assault & Harassment,Medium,14-09-2023,19:00,Monday,Alkapuri,22.227217,73.267792,No,Yes,5.3,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2097,Harassment,Low,15-06-2022,06:00,Monday,Suncity,22.264939,73.049466,No,Yes,4.8,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2454,Harassment,Low,18-06-2023,08:30,Thursday,Alkapuri,22.194853,73.052285,Yes,Yes,9.8,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2674,Theft (with harassment),Medium,13-04-2022,12:00,Saturday,Chhani,22.170814,73.093545,No,Yes,6.5,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2038,Attempted Theft & Harassment,Low,29-01-2021,22:00,Saturday,Waghodia,22.221432,73.097929,Yes,Yes,4.9,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2844,Attempted Rape,High,04-10-2019,23:30,Monday,Kunal Crossroads,22.263366,73.21388,No,Yes,10.1,Teen,No,Closed,Low,FALSE,SYNTHETIC
+2893,Theft (with harassment),Medium,28-12-2023,08:30,Wednesday,Gorwa,22.317469,73.272556,Yes,No,0.6,45+,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2350,Sexual Assault (workplace),High,10-10-2020,17:30,Thursday,Nizampura,22.181603,73.161686,No,No,2.7,Teen,No,Closed,Low,FALSE,SYNTHETIC
+2249,Molestation,Medium,14-03-2025,23:30,Sunday,Chhani,22.242755,73.125361,No,Yes,3,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2027,Sexual Harassment (Public Transport),Medium,27-08-2020,12:00,Monday,Padra,22.156197,73.214141,No,Yes,5.1,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2330,Attempted Theft & Harassment,Low,19-11-2024,23:30,Saturday,Sama,22.390882,73.044366,No,Yes,11.6,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2176,Harassment,Low,06-05-2024,08:30,Saturday,Ajwa Road,22.207442,73.255318,No,Yes,10.4,45+,No,Open,High,FALSE,SYNTHETIC
+2980,Attempted Rape,High,02-04-2019,15:00,Tuesday,Padra Road,22.377208,73.205057,Yes,Yes,8.5,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2815,Theft (with harassment),Medium,10-11-2018,06:00,Thursday,Akota,22.195148,73.04093,No,Yes,5.4,Child,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2717,Sexual Harassment (Public Transport),Medium,21-07-2019,15:00,Thursday,Chhani,22.287335,73.164687,Yes,Yes,7.5,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2244,Gang Rape,High,13-07-2023,20:30,Sunday,Gorwa,22.243837,73.237202,Yes,No,11.9,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2424,Stalking,Medium,26-11-2024,22:00,Saturday,Sayajigunj,22.320379,73.109149,No,Yes,8.6,Child,No,Closed,High,FALSE,SYNTHETIC
+2656,Attempted Theft & Harassment,Low,20-04-2022,17:30,Thursday,Raopura,22.214407,73.149076,Yes,No,13.5,Teen,Yes,Closed,Medium,FALSE,SYNTHETIC
+2285,Sexual Assault (workplace),High,14-09-2023,23:30,Sunday,Sayajigunj,22.317869,73.267589,No,No,5.6,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2322,Rape (motel),High,09-09-2025,19:00,Friday,Nizampura,22.297649,73.087453,No,Yes,5.9,Teen,Yes,Open,High,FALSE,SYNTHETIC
+2947,Attempted Rape,High,19-05-2025,15:00,Thursday,Sayajigunj,22.190822,73.277751,Yes,No,3.6,18-25,No,Open,High,FALSE,SYNTHETIC
+2130,Gang Rape,High,04-01-2025,17:30,Friday,Vadodara Railway Station,22.173357,73.190247,No,Yes,9,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2105,Gang Rape,High,27-09-2018,19:00,Tuesday,Manjalpur,22.319595,73.101037,No,No,10.9,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2767,Eve-teasing,Low,04-08-2018,17:30,Tuesday,Gotri,22.162001,73.106073,No,Yes,4.1,Child,No,Open,Low,FALSE,SYNTHETIC
+2031,Assault & Harassment,Medium,31-10-2023,23:30,Wednesday,Sayajigunj,22.257824,73.267219,No,No,13.8,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2334,Gang Rape,High,25-04-2019,23:30,Sunday,Karjan,22.353287,73.173723,No,No,10.5,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2908,Attempted Rape,High,10-12-2023,19:00,Thursday,Sama,22.337714,73.142875,Yes,No,7.1,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2123,Molestation,Medium,12-05-2024,06:00,Saturday,Vadodara Railway Station,22.319766,73.267206,No,Yes,5.7,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+2451,Molestation,Medium,03-02-2019,22:00,Monday,Vadodara Railway Station,22.358838,73.045989,Yes,No,12.3,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2380,Assault & Harassment,Medium,06-04-2019,20:30,Sunday,Suncity,22.237077,73.110185,No,Yes,9,Teen,No,Open,Low,FALSE,SYNTHETIC
+2606,Harassment,Low,01-09-2019,19:00,Thursday,Raopura,22.307365,73.100018,Yes,Yes,2.1,45+,No,Open,Low,FALSE,SYNTHETIC
+2301,Gang Rape,High,22-04-2025,15:00,Saturday,Kunal Crossroads,22.170586,73.053989,Yes,No,14.6,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+1020,Assault and Harassment,Medium,05-05-2024,16:30,Sunday,Sayajigunj,22.306,73.179,Yes,No,1,17,No,Open,Medium,TRUE,Local reports (May 2024) - molestation
+2790,Theft (with harassment),Medium,03-04-2023,19:00,Sunday,Suncity,22.255126,73.132565,Yes,No,0.6,45+,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2771,Eve-teasing,Low,03-02-2023,12:00,Wednesday,Ajwa Road,22.378531,73.084696,No,Yes,5.6,35-45,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2789,Attempted Rape,High,18-05-2021,17:30,Saturday,Waghodia,22.291666,73.18708,No,No,8.3,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2388,Attempted Rape,High,11-09-2020,12:00,Tuesday,Suncity,22.377434,73.112321,Yes,No,8.2,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2518,Attempted Rape,High,14-03-2019,12:00,Friday,Sayajigunj,22.259869,73.093576,No,No,8.9,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2601,Theft (with harassment),Medium,30-12-2024,15:00,Monday,Raopura,22.333647,73.268147,No,Yes,5.1,Child,No,Open,Low,FALSE,SYNTHETIC
+2019,Molestation,Medium,29-09-2022,23:30,Friday,Vasna,22.197474,73.084425,No,Yes,1.1,Child,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2156,Eve-teasing,Low,05-09-2021,23:30,Friday,Nizampura,22.320074,73.209229,No,No,7.4,45+,No,Under Trial,Medium,FALSE,SYNTHETIC
+2226,Eve-teasing,Low,21-02-2023,08:30,Tuesday,Padra Road,22.276357,73.189304,No,No,6,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2809,Assault & Harassment,Medium,29-04-2025,06:00,Wednesday,Gotri,22.255351,73.080128,Yes,Yes,13.3,Teen,Yes,Open,High,FALSE,SYNTHETIC
+2648,Sexual Harassment (Public Transport),Medium,19-01-2020,15:00,Monday,Karjan,22.260183,73.258243,No,Yes,1.8,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2735,Sexual Harassment (Public Transport),Medium,18-12-2018,12:00,Saturday,Manjalpur,22.342054,73.079868,No,Yes,5.1,25-35,No,Sentenced,Medium,FALSE,SYNTHETIC
+2839,Molestation,Medium,15-08-2021,20:30,Friday,Kunal Crossroads,22.388378,73.040484,No,Yes,14.2,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2135,Gang Rape,High,05-04-2018,08:30,Sunday,Chhani,22.264308,73.090182,No,No,8.8,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2268,Assault & Harassment,Medium,04-08-2022,22:00,Thursday,Akota,22.365598,73.075089,No,Yes,1.4,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2583,Gang Rape,High,05-11-2022,15:00,Wednesday,Vadodara Railway Station,22.389354,73.109576,Yes,No,10.3,25-35,No,Sentenced,Medium,FALSE,SYNTHETIC
+2550,Harassment,Low,24-07-2023,23:30,Monday,Sama,22.271874,73.151525,No,No,8.9,45+,No,Open,Low,FALSE,SYNTHETIC
+2724,Sexual Assault (workplace),High,03-04-2023,22:00,Monday,Kunal Crossroads,22.310473,73.236813,No,No,2.6,25-35,No,Open,Low,FALSE,SYNTHETIC
+1018,Assault (railway area),Medium,10-06-2025,08:30,Tuesday,Vadodara Railway Station,22.3072,73.1812,Yes,Yes,0.5,27,No,Open,Medium,TRUE,Local report (Jun 2025) - public transport harassment
+2108,Harassment,Low,11-09-2023,23:30,Saturday,Ajwa Road,22.315482,73.249098,Yes,No,9.3,45+,No,Open,Low,FALSE,SYNTHETIC
+2303,Gang Rape,High,11-08-2018,12:00,Wednesday,Karjan,22.167611,73.235405,Yes,No,13.7,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2236,Sexual Assault (workplace),High,16-10-2019,08:30,Friday,Raopura,22.210288,73.163422,No,No,11.9,Child,Yes,Under Trial,High,FALSE,SYNTHETIC
+2638,Attempted Rape,High,19-06-2024,22:00,Thursday,Sayajigunj,22.365606,73.150293,No,Yes,14.3,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2945,Sexual Harassment (Public Transport),Medium,04-02-2018,15:00,Sunday,Kunal Crossroads,22.187624,73.243894,No,Yes,8.8,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2171,Gang Rape,High,17-02-2024,22:00,Sunday,Padra,22.397581,73.269309,Yes,Yes,8,Teen,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2096,Attempted Rape,High,15-05-2020,12:00,Friday,Karjan,22.232031,73.031932,No,Yes,11.3,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+2597,Attempted Theft & Harassment,Low,26-12-2021,20:30,Friday,Vasna,22.305213,73.076481,No,No,2.2,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2587,Stalking,Medium,04-01-2019,17:30,Saturday,Raopura,22.39503,73.271824,No,Yes,0.7,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2161,Harassment,Low,28-05-2025,20:30,Thursday,Vadodara Railway Station,22.210167,73.046823,Yes,Yes,9,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2282,Assault & Harassment,Medium,03-06-2025,15:00,Friday,Vasna,22.315928,73.190351,No,No,2.4,45+,Yes,Open,High,FALSE,SYNTHETIC
+2740,Sexual Assault (workplace),High,15-11-2018,12:00,Tuesday,Kunal Crossroads,22.396592,73.264742,No,No,11.2,Child,No,Open,High,FALSE,SYNTHETIC
+2693,Attempted Theft & Harassment,Low,23-03-2020,22:00,Monday,Manjalpur,22.332614,73.182775,No,Yes,3,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2704,Gang Rape,High,16-03-2025,15:00,Friday,Sayajigunj,22.179046,73.192161,No,Yes,9.6,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2666,Sexual Assault (workplace),High,27-08-2024,20:30,Tuesday,Akota,22.330638,73.09125,No,Yes,2,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2960,Assault & Harassment,Medium,01-06-2024,22:00,Wednesday,Vasna,22.196937,73.247381,No,Yes,14.6,35-45,No,Sentenced,Medium,FALSE,SYNTHETIC
+2498,Sexual Harassment (Public Transport),Medium,22-02-2018,22:00,Monday,Manjalpur,22.259515,73.194637,Yes,Yes,1.5,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2965,Sexual Assault (workplace),High,13-10-2019,08:30,Thursday,Padra,22.308578,73.184546,Yes,No,12.7,Child,Yes,Investigation,High,FALSE,SYNTHETIC
+2026,Assault & Harassment,Medium,07-06-2019,06:00,Wednesday,Sama,22.374745,73.229031,No,Yes,12.9,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2890,Sexual Harassment (Public Transport),Medium,03-08-2019,19:00,Sunday,Nizampura,22.191336,73.030211,Yes,No,2.4,18-25,No,Open,Low,FALSE,SYNTHETIC
+2138,Gang Rape,High,14-08-2019,15:00,Tuesday,Vadodara Railway Station,22.250347,73.040064,Yes,No,0.8,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2832,Theft (with harassment),Medium,13-07-2021,08:30,Friday,Raopura,22.3332,73.250057,Yes,No,5.6,25-35,Yes,Closed,Medium,FALSE,SYNTHETIC
+2152,Assault & Harassment,Medium,27-01-2020,12:00,Saturday,Vasna,22.383956,73.031708,Yes,No,5.9,35-45,No,Sentenced,Low,FALSE,SYNTHETIC
+1017,Harassment and Threats,Medium,02-11-2024,19:00,Saturday,Kunal Crossroads,22.305,73.16,No,No,2.5,22,No,Open,Medium,TRUE,Times of India (2025) - market harassment mention
+2492,Sexual Assault (workplace),High,15-03-2020,08:30,Sunday,Gotri,22.27837,73.044816,Yes,Yes,2,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2029,Sexual Assault (workplace),High,09-12-2021,23:30,Wednesday,Chhani,22.395287,73.164054,Yes,Yes,14.1,Teen,No,Open,High,FALSE,SYNTHETIC
+2952,Attempted Theft & Harassment,Low,26-10-2023,12:00,Tuesday,Akota,22.267453,73.039748,No,Yes,9,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2921,Attempted Theft & Harassment,Low,11-10-2019,17:30,Thursday,Vasna,22.259966,73.10372,No,Yes,11.2,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2496,Molestation,Medium,24-03-2023,08:30,Thursday,Ajwa Road,22.273954,73.120313,No,No,4.5,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2933,Molestation,Medium,03-10-2019,15:00,Sunday,Chhani,22.363089,73.182531,No,Yes,2.5,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2461,Sexual Harassment (Public Transport),Medium,01-11-2024,22:00,Saturday,Padra,22.243371,73.144435,Yes,No,3.1,25-35,No,Open,Low,FALSE,SYNTHETIC
+2264,Attempted Theft & Harassment,Low,29-05-2025,19:00,Saturday,Akota,22.156364,73.154343,Yes,No,4.6,35-45,No,Open,Low,FALSE,SYNTHETIC
+2699,Attempted Theft & Harassment,Low,27-04-2023,15:00,Sunday,Harni,22.188418,73.061958,No,No,6.4,Child,No,Closed,Medium,FALSE,SYNTHETIC
+2858,Stalking,Medium,10-03-2021,23:30,Monday,Ajwa Road,22.245602,73.278288,No,Yes,11,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2206,Gang Rape,High,15-08-2021,17:30,Sunday,Kunal Crossroads,22.294483,73.171536,No,Yes,7.4,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2007,Attempted Rape,High,12-05-2018,19:00,Saturday,Chhani,22.166547,73.258284,No,Yes,8.6,Child,No,Open,Medium,FALSE,SYNTHETIC
+2935,Assault & Harassment,Medium,14-07-2022,06:00,Saturday,Suncity,22.311448,73.064983,No,No,7,25-35,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2418,Attempted Theft & Harassment,Low,23-03-2023,12:00,Tuesday,Waghodia,22.267069,73.143896,No,No,10.3,Child,No,Investigation,High,FALSE,SYNTHETIC
+2932,Attempted Rape,High,22-03-2019,15:00,Saturday,Sayajigunj,22.275445,73.110004,Yes,No,8,Teen,No,Closed,Low,FALSE,SYNTHETIC
+2345,Assault & Harassment,Medium,23-03-2018,20:30,Wednesday,Manjalpur,22.366842,73.270779,No,No,3.1,45+,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2210,Sexual Harassment (Public Transport),Medium,11-05-2023,08:30,Sunday,Raopura,22.172333,73.231489,Yes,Yes,1.7,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2018,Sexual Harassment (Public Transport),Medium,18-01-2019,15:00,Wednesday,Padra,22.27141,73.083437,No,No,6.1,Teen,Yes,Open,High,FALSE,SYNTHETIC
+2946,Attempted Rape,High,13-02-2020,12:00,Wednesday,Sayajigunj,22.195397,73.036556,No,Yes,9.1,Teen,Yes,Investigation,High,FALSE,SYNTHETIC
+2355,Sexual Harassment (Public Transport),Medium,12-03-2021,23:30,Friday,Karjan,22.197,73.047116,No,Yes,2.2,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2450,Theft (with harassment),Medium,23-10-2018,06:00,Tuesday,Akota,22.313458,73.147805,Yes,No,13.8,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2948,Sexual Harassment (Public Transport),Medium,15-04-2018,22:00,Friday,Sayajigunj,22.162304,73.139637,Yes,Yes,3.1,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2831,Theft (with harassment),Medium,24-05-2025,23:30,Wednesday,Ajwa Road,22.229235,73.078756,Yes,No,8.7,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2685,Attempted Rape,High,03-04-2021,17:30,Saturday,Vasna,22.216188,73.030559,Yes,No,9.5,35-45,Yes,Closed,High,FALSE,SYNTHETIC
+2822,Molestation,Medium,03-10-2022,23:30,Saturday,Karjan,22.390076,73.146833,No,Yes,14.9,18-25,Yes,Closed,Low,FALSE,SYNTHETIC
+2175,Eve-teasing,Low,02-09-2025,08:30,Sunday,Gotri,22.25132,73.124292,No,No,7.2,Child,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2835,Molestation,Medium,21-03-2024,22:00,Thursday,Manjalpur,22.367365,73.238465,No,No,0.6,18-25,Yes,Open,High,FALSE,SYNTHETIC
+2845,Stalking,Medium,05-04-2024,06:00,Sunday,Alkapuri,22.184219,73.124052,Yes,No,14.2,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2484,Eve-teasing,Low,11-12-2020,17:30,Thursday,Vasna,22.313453,73.253172,Yes,No,6.4,35-45,Yes,Open,Medium,FALSE,SYNTHETIC
+2950,Harassment,Low,15-09-2023,08:30,Monday,Nizampura,22.151814,73.230853,No,No,6.1,Teen,No,Open,Low,FALSE,SYNTHETIC
+2811,Harassment,Low,13-01-2021,06:00,Tuesday,Manjalpur,22.274149,73.086311,Yes,Yes,5.4,35-45,No,Under Trial,High,FALSE,SYNTHETIC
+2560,Attempted Theft & Harassment,Low,18-12-2022,12:00,Monday,Alkapuri,22.351562,73.265911,No,Yes,1.5,25-35,No,Sentenced,Low,FALSE,SYNTHETIC
+2949,Attempted Theft & Harassment,Low,08-05-2020,08:30,Wednesday,Vasna,22.301212,73.217421,No,No,4.9,18-25,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2143,Gang Rape,High,16-04-2024,19:00,Sunday,Vasna,22.244206,73.269171,No,No,7,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2889,Attempted Rape,High,03-11-2019,23:30,Monday,Padra,22.371649,73.271309,Yes,No,14.2,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2133,Assault & Harassment,Medium,15-11-2021,20:30,Monday,Akota,22.278745,73.056546,No,No,3.8,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2782,Rape (motel),High,02-08-2023,06:00,Saturday,Raopura,22.335253,73.273323,Yes,No,5.5,Child,Yes,Open,High,FALSE,SYNTHETIC
+2974,Sexual Assault (workplace),High,30-09-2024,08:30,Friday,Padra Road,22.388518,73.173906,No,No,1.9,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2736,Gang Rape,High,14-02-2021,22:00,Monday,Gotri,22.188935,73.147492,No,No,9.7,25-35,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2092,Molestation,Medium,30-10-2024,17:30,Saturday,Alkapuri,22.218318,73.220602,No,Yes,13.8,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2207,Theft (with harassment),Medium,24-05-2019,12:00,Sunday,Nizampura,22.150169,73.269508,No,Yes,3.2,Child,Yes,Closed,Low,FALSE,SYNTHETIC
+2669,Gang Rape,High,19-07-2022,06:00,Saturday,Chhani,22.354366,73.225869,Yes,Yes,8,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2084,Gang Rape,High,09-02-2021,12:00,Tuesday,Akota,22.212664,73.073624,No,Yes,10,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2402,Eve-teasing,Low,13-05-2018,17:30,Friday,Kunal Crossroads,22.162258,73.134239,Yes,No,2.8,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2400,Theft (with harassment),Medium,20-02-2018,22:00,Thursday,Vasna,22.285875,73.031438,No,Yes,13.3,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2731,Assault & Harassment,Medium,06-08-2023,08:30,Saturday,Nizampura,22.192429,73.103902,No,No,1.2,45+,No,Open,Low,FALSE,SYNTHETIC
+2567,Sexual Harassment (Public Transport),Medium,06-02-2019,12:00,Friday,Suncity,22.170487,73.045548,No,No,13.3,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2761,Theft (with harassment),Medium,14-02-2018,19:00,Tuesday,Sayajigunj,22.291867,73.11039,Yes,No,3.6,Teen,No,Open,Low,FALSE,SYNTHETIC
+2653,Attempted Theft & Harassment,Low,08-02-2025,19:00,Thursday,Gotri,22.231381,73.141077,Yes,No,9.2,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2100,Stalking,Medium,26-02-2019,12:00,Thursday,Karjan,22.193375,73.068217,No,No,11.4,Teen,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2034,Assault & Harassment,Medium,08-03-2021,23:30,Monday,Vadodara Railway Station,22.173347,73.268,Yes,No,3.7,25-35,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2132,Attempted Rape,High,02-06-2023,15:00,Tuesday,Chhani,22.263386,73.202153,No,No,2.5,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2384,Sexual Harassment (Public Transport),Medium,05-05-2025,06:00,Saturday,Waghodia,22.315093,73.195745,No,Yes,13.7,25-35,Yes,Open,High,FALSE,SYNTHETIC
+2926,Stalking,Medium,14-11-2020,12:00,Tuesday,Raopura,22.322409,73.144017,Yes,Yes,0.8,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2188,Gang Rape,High,12-07-2024,20:30,Friday,Harni,22.380874,73.247408,Yes,Yes,6.4,Teen,No,Under Trial,High,FALSE,SYNTHETIC
+2639,Sexual Harassment (Public Transport),Medium,29-05-2023,06:00,Thursday,Chhani,22.363511,73.219715,No,No,13.8,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2824,Molestation,Medium,11-06-2021,19:00,Tuesday,Karjan,22.260952,73.034317,No,Yes,0.3,Teen,No,Investigation,High,FALSE,SYNTHETIC
+2743,Sexual Harassment (Public Transport),Medium,07-08-2023,22:00,Wednesday,Suncity,22.237932,73.237046,Yes,Yes,6.5,25-35,Yes,Closed,Medium,FALSE,SYNTHETIC
+1009,Attempted Rape,High,05-10-2024,22:30,Saturday,Suncity / outskirts,22.35,73.15,No,No,7,Teen,Investigation,Investigation,High,TRUE,"New Indian Express (Oct 5, 2024) - Suncity gang-rape"
+2788,Rape (motel),High,06-02-2019,17:30,Tuesday,Sama,22.227684,73.170977,No,Yes,10.2,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2017,Theft (with harassment),Medium,24-02-2020,15:00,Monday,Harni,22.185046,73.075872,Yes,Yes,7,Teen,No,Under Trial,High,FALSE,SYNTHETIC
+2433,Theft (with harassment),Medium,01-01-2025,06:00,Sunday,Sama,22.170628,73.156399,No,Yes,12.8,25-35,No,Open,Low,FALSE,SYNTHETIC
+2632,Sexual Assault (workplace),High,22-09-2021,12:00,Tuesday,Kunal Crossroads,22.270533,73.113776,Yes,Yes,9.2,45+,No,Open,Medium,FALSE,SYNTHETIC
+2234,Sexual Harassment (Public Transport),Medium,19-02-2021,20:30,Wednesday,Akota,22.199864,73.251163,No,No,8,Child,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2284,Assault & Harassment,Medium,27-12-2018,22:00,Monday,Nizampura,22.179677,73.154343,Yes,No,9.9,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2727,Attempted Theft & Harassment,Low,20-05-2022,19:00,Monday,Akota,22.318672,73.11283,No,No,13.5,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2552,Stalking,Medium,07-04-2023,19:00,Saturday,Nizampura,22.276909,73.176915,No,No,10.3,45+,No,Open,Low,FALSE,SYNTHETIC
+2604,Stalking,Medium,06-05-2025,08:30,Friday,Kunal Crossroads,22.226268,73.090037,No,Yes,12.2,Child,Yes,Closed,High,FALSE,SYNTHETIC
+2713,Eve-teasing,Low,26-11-2019,08:30,Monday,Raopura,22.389117,73.100454,Yes,Yes,1.3,25-35,Yes,Open,High,FALSE,SYNTHETIC
+2872,Gang Rape,High,30-06-2021,23:30,Friday,Kunal Crossroads,22.16955,73.181345,No,No,3.4,18-25,No,Under Trial,High,FALSE,SYNTHETIC
+2243,Stalking,Medium,04-01-2023,06:00,Thursday,Karjan,22.212385,73.046949,Yes,No,4,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2591,Stalking,Medium,19-07-2021,06:00,Monday,Chhani,22.233676,73.250025,Yes,Yes,12.2,Child,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2278,Sexual Harassment (Public Transport),Medium,05-04-2021,19:00,Tuesday,Kunal Crossroads,22.334635,73.05375,No,No,11.4,Teen,Yes,Closed,Medium,FALSE,SYNTHETIC
+2395,Sexual Assault (workplace),High,03-04-2024,20:30,Friday,Ajwa Road,22.390648,73.077463,Yes,Yes,6.7,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2131,Sexual Assault (workplace),High,27-04-2018,08:30,Saturday,Gotri,22.342756,73.096164,No,No,3.3,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2769,Eve-teasing,Low,11-08-2021,22:00,Tuesday,Raopura,22.215953,73.104059,Yes,Yes,1.4,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2621,Assault & Harassment,Medium,09-01-2019,17:30,Friday,Nizampura,22.325079,73.207912,No,No,4.6,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2870,Stalking,Medium,07-05-2020,12:00,Wednesday,Alkapuri,22.397272,73.052835,Yes,Yes,12.1,18-25,Yes,Open,High,FALSE,SYNTHETIC
+2531,Gang Rape,High,12-07-2025,19:00,Wednesday,Akota,22.160281,73.074843,No,Yes,2.7,35-45,No,Closed,Low,FALSE,SYNTHETIC
+2867,Theft (with harassment),Medium,23-01-2019,06:00,Wednesday,Vadodara Railway Station,22.298614,73.046693,No,No,9.6,18-25,No,Investigation,High,FALSE,SYNTHETIC
+2469,Gang Rape,High,08-04-2025,23:30,Sunday,Waghodia,22.327334,73.081178,Yes,Yes,14.7,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2128,Molestation,Medium,24-03-2023,23:30,Monday,Gorwa,22.36949,73.225066,Yes,Yes,9.7,18-25,Yes,Investigation,High,FALSE,SYNTHETIC
+2127,Attempted Rape,High,11-11-2024,08:30,Wednesday,Waghodia,22.24954,73.209233,Yes,No,7.3,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2701,Attempted Theft & Harassment,Low,08-05-2024,06:00,Thursday,Sayajigunj,22.353633,73.153756,No,No,8.1,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2912,Rape (motel),High,31-08-2025,08:30,Friday,Chhani,22.313276,73.273562,Yes,No,6.3,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2720,Sexual Assault (workplace),High,03-03-2022,06:00,Tuesday,Manjalpur,22.295402,73.149207,Yes,Yes,9,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2640,Gang Rape,High,01-02-2023,17:30,Monday,Chhani,22.301506,73.047985,No,No,2.2,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2329,Molestation,Medium,13-05-2022,06:00,Saturday,Waghodia,22.267917,73.180061,No,No,1.5,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2444,Molestation,Medium,01-01-2023,06:00,Thursday,Vasna,22.313216,73.030217,Yes,No,0.8,35-45,No,Open,Low,FALSE,SYNTHETIC
+2306,Sexual Assault (workplace),High,10-02-2025,12:00,Sunday,Sama,22.371745,73.271341,Yes,Yes,13,Child,No,Sentenced,Low,FALSE,SYNTHETIC
+2167,Attempted Theft & Harassment,Low,17-05-2020,15:00,Wednesday,Manjalpur,22.399893,73.14973,No,No,3.8,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2104,Gang Rape,High,11-10-2020,22:00,Friday,Nizampura,22.280687,73.069687,Yes,No,5.7,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2834,Gang Rape,High,30-11-2018,20:30,Monday,Suncity,22.395812,73.174003,No,No,9.6,18-25,Yes,Closed,Low,FALSE,SYNTHETIC
+2589,Attempted Theft & Harassment,Low,23-05-2024,15:00,Monday,Ajwa Road,22.345563,73.077963,No,Yes,10.2,Child,No,Investigation,High,FALSE,SYNTHETIC
+2124,Theft (with harassment),Medium,10-04-2019,06:00,Saturday,Padra,22.279436,73.258386,No,Yes,1.9,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2939,Rape (motel),High,22-08-2022,12:00,Wednesday,Akota,22.224714,73.079999,No,Yes,1.5,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2178,Gang Rape,High,22-04-2022,12:00,Friday,Waghodia,22.336364,73.116465,No,No,1.6,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+2590,Attempted Rape,High,16-08-2021,20:30,Wednesday,Suncity,22.180429,73.159574,No,No,7.5,45+,Yes,Closed,Low,FALSE,SYNTHETIC
+2260,Molestation,Medium,23-04-2018,20:30,Thursday,Gotri,22.363455,73.224958,Yes,Yes,3.4,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2274,Attempted Theft & Harassment,Low,20-02-2024,17:30,Wednesday,Vasna,22.188282,73.203798,Yes,No,9.5,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2381,Stalking,Medium,10-12-2022,06:00,Friday,Raopura,22.32134,73.068998,Yes,No,11,Teen,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2103,Rape (motel),High,30-05-2024,15:00,Saturday,Kunal Crossroads,22.268907,73.067715,Yes,Yes,1.1,Teen,No,Sentenced,Low,FALSE,SYNTHETIC
+2164,Attempted Rape,High,02-09-2022,20:30,Thursday,Akota,22.244115,73.218604,Yes,No,7.2,18-25,No,Closed,Low,FALSE,SYNTHETIC
+2183,Molestation,Medium,13-07-2023,12:00,Saturday,Waghodia,22.258669,73.135276,No,Yes,7.4,Teen,No,Open,Low,FALSE,SYNTHETIC
+2419,Assault & Harassment,Medium,25-05-2022,12:00,Sunday,Kunal Crossroads,22.263321,73.037566,No,Yes,7.2,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2227,Assault & Harassment,Medium,14-07-2021,20:30,Thursday,Kunal Crossroads,22.263189,73.088403,No,No,14.2,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2396,Attempted Theft & Harassment,Low,14-03-2023,22:00,Monday,Waghodia,22.275164,73.074943,Yes,No,8.9,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2913,Stalking,Medium,04-04-2018,19:00,Saturday,Vadodara Railway Station,22.191615,73.186374,No,Yes,10.3,25-35,Yes,Under Trial,High,FALSE,SYNTHETIC
+2746,Gang Rape,High,17-05-2020,15:00,Thursday,Nizampura,22.24527,73.07889,No,Yes,7.1,Teen,No,Sentenced,High,FALSE,SYNTHETIC
+2887,Gang Rape,High,08-06-2021,12:00,Tuesday,Nizampura,22.19654,73.035437,No,No,12.2,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2816,Attempted Rape,High,13-05-2025,08:30,Wednesday,Waghodia,22.384593,73.081465,No,Yes,10.6,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2868,Rape (motel),High,21-07-2024,17:30,Saturday,Gorwa,22.341747,73.263577,Yes,No,8.5,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2110,Attempted Rape,High,15-02-2022,22:00,Wednesday,Nizampura,22.344531,73.155727,Yes,No,6.4,18-25,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2618,Theft (with harassment),Medium,07-04-2021,23:30,Friday,Waghodia,22.164363,73.159633,No,No,2.7,35-45,No,Open,Low,FALSE,SYNTHETIC
+2383,Rape (motel),High,30-06-2025,06:00,Wednesday,Chhani,22.37651,73.1617,Yes,No,4,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2765,Sexual Harassment (Public Transport),Medium,30-01-2021,19:00,Thursday,Gorwa,22.169942,73.223653,Yes,No,7.5,Teen,No,Open,High,FALSE,SYNTHETIC
+2751,Attempted Theft & Harassment,Low,31-05-2024,20:30,Wednesday,Alkapuri,22.333542,73.275854,Yes,Yes,9.6,25-35,Yes,Open,High,FALSE,SYNTHETIC
+2716,Molestation,Medium,09-04-2019,20:30,Saturday,Karjan,22.172612,73.278693,No,No,2.9,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2894,Theft (with harassment),Medium,13-11-2018,15:00,Wednesday,Akota,22.196993,73.082808,No,No,6.6,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2200,Gang Rape,High,03-06-2024,08:30,Monday,Karjan,22.355821,73.121715,Yes,No,12.4,Teen,No,Investigation,High,FALSE,SYNTHETIC
+2622,Eve-teasing,Low,25-04-2022,12:00,Saturday,Padra Road,22.248388,73.266422,Yes,Yes,3.7,18-25,No,Closed,Medium,FALSE,SYNTHETIC
+2896,Molestation,Medium,20-02-2018,12:00,Thursday,Kunal Crossroads,22.293671,73.125998,No,Yes,6.9,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2733,Assault & Harassment,Medium,11-02-2022,23:30,Saturday,Vadodara Railway Station,22.243421,73.20055,Yes,Yes,7.7,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2787,Sexual Harassment (Public Transport),Medium,13-01-2021,12:00,Thursday,Sayajigunj,22.296306,73.050179,No,No,3.4,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2900,Sexual Assault (workplace),High,04-01-2023,19:00,Monday,Sama,22.158904,73.057921,Yes,Yes,11,45+,No,Open,Low,FALSE,SYNTHETIC
+2605,Stalking,Medium,01-05-2019,12:00,Monday,Akota,22.19792,73.124549,Yes,No,5.7,45+,No,Sentenced,Low,FALSE,SYNTHETIC
+2855,Sexual Assault (workplace),High,20-01-2021,08:30,Sunday,Chhani,22.250188,73.234574,No,Yes,13.2,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2741,Gang Rape,High,11-04-2019,20:30,Monday,Karjan,22.330572,73.27706,Yes,Yes,14.2,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2367,Harassment,Low,29-06-2018,12:00,Saturday,Padra,22.20052,73.151343,No,Yes,1.7,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2953,Attempted Theft & Harassment,Low,17-12-2019,23:30,Thursday,Akota,22.352354,73.197167,No,No,5.6,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2490,Attempted Theft & Harassment,Low,19-05-2023,19:00,Saturday,Sama,22.240642,73.23426,Yes,Yes,13.4,45+,No,Open,Low,FALSE,SYNTHETIC
+2248,Molestation,Medium,02-02-2019,06:00,Saturday,Sayajigunj,22.309548,73.274264,No,Yes,7.2,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2800,Sexual Harassment (Public Transport),Medium,28-07-2019,17:30,Sunday,Sama,22.167053,73.239831,No,Yes,7.4,35-45,Yes,Investigation,High,FALSE,SYNTHETIC
+2422,Gang Rape,High,14-04-2019,22:00,Friday,Kunal Crossroads,22.174413,73.141304,No,No,4.8,35-45,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2477,Assault & Harassment,Medium,18-01-2018,23:30,Thursday,Ajwa Road,22.311811,73.103889,No,Yes,13.5,45+,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2093,Attempted Theft & Harassment,Low,05-08-2019,06:00,Friday,Waghodia,22.282621,73.124049,Yes,Yes,6.9,18-25,No,Open,Low,FALSE,SYNTHETIC
+2672,Gang Rape,High,27-07-2019,22:00,Monday,Kunal Crossroads,22.377696,73.279199,Yes,Yes,9.2,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2213,Gang Rape,High,20-05-2025,17:30,Tuesday,Sayajigunj,22.301732,73.077162,No,No,6,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2850,Harassment,Low,10-09-2023,15:00,Wednesday,Suncity,22.290564,73.110798,Yes,No,10.2,35-45,No,Under Trial,Medium,FALSE,SYNTHETIC
+2588,Molestation,Medium,10-02-2021,23:30,Monday,Vasna,22.287946,73.19496,Yes,No,8.6,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2652,Attempted Rape,High,01-10-2024,08:30,Monday,Ajwa Road,22.387765,73.21786,No,Yes,3.9,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2354,Sexual Harassment (Public Transport),Medium,12-02-2020,20:30,Saturday,Harni,22.248688,73.070817,Yes,No,11.1,35-45,No,Open,Low,FALSE,SYNTHETIC
+2962,Gang Rape,High,05-02-2022,20:30,Sunday,Alkapuri,22.181557,73.086781,No,No,7,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+2823,Assault & Harassment,Medium,20-10-2020,23:30,Friday,Sama,22.292771,73.039652,Yes,Yes,4.3,25-35,No,Under Trial,High,FALSE,SYNTHETIC
+2214,Sexual Assault (workplace),High,07-04-2019,15:00,Friday,Vasna,22.298482,73.162072,No,No,14.7,25-35,No,Open,High,FALSE,SYNTHETIC
+2766,Stalking,Medium,06-12-2024,08:30,Saturday,Alkapuri,22.161959,73.032599,No,Yes,1.8,25-35,No,Open,Low,FALSE,SYNTHETIC
+2657,Sexual Harassment (Public Transport),Medium,05-07-2020,08:30,Monday,Kunal Crossroads,22.377542,73.215742,No,Yes,10.9,Child,No,Under Trial,Low,FALSE,SYNTHETIC
+2298,Gang Rape,High,23-11-2023,15:00,Tuesday,Padra,22.167044,73.156285,No,No,6.4,45+,No,Open,Low,FALSE,SYNTHETIC
+2629,Eve-teasing,Low,30-06-2018,20:30,Thursday,Ajwa Road,22.353906,73.11067,Yes,Yes,9.5,45+,Yes,Closed,Low,FALSE,SYNTHETIC
+2391,Rape (motel),High,11-11-2024,17:30,Tuesday,Vadodara Railway Station,22.303091,73.17909,No,No,3.6,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2879,Eve-teasing,Low,17-08-2023,12:00,Sunday,Karjan,22.193146,73.041127,Yes,No,9.2,Child,No,Open,Medium,FALSE,SYNTHETIC
+2690,Gang Rape,High,02-05-2019,20:30,Sunday,Vasna,22.273892,73.200434,Yes,Yes,2.1,35-45,No,Open,High,FALSE,SYNTHETIC
+2339,Attempted Rape,High,04-07-2023,12:00,Friday,Ajwa Road,22.24947,73.217542,No,No,2.1,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2239,Harassment,Low,27-10-2021,12:00,Saturday,Kunal Crossroads,22.155478,73.176652,No,Yes,13.8,Teen,No,Sentenced,Low,FALSE,SYNTHETIC
+2725,Molestation,Medium,25-04-2018,15:00,Monday,Sama,22.285392,73.04633,Yes,No,9,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2608,Theft (with harassment),Medium,28-04-2020,15:00,Friday,Sayajigunj,22.365792,73.128975,Yes,Yes,4.7,35-45,Yes,Closed,Low,FALSE,SYNTHETIC
+2613,Attempted Theft & Harassment,Low,17-06-2022,15:00,Sunday,Raopura,22.337284,73.14861,Yes,No,7.8,45+,No,Under Trial,Medium,FALSE,SYNTHETIC
+2263,Attempted Rape,High,28-05-2023,08:30,Tuesday,Kunal Crossroads,22.310149,73.245373,Yes,No,4.1,Child,No,Open,Medium,FALSE,SYNTHETIC
+2357,Stalking,Medium,10-09-2019,06:00,Monday,Vasna,22.235478,73.107894,Yes,Yes,12,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2365,Attempted Rape,High,16-12-2023,12:00,Friday,Nizampura,22.354855,73.165401,No,Yes,6.9,Child,No,Under Trial,High,FALSE,SYNTHETIC
+2205,Attempted Theft & Harassment,Low,02-09-2021,06:00,Tuesday,Waghodia,22.393038,73.18871,No,No,10.5,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2934,Assault & Harassment,Medium,12-12-2020,22:00,Thursday,Sama,22.186247,73.113431,No,Yes,5.4,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2795,Theft (with harassment),Medium,14-05-2019,17:30,Sunday,Chhani,22.395674,73.235068,Yes,No,12.7,45+,No,Under Trial,Medium,FALSE,SYNTHETIC
+2453,Gang Rape,High,28-08-2022,12:00,Thursday,Gorwa,22.191252,73.090911,Yes,Yes,8.8,18-25,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2328,Theft (with harassment),Medium,24-05-2025,08:30,Friday,Raopura,22.345777,73.267311,Yes,Yes,1.7,45+,No,Under Trial,High,FALSE,SYNTHETIC
+2486,Assault & Harassment,Medium,10-07-2024,06:00,Wednesday,Akota,22.265261,73.203321,Yes,No,5.5,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2620,Molestation,Medium,02-02-2021,15:00,Thursday,Alkapuri,22.261433,73.236146,No,Yes,9.2,18-25,No,Closed,High,FALSE,SYNTHETIC
+2968,Rape (motel),High,16-10-2019,20:30,Saturday,Chhani,22.198343,73.238582,Yes,Yes,1.2,25-35,Yes,Closed,Low,FALSE,SYNTHETIC
+2909,Sexual Harassment (Public Transport),Medium,29-03-2024,22:00,Monday,Raopura,22.380294,73.062924,No,Yes,9.2,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2886,Attempted Theft & Harassment,Low,20-05-2025,06:00,Monday,Kunal Crossroads,22.176153,73.119721,Yes,No,13.5,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2600,Assault & Harassment,Medium,28-11-2024,17:30,Tuesday,Suncity,22.19057,73.143576,Yes,No,11.9,Teen,No,Open,Low,FALSE,SYNTHETIC
+2836,Stalking,Medium,07-06-2019,20:30,Saturday,Harni,22.327996,73.059757,No,No,13.5,25-35,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2784,Rape (motel),High,18-06-2018,23:30,Saturday,Kunal Crossroads,22.18074,73.228833,Yes,No,8.6,25-35,No,Open,Low,FALSE,SYNTHETIC
+2626,Gang Rape,High,27-12-2019,17:30,Tuesday,Manjalpur,22.335362,73.072113,Yes,Yes,10.1,Teen,No,Open,Low,FALSE,SYNTHETIC
+2827,Attempted Theft & Harassment,Low,08-03-2018,19:00,Tuesday,Harni,22.161183,73.088674,No,No,1.8,45+,No,Open,Low,FALSE,SYNTHETIC
+2537,Attempted Theft & Harassment,Low,29-04-2018,08:30,Friday,Nizampura,22.314885,73.143514,No,No,14.3,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2938,Eve-teasing,Low,21-10-2024,20:30,Saturday,Gotri,22.164029,73.115673,Yes,No,8.2,35-45,No,Open,Low,FALSE,SYNTHETIC
+2558,Harassment,Low,06-04-2020,22:00,Sunday,Suncity,22.211329,73.232286,No,No,5.3,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2776,Attempted Theft & Harassment,Low,29-05-2022,08:30,Friday,Raopura,22.356017,73.202921,No,Yes,7.5,18-25,Yes,Open,Low,FALSE,SYNTHETIC
+2066,Assault & Harassment,Medium,04-01-2023,23:30,Thursday,Vasna,22.23311,73.220718,Yes,No,5.8,25-35,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2223,Theft (with harassment),Medium,02-09-2021,08:30,Thursday,Harni,22.151992,73.080168,Yes,Yes,8.5,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2679,Attempted Theft & Harassment,Low,08-08-2019,20:30,Thursday,Padra Road,22.216842,73.25961,Yes,No,9.7,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2140,Rape (motel),High,18-09-2021,08:30,Saturday,Suncity,22.226919,73.254692,Yes,Yes,13.1,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2505,Rape (motel),High,05-08-2021,06:00,Thursday,Alkapuri,22.16128,73.239234,Yes,No,5.4,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2016,Sexual Harassment (Public Transport),Medium,02-02-2019,20:30,Sunday,Gorwa,22.252776,73.245959,Yes,Yes,1,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2521,Stalking,Medium,05-01-2019,15:00,Monday,Sama,22.364854,73.070057,No,No,6.7,25-35,No,Under Trial,Low,FALSE,SYNTHETIC
+2151,Attempted Rape,High,02-02-2020,06:00,Monday,Kunal Crossroads,22.291945,73.219321,No,Yes,2.8,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2635,Stalking,Medium,08-04-2025,17:30,Tuesday,Alkapuri,22.361734,73.112818,Yes,No,3.8,45+,Yes,Closed,Medium,FALSE,SYNTHETIC
+2871,Sexual Harassment (Public Transport),Medium,16-07-2019,23:30,Thursday,Nizampura,22.316211,73.111772,No,No,7.6,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+2838,Molestation,Medium,03-04-2022,19:00,Friday,Nizampura,22.277167,73.17702,No,No,14.2,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2828,Sexual Assault (workplace),High,21-08-2025,20:30,Saturday,Waghodia,22.256619,73.100771,No,No,0.6,45+,No,Open,Medium,FALSE,SYNTHETIC
+2925,Sexual Harassment (Public Transport),Medium,09-04-2020,19:00,Friday,Gotri,22.306601,73.268007,Yes,Yes,7.7,25-35,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2714,Assault & Harassment,Medium,31-12-2019,20:30,Monday,Ajwa Road,22.299903,73.199858,No,No,2.4,Child,No,Investigation,Low,FALSE,SYNTHETIC
+2076,Eve-teasing,Low,01-07-2024,19:00,Wednesday,Akota,22.377407,73.11168,No,Yes,6.3,18-25,Yes,Under Trial,High,FALSE,SYNTHETIC
+2544,Harassment,Low,09-11-2020,08:30,Saturday,Ajwa Road,22.178484,73.195395,No,No,2.9,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2221,Molestation,Medium,30-01-2022,20:30,Saturday,Akota,22.38279,73.244371,No,No,8.4,Child,No,Open,Low,FALSE,SYNTHETIC
+2723,Attempted Rape,High,20-07-2020,20:30,Thursday,Padra,22.393281,73.160375,Yes,Yes,14.7,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2555,Rape (motel),High,15-10-2021,20:30,Friday,Manjalpur,22.206673,73.170495,No,Yes,7.4,25-35,No,Under Trial,Medium,FALSE,SYNTHETIC
+2671,Assault & Harassment,Medium,26-05-2019,23:30,Friday,Sama,22.391569,73.072901,No,No,14.7,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2441,Attempted Theft & Harassment,Low,12-05-2025,12:00,Thursday,Manjalpur,22.196066,73.103642,No,No,10,Teen,No,Closed,Low,FALSE,SYNTHETIC
+2534,Attempted Theft & Harassment,Low,11-04-2023,17:30,Friday,Padra,22.266783,73.059006,No,No,13.4,35-45,Yes,Investigation,High,FALSE,SYNTHETIC
+2869,Eve-teasing,Low,01-01-2020,17:30,Friday,Padra Road,22.181676,73.160579,No,No,9.7,35-45,No,Investigation,High,FALSE,SYNTHETIC
+2187,Sexual Assault (workplace),High,08-04-2021,08:30,Monday,Suncity,22.274826,73.188334,No,No,3.8,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2373,Molestation,Medium,11-03-2021,06:00,Sunday,Ajwa Road,22.398353,73.10546,No,Yes,4.6,18-25,Yes,Closed,Low,FALSE,SYNTHETIC
+2775,Eve-teasing,Low,24-03-2019,06:00,Tuesday,Raopura,22.204895,73.043284,No,No,0.7,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2378,Molestation,Medium,05-11-2022,17:30,Thursday,Chhani,22.183047,73.050636,Yes,Yes,8.7,Teen,No,Open,Low,FALSE,SYNTHETIC
+2747,Attempted Rape,High,15-03-2022,15:00,Monday,Ajwa Road,22.216902,73.19467,Yes,Yes,4.7,35-45,Yes,Open,High,FALSE,SYNTHETIC
+2829,Assault & Harassment,Medium,19-04-2021,06:00,Friday,Padra,22.161153,73.262577,No,Yes,13.7,Teen,Yes,Investigation,High,FALSE,SYNTHETIC
+2198,Harassment,Low,22-01-2023,06:00,Saturday,Gorwa,22.271152,73.078782,No,No,5.9,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+1005,Public Harassment/Assault,Medium,22-04-2025,20:30,Tuesday,Raopura,22.3072,73.1812,Yes,Yes,1,20-30,Yes,Closed,Medium,TRUE,"Indian Express (Apr 22, 2025) - Raopura incident"
+2749,Sexual Assault (workplace),High,24-06-2024,20:30,Sunday,Akota,22.247603,73.212028,Yes,Yes,6.2,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2623,Eve-teasing,Low,15-07-2023,20:30,Friday,Harni,22.398829,73.049133,Yes,No,1.8,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2910,Sexual Harassment (Public Transport),Medium,14-10-2019,20:30,Saturday,Harni,22.238006,73.084438,No,No,13.5,25-35,No,Under Trial,Medium,FALSE,SYNTHETIC
+2593,Stalking,Medium,11-08-2018,19:00,Monday,Ajwa Road,22.385887,73.223937,Yes,No,9.4,Teen,No,Investigation,Low,FALSE,SYNTHETIC
+2719,Sexual Harassment (Public Transport),Medium,01-03-2023,12:00,Thursday,Harni,22.210624,73.236955,Yes,No,1,18-25,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2527,Stalking,Medium,01-05-2019,15:00,Tuesday,Sayajigunj,22.386513,73.233353,Yes,No,4.1,Child,No,Open,Medium,FALSE,SYNTHETIC
+2706,Gang Rape,High,02-05-2025,17:30,Saturday,Vadodara Railway Station,22.20154,73.140546,No,No,5,18-25,No,Open,Low,FALSE,SYNTHETIC
+2664,Molestation,Medium,18-02-2023,12:00,Saturday,Padra Road,22.260471,73.15061,Yes,No,13.5,18-25,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2079,Gang Rape,High,16-04-2023,06:00,Thursday,Vadodara Railway Station,22.232002,73.182521,Yes,Yes,9.8,Child,No,Closed,Low,FALSE,SYNTHETIC
+2785,Attempted Rape,High,21-08-2025,12:00,Monday,Ajwa Road,22.305949,73.19608,Yes,No,4.7,25-35,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2708,Sexual Assault (workplace),High,30-10-2019,12:00,Monday,Chhani,22.301956,73.047364,Yes,Yes,1.3,18-25,No,Closed,High,FALSE,SYNTHETIC
+2554,Stalking,Medium,31-08-2022,22:00,Sunday,Sama,22.202358,73.041762,Yes,Yes,0.5,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2387,Harassment,Low,07-01-2025,17:30,Thursday,Chhani,22.386034,73.267279,Yes,No,3.5,25-35,No,Investigation,Low,FALSE,SYNTHETIC
+2483,Theft (with harassment),Medium,13-04-2022,17:30,Monday,Harni,22.160558,73.236562,Yes,Yes,12.6,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2028,Theft (with harassment),Medium,12-04-2023,15:00,Wednesday,Sayajigunj,22.237415,73.235134,Yes,No,13.1,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2013,Gang Rape,High,02-12-2023,20:30,Monday,Sayajigunj,22.338816,73.202467,Yes,Yes,10.8,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2760,Assault & Harassment,Medium,03-05-2018,08:30,Monday,Padra,22.257347,73.076479,Yes,No,3.8,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2820,Molestation,Medium,08-07-2020,15:00,Sunday,Chhani,22.314981,73.163123,No,No,10,Teen,No,Closed,High,FALSE,SYNTHETIC
+2181,Eve-teasing,Low,09-01-2021,08:30,Monday,Akota,22.196848,73.142211,No,No,8.4,35-45,Yes,Open,Low,FALSE,SYNTHETIC
+2115,Harassment,Low,12-08-2019,17:30,Friday,Suncity,22.303702,73.090141,Yes,No,6.4,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2008,Attempted Theft & Harassment,Low,20-12-2020,12:00,Tuesday,Raopura,22.290342,73.095685,No,Yes,8.9,45+,No,Open,High,FALSE,SYNTHETIC
+2861,Rape (motel),High,30-05-2018,19:00,Saturday,Padra Road,22.251634,73.031393,Yes,No,10.4,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2211,Harassment,Low,08-10-2018,23:30,Thursday,Padra Road,22.30258,73.071029,Yes,Yes,5.4,18-25,Yes,Closed,Medium,FALSE,SYNTHETIC
+2470,Gang Rape,High,05-08-2021,19:00,Monday,Karjan,22.320057,73.099286,No,No,1.1,25-35,No,Investigation,Medium,FALSE,SYNTHETIC
+2753,Eve-teasing,Low,02-03-2021,17:30,Thursday,Padra,22.169345,73.241156,Yes,No,13.7,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2359,Theft (with harassment),Medium,09-10-2020,06:00,Wednesday,Sayajigunj,22.333831,73.05349,Yes,Yes,10.1,18-25,No,Open,High,FALSE,SYNTHETIC
+2269,Eve-teasing,Low,22-11-2019,12:00,Tuesday,Vasna,22.182351,73.138428,No,Yes,6.6,35-45,No,Open,Low,FALSE,SYNTHETIC
+2399,Attempted Rape,High,03-01-2020,06:00,Tuesday,Suncity,22.22738,73.222158,Yes,No,6.8,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2655,Sexual Assault (workplace),High,02-01-2023,08:30,Monday,Vasna,22.285167,73.090839,Yes,No,2.7,Child,Yes,Open,High,FALSE,SYNTHETIC
+2372,Rape (motel),High,16-08-2022,20:30,Thursday,Kunal Crossroads,22.210181,73.166407,Yes,Yes,5.8,45+,No,Open,Medium,FALSE,SYNTHETIC
+2573,Stalking,Medium,03-01-2025,20:30,Sunday,Chhani,22.375061,73.114749,Yes,Yes,0.9,Child,No,Under Trial,Medium,FALSE,SYNTHETIC
+2479,Eve-teasing,Low,12-02-2021,15:00,Friday,Alkapuri,22.284603,73.141365,Yes,No,10.1,Teen,No,Open,Low,FALSE,SYNTHETIC
+2119,Eve-teasing,Low,15-07-2018,19:00,Saturday,Karjan,22.349836,73.139238,No,No,6.1,35-45,No,Open,Low,FALSE,SYNTHETIC
+2043,Assault & Harassment,Medium,21-03-2018,23:30,Monday,Gotri,22.206056,73.047155,Yes,Yes,14.4,Teen,Yes,Closed,Low,FALSE,SYNTHETIC
+2452,Eve-teasing,Low,13-10-2021,20:30,Monday,Kunal Crossroads,22.393963,73.173992,No,Yes,2.2,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2628,Stalking,Medium,19-10-2020,19:00,Monday,Raopura,22.172847,73.135421,Yes,Yes,14.8,25-35,Yes,Investigation,Low,FALSE,SYNTHETIC
+2109,Sexual Assault (workplace),High,28-06-2018,20:30,Sunday,Gorwa,22.329896,73.272397,No,Yes,9.2,Child,No,Open,Low,FALSE,SYNTHETIC
+2957,Stalking,Medium,28-05-2024,15:00,Wednesday,Akota,22.278684,73.231362,Yes,Yes,2.3,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2501,Theft (with harassment),Medium,12-02-2019,06:00,Monday,Waghodia,22.319527,73.273018,Yes,No,5.9,Child,No,Open,Medium,FALSE,SYNTHETIC
+2819,Rape (motel),High,19-05-2018,17:30,Thursday,Karjan,22.246044,73.236795,No,Yes,1.5,25-35,No,Investigation,High,FALSE,SYNTHETIC
+2943,Sexual Assault (workplace),High,08-06-2024,22:00,Saturday,Vadodara Railway Station,22.398237,73.217977,Yes,No,11.6,35-45,No,Investigation,High,FALSE,SYNTHETIC
+2045,Harassment,Low,28-06-2021,08:30,Friday,Padra Road,22.382222,73.173949,Yes,Yes,13.6,35-45,No,Closed,Low,FALSE,SYNTHETIC
+2793,Attempted Theft & Harassment,Low,16-10-2023,12:00,Monday,Harni,22.39182,73.064101,No,Yes,13.4,Child,Yes,Open,Low,FALSE,SYNTHETIC
+1015,Repeated Domestic Abuse (rape),High,12-08-2025,Various,Various,Residential - Gorwa,22.3005,73.1501,Yes,No,2.2,28,Yes,Investigation,High,TRUE,LogicalIndian / Local (Aug 2025) - domestic allegation
+2137,Sexual Harassment (Public Transport),Medium,16-03-2024,17:30,Wednesday,Waghodia,22.276064,73.221101,No,No,4.3,45+,Yes,Open,Low,FALSE,SYNTHETIC
+2021,Attempted Rape,High,14-09-2022,23:30,Wednesday,Kunal Crossroads,22.201065,73.209048,Yes,Yes,3.7,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2473,Stalking,Medium,14-02-2020,08:30,Thursday,Alkapuri,22.358737,73.159905,No,No,5.2,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2360,Attempted Rape,High,01-03-2024,23:30,Thursday,Manjalpur,22.270307,73.104703,No,Yes,5.5,Teen,Yes,Sentenced,Low,FALSE,SYNTHETIC
+2168,Attempted Rape,High,25-03-2023,23:30,Tuesday,Gorwa,22.21539,73.158204,No,No,7.6,Teen,No,Under Trial,Low,FALSE,SYNTHETIC
+2744,Attempted Rape,High,02-02-2024,20:30,Monday,Chhani,22.361273,73.202138,Yes,Yes,6.7,25-35,Yes,Sentenced,High,FALSE,SYNTHETIC
+2197,Sexual Harassment (Public Transport),Medium,08-09-2024,12:00,Tuesday,Padra Road,22.25576,73.151668,Yes,No,8.2,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2772,Sexual Assault (workplace),High,11-09-2025,17:30,Wednesday,Padra Road,22.175516,73.145239,Yes,No,1.8,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2033,Rape (motel),High,21-03-2021,15:00,Sunday,Suncity,22.301665,73.110562,Yes,Yes,6.7,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2859,Rape (motel),High,06-01-2023,19:00,Sunday,Vasna,22.177237,73.107652,No,Yes,2.3,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2318,Molestation,Medium,29-05-2023,06:00,Friday,Ajwa Road,22.259975,73.087498,Yes,Yes,7.8,25-35,Yes,Open,Low,FALSE,SYNTHETIC
+2729,Sexual Assault (workplace),High,17-08-2023,23:30,Thursday,Vadodara Railway Station,22.280822,73.222159,Yes,No,6.8,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2700,Eve-teasing,Low,11-01-2023,08:30,Tuesday,Suncity,22.270705,73.160941,No,Yes,14.3,Teen,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2705,Harassment,Low,31-07-2022,17:30,Friday,Kunal Crossroads,22.306489,73.032602,Yes,No,5.5,Child,No,Open,High,FALSE,SYNTHETIC
+2276,Gang Rape,High,24-04-2021,12:00,Monday,Gotri,22.274089,73.081923,No,Yes,14,25-35,Yes,Open,Medium,FALSE,SYNTHETIC
+2682,Theft (with harassment),Medium,05-08-2025,23:30,Sunday,Akota,22.274451,73.20128,Yes,No,10.2,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2232,Harassment,Low,17-05-2019,06:00,Tuesday,Nizampura,22.191997,73.173471,No,Yes,12.4,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2707,Theft (with harassment),Medium,31-08-2019,22:00,Wednesday,Waghodia,22.195378,73.076257,Yes,No,13,18-25,No,Closed,Low,FALSE,SYNTHETIC
+2442,Harassment,Low,26-10-2019,08:30,Tuesday,Karjan,22.2457,73.113164,No,Yes,1.1,25-35,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2436,Harassment,Low,11-08-2018,17:30,Thursday,Manjalpur,22.1919,73.129686,No,Yes,4.7,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2977,Attempted Theft & Harassment,Low,15-07-2018,19:00,Sunday,Nizampura,22.397744,73.095793,Yes,No,11.9,18-25,No,Under Trial,Medium,FALSE,SYNTHETIC
+2796,Molestation,Medium,23-08-2019,06:00,Saturday,Padra,22.354638,73.194366,Yes,No,2.7,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2843,Eve-teasing,Low,06-11-2022,22:00,Tuesday,Karjan,22.366126,73.278269,Yes,No,11,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2250,Sexual Assault (workplace),High,12-09-2019,08:30,Sunday,Waghodia,22.235948,73.165362,No,No,14.6,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2182,Sexual Harassment (Public Transport),Medium,20-02-2018,17:30,Wednesday,Suncity,22.344792,73.211211,No,No,8.5,18-25,Yes,Investigation,Low,FALSE,SYNTHETIC
+2142,Molestation,Medium,12-12-2022,19:00,Monday,Suncity,22.25324,73.080973,Yes,Yes,7.6,45+,No,Closed,Medium,FALSE,SYNTHETIC
+2536,Theft (with harassment),Medium,02-09-2022,08:30,Monday,Raopura,22.319227,73.251842,No,Yes,0.6,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2710,Attempted Theft & Harassment,Low,08-02-2018,08:30,Sunday,Harni,22.354564,73.24318,Yes,No,1.5,18-25,No,Under Trial,High,FALSE,SYNTHETIC
+2382,Attempted Rape,High,26-02-2018,19:00,Wednesday,Manjalpur,22.262515,73.035687,No,Yes,3.3,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2683,Attempted Theft & Harassment,Low,29-12-2023,19:00,Saturday,Raopura,22.315294,73.260115,Yes,Yes,15,45+,Yes,Investigation,High,FALSE,SYNTHETIC
+2457,Harassment,Low,09-01-2025,15:00,Monday,Karjan,22.19843,73.229153,Yes,No,10.3,35-45,No,Open,Medium,FALSE,SYNTHETIC
+2802,Molestation,Medium,06-08-2020,15:00,Sunday,Manjalpur,22.332041,73.126021,Yes,No,14.6,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+2752,Attempted Rape,High,29-03-2022,17:30,Monday,Gotri,22.170741,73.065942,Yes,Yes,0.5,45+,Yes,Open,High,FALSE,SYNTHETIC
+2086,Attempted Rape,High,24-11-2024,06:00,Saturday,Ajwa Road,22.264511,73.271007,No,Yes,1.1,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2546,Harassment,Low,12-11-2022,23:30,Friday,Alkapuri,22.248733,73.033326,No,No,9.9,35-45,No,Closed,High,FALSE,SYNTHETIC
+2370,Sexual Assault (workplace),High,26-11-2023,15:00,Saturday,Padra Road,22.386876,73.169606,No,No,8.5,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+1002,Rape and Murder,High,09-09-2024,NA,NA,Shinor,22.303,73.243,No,No,8,Adult,Yes,Under Trial,High,TRUE,"NDTV (Sep 9, 2024) - Shinor village rape & murder"
+2918,Attempted Rape,High,24-05-2019,08:30,Tuesday,Akota,22.339485,73.174953,Yes,No,11.9,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2963,Eve-teasing,Low,28-01-2023,20:30,Sunday,Harni,22.391573,73.27292,Yes,Yes,2.9,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2542,Attempted Rape,High,30-11-2023,23:30,Wednesday,Waghodia,22.267055,73.049796,Yes,No,12.1,25-35,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2061,Attempted Rape,High,12-09-2021,20:30,Monday,Vasna,22.315646,73.130113,No,Yes,11.5,Teen,No,Open,Low,FALSE,SYNTHETIC
+2186,Rape (motel),High,29-05-2022,19:00,Saturday,Manjalpur,22.19995,73.279316,Yes,No,2.9,45+,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2015,Sexual Assault (workplace),High,07-10-2023,15:00,Thursday,Karjan,22.271354,73.164808,Yes,Yes,10.9,45+,No,Open,Medium,FALSE,SYNTHETIC
+2756,Harassment,Low,03-02-2022,08:30,Monday,Sayajigunj,22.231885,73.08494,No,No,11,18-25,No,Open,Low,FALSE,SYNTHETIC
+2489,Stalking,Medium,11-06-2020,12:00,Monday,Ajwa Road,22.357893,73.228777,Yes,Yes,8.5,Child,Yes,Investigation,High,FALSE,SYNTHETIC
+2408,Sexual Assault (workplace),High,05-03-2020,19:00,Sunday,Kunal Crossroads,22.269777,73.148625,No,No,0.7,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2435,Molestation,Medium,12-12-2018,12:00,Tuesday,Vadodara Railway Station,22.359404,73.21819,Yes,No,6.3,35-45,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2347,Assault & Harassment,Medium,26-10-2019,19:00,Sunday,Raopura,22.22922,73.102839,No,No,4.2,Child,No,Open,Medium,FALSE,SYNTHETIC
+2072,Theft (with harassment),Medium,16-07-2024,12:00,Thursday,Raopura,22.309476,73.144893,No,No,10.1,35-45,No,Investigation,Low,FALSE,SYNTHETIC
+2320,Rape (motel),High,22-01-2025,23:30,Monday,Gotri,22.186716,73.071585,No,Yes,13.9,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2878,Rape (motel),High,15-07-2025,19:00,Monday,Padra,22.330534,73.121564,Yes,Yes,0.4,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2545,Rape (motel),High,02-08-2024,22:00,Friday,Nizampura,22.351959,73.115334,No,Yes,13.8,18-25,Yes,Open,Medium,FALSE,SYNTHETIC
+2326,Sexual Assault (workplace),High,30-10-2023,06:00,Wednesday,Chhani,22.201355,73.231072,No,No,6.3,Teen,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2757,Gang Rape,High,29-03-2023,22:00,Sunday,Suncity,22.386586,73.260587,No,Yes,3.9,18-25,No,Sentenced,Low,FALSE,SYNTHETIC
+2222,Gang Rape,High,16-11-2018,19:00,Thursday,Manjalpur,22.318331,73.043168,No,No,3.5,45+,Yes,Sentenced,Low,FALSE,SYNTHETIC
+1014,Pocso Rape (minor),High,10-11-2024,NA,NA,Savli,22.43,73.07,Yes,No,15,15,Yes,Sentenced,High,TRUE,Times of India (Mar 2025) - sentence handed down
+2296,Molestation,Medium,28-08-2025,08:30,Wednesday,Padra,22.33377,73.059838,Yes,No,0.8,25-35,No,Open,Medium,FALSE,SYNTHETIC
+2581,Harassment,Low,23-03-2024,22:00,Thursday,Gotri,22.353161,73.270279,No,No,9.4,Child,Yes,Open,High,FALSE,SYNTHETIC
+2368,Attempted Theft & Harassment,Low,09-02-2022,15:00,Wednesday,Vadodara Railway Station,22.167718,73.262553,No,No,3.3,35-45,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2254,Gang Rape,High,23-04-2024,08:30,Tuesday,Sama,22.370034,73.249473,No,No,4.1,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2147,Sexual Assault (workplace),High,27-07-2018,23:30,Friday,Raopura,22.208209,73.055049,Yes,No,5.1,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2821,Assault & Harassment,Medium,17-08-2024,15:00,Saturday,Alkapuri,22.331447,73.185383,No,No,13,Child,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2973,Rape (motel),High,19-02-2019,22:00,Thursday,Raopura,22.273744,73.177771,No,Yes,10.1,Teen,No,Investigation,High,FALSE,SYNTHETIC
+2627,Sexual Assault (workplace),High,16-12-2022,06:00,Monday,Ajwa Road,22.315635,73.19501,No,Yes,1.7,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2799,Stalking,Medium,05-01-2022,23:30,Saturday,Ajwa Road,22.237209,73.206556,No,No,6,Teen,Yes,Investigation,Low,FALSE,SYNTHETIC
+2465,Attempted Theft & Harassment,Low,16-12-2023,20:30,Tuesday,Vasna,22.355323,73.14311,Yes,No,3.8,45+,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2961,Assault & Harassment,Medium,18-02-2021,23:30,Wednesday,Kunal Crossroads,22.399171,73.07658,No,Yes,5.2,35-45,No,Investigation,Medium,FALSE,SYNTHETIC
+2485,Sexual Harassment (Public Transport),Medium,08-07-2024,22:00,Monday,Padra Road,22.367086,73.186999,No,Yes,7.2,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2812,Rape (motel),High,18-04-2018,15:00,Saturday,Harni,22.365074,73.200485,Yes,No,11.1,45+,No,Open,Medium,FALSE,SYNTHETIC
+2224,Harassment,Low,09-09-2019,06:00,Sunday,Suncity,22.208249,73.116606,No,Yes,12.6,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2547,Attempted Rape,High,08-12-2024,19:00,Saturday,Chhani,22.171909,73.063778,Yes,Yes,3,Teen,Yes,Closed,Low,FALSE,SYNTHETIC
+2856,Molestation,Medium,02-03-2018,23:30,Saturday,Vadodara Railway Station,22.173889,73.177049,Yes,No,6,45+,No,Under Trial,Medium,FALSE,SYNTHETIC
+2543,Eve-teasing,Low,25-04-2021,06:00,Sunday,Harni,22.379326,73.158354,No,No,7.8,35-45,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2667,Sexual Assault (workplace),High,15-03-2023,20:30,Friday,Karjan,22.313299,73.121831,Yes,Yes,2,Teen,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2170,Attempted Rape,High,08-08-2023,23:30,Wednesday,Kunal Crossroads,22.34084,73.152155,Yes,Yes,10.9,Child,No,Investigation,Medium,FALSE,SYNTHETIC
+2763,Theft (with harassment),Medium,22-09-2022,08:30,Sunday,Manjalpur,22.192785,73.111719,Yes,No,5.9,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2680,Attempted Rape,High,20-12-2021,22:00,Wednesday,Ajwa Road,22.218956,73.136941,No,No,14.1,18-25,No,Investigation,Low,FALSE,SYNTHETIC
+2456,Stalking,Medium,12-09-2022,06:00,Friday,Harni,22.197976,73.276651,Yes,No,14.7,45+,No,Closed,High,FALSE,SYNTHETIC
+2662,Molestation,Medium,12-05-2020,15:00,Wednesday,Gotri,22.364195,73.211849,No,No,4.6,Child,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2491,Attempted Rape,High,12-06-2019,12:00,Sunday,Raopura,22.181336,73.062555,No,Yes,1.4,Child,Yes,Open,Medium,FALSE,SYNTHETIC
+2039,Assault & Harassment,Medium,21-09-2018,20:30,Saturday,Suncity,22.285653,73.133944,Yes,No,3.3,35-45,No,Closed,Medium,FALSE,SYNTHETIC
+2455,Theft (with harassment),Medium,10-08-2019,17:30,Monday,Ajwa Road,22.253008,73.264522,No,No,9.2,Teen,Yes,Under Trial,Medium,FALSE,SYNTHETIC
+2541,Rape (motel),High,05-01-2019,20:30,Saturday,Gorwa,22.196589,73.187672,Yes,No,1.6,45+,No,Sentenced,Medium,FALSE,SYNTHETIC
+2837,Attempted Rape,High,02-08-2022,22:00,Friday,Suncity,22.339415,73.205028,No,No,11.1,Child,Yes,Open,Low,FALSE,SYNTHETIC
+2728,Molestation,Medium,29-07-2024,06:00,Saturday,Sama,22.187884,73.145777,Yes,Yes,13.3,Teen,Yes,Closed,High,FALSE,SYNTHETIC
+2233,Theft (with harassment),Medium,06-02-2020,17:30,Thursday,Karjan,22.370856,73.038662,Yes,Yes,9.4,18-25,No,Investigation,High,FALSE,SYNTHETIC
+2002,Stalking,Medium,01-09-2023,06:00,Sunday,Harni,22.329005,73.205331,Yes,No,6.4,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2294,Attempted Theft & Harassment,Low,31-08-2020,23:30,Saturday,Sama,22.316123,73.261621,No,Yes,5.9,Child,No,Sentenced,Low,FALSE,SYNTHETIC
+2440,Rape (motel),High,01-03-2020,06:00,Sunday,Alkapuri,22.172985,73.264626,Yes,No,9.9,18-25,Yes,Under Trial,Low,FALSE,SYNTHETIC
+2141,Gang Rape,High,18-07-2024,22:00,Monday,Padra,22.307256,73.184934,Yes,Yes,12.6,18-25,Yes,Open,High,FALSE,SYNTHETIC
+2257,Sexual Harassment (Public Transport),Medium,09-02-2020,22:00,Thursday,Sayajigunj,22.335236,73.219873,Yes,Yes,13,Teen,Yes,Open,Medium,FALSE,SYNTHETIC
+2936,Sexual Harassment (Public Transport),Medium,10-03-2022,06:00,Wednesday,Kunal Crossroads,22.34773,73.111421,Yes,Yes,8.5,18-25,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2172,Gang Rape,High,11-09-2019,06:00,Friday,Sayajigunj,22.264002,73.045113,No,Yes,9.6,45+,No,Investigation,Low,FALSE,SYNTHETIC
+2366,Sexual Harassment (Public Transport),Medium,06-08-2021,08:30,Monday,Harni,22.197467,73.200806,Yes,Yes,11.5,18-25,No,Open,Medium,FALSE,SYNTHETIC
+2786,Theft (with harassment),Medium,26-08-2024,08:30,Wednesday,Gotri,22.226455,73.137581,Yes,Yes,10,Teen,Yes,Open,Low,FALSE,SYNTHETIC
+2394,Sexual Assault (workplace),High,03-06-2022,23:30,Tuesday,Ajwa Road,22.368946,73.22673,No,Yes,7.9,35-45,No,Under Trial,Low,FALSE,SYNTHETIC
+2472,Stalking,Medium,30-08-2019,22:00,Saturday,Akota,22.280172,73.186819,Yes,No,4.5,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2324,Harassment,Low,09-11-2023,20:30,Sunday,Gorwa,22.324411,73.137239,Yes,No,14.1,35-45,No,Open,High,FALSE,SYNTHETIC
+2750,Gang Rape,High,30-01-2025,20:30,Tuesday,Karjan,22.189763,73.110601,Yes,Yes,1.6,Teen,No,Open,Medium,FALSE,SYNTHETIC
+2289,Eve-teasing,Low,27-06-2024,12:00,Saturday,Akota,22.246851,73.180137,Yes,No,13.3,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2642,Attempted Theft & Harassment,Low,06-03-2020,20:30,Saturday,Karjan,22.237145,73.207282,Yes,Yes,9.6,25-35,Yes,Investigation,High,FALSE,SYNTHETIC
+2111,Attempted Theft & Harassment,Low,01-03-2022,23:30,Sunday,Manjalpur,22.361473,73.242792,No,Yes,4.4,18-25,No,Investigation,Medium,FALSE,SYNTHETIC
+2644,Eve-teasing,Low,02-10-2024,12:00,Thursday,Alkapuri,22.342743,73.191099,Yes,No,13.8,35-45,Yes,Investigation,Low,FALSE,SYNTHETIC
+2852,Attempted Theft & Harassment,Low,13-10-2024,23:30,Saturday,Alkapuri,22.155279,73.124797,Yes,Yes,11.8,25-35,No,Under Trial,Medium,FALSE,SYNTHETIC
+2080,Theft (with harassment),Medium,05-07-2018,06:00,Saturday,Sama,22.17903,73.0887,No,Yes,8.2,35-45,No,Open,High,FALSE,SYNTHETIC
+2353,Attempted Theft & Harassment,Low,06-04-2023,23:30,Sunday,Alkapuri,22.380522,73.266739,Yes,No,7.3,Teen,No,Under Trial,Medium,FALSE,SYNTHETIC
+2068,Theft (with harassment),Medium,09-12-2022,08:30,Wednesday,Ajwa Road,22.153837,73.066039,No,Yes,13.1,18-25,Yes,Investigation,High,FALSE,SYNTHETIC
+2439,Sexual Assault (workplace),High,07-07-2021,23:30,Saturday,Alkapuri,22.152119,73.046988,No,No,6.3,45+,Yes,Investigation,Low,FALSE,SYNTHETIC
+2311,Assault & Harassment,Medium,09-03-2025,20:30,Friday,Karjan,22.183576,73.213243,Yes,Yes,13.2,35-45,No,Open,Low,FALSE,SYNTHETIC
+2195,Sexual Assault (workplace),High,18-02-2023,08:30,Wednesday,Karjan,22.365659,73.161929,No,No,9.7,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2447,Sexual Harassment (Public Transport),Medium,25-12-2019,23:30,Thursday,Gotri,22.315184,73.104718,Yes,Yes,6,Teen,No,Investigation,High,FALSE,SYNTHETIC
+2102,Eve-teasing,Low,22-08-2018,19:00,Sunday,Sama,22.311167,73.274342,Yes,No,1.5,45+,No,Investigation,Medium,FALSE,SYNTHETIC
+2595,Rape (motel),High,12-04-2022,20:30,Thursday,Manjalpur,22.337991,73.088278,Yes,No,9.1,Child,Yes,Investigation,Medium,FALSE,SYNTHETIC
+2001,Attempted Theft & Harassment,Low,04-03-2025,08:30,Monday,Alkapuri,22.218757,73.085803,Yes,Yes,11.1,Child,Yes,Investigation,Low,FALSE,SYNTHETIC
+2681,Attempted Theft & Harassment,Low,05-01-2019,08:30,Sunday,Waghodia,22.210009,73.053408,Yes,No,8.7,Teen,No,Investigation,Medium,FALSE,SYNTHETIC
+2052,Assault & Harassment,Medium,06-03-2020,17:30,Saturday,Raopura,22.19486,73.033537,Yes,No,8.1,25-35,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2087,Molestation,Medium,27-11-2018,19:00,Wednesday,Vadodara Railway Station,22.166421,73.098754,No,No,9.6,45+,No,Open,Medium,FALSE,SYNTHETIC
+2251,Attempted Rape,High,03-06-2024,15:00,Tuesday,Vasna,22.169739,73.255694,Yes,Yes,10.8,45+,Yes,Open,Medium,FALSE,SYNTHETIC
+2841,Eve-teasing,Low,22-06-2025,17:30,Sunday,Akota,22.201711,73.239697,Yes,Yes,11.4,Teen,Yes,Sentenced,Medium,FALSE,SYNTHETIC
+2416,Eve-teasing,Low,06-03-2021,15:00,Monday,Padra,22.227844,73.253061,Yes,No,8.2,Teen,Yes,Open,High,FALSE,SYNTHETIC
+2083,Rape (motel),High,28-09-2021,15:00,Sunday,Akota,22.201301,73.237454,Yes,Yes,8.4,45+,Yes,Under Trial,Low,FALSE,SYNTHETIC
