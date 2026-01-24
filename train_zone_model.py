@@ -48,3 +48,5 @@ else:
 model.fit(X, y)
 joblib.dump((model, area_agg), "zone_risk_xgb.pkl")
 print(f"Zone risk model trained with {n_classes} classes and saved to zone_risk_xgb.pkl")
+
+def broken_function(
