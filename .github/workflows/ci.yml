@@ -7,8 +7,9 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -31,4 +32,19 @@ jobs:
 
       - name: Run training
         run: |
-          python train_zone.py
+          python train_zone_model.py
+
+  notify-bot-on-failure:
+    needs: build-and-test
+    if: ${{ failure() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Smart Bot
+        run: |
+          curl -X POST $BOT_WEBHOOK_URL \
+          -H "Content-Type: application/json" \
+          -H "X-Hub-Signature-256: sha256=$BOT_WEBHOOK_SECRET_HASH" \
+          -d '{"repository": {"full_name": "${{ github.repository }}"}, "workflow_run": {"id": ${{ github.run_id }}, "conclusion": "failure"}}'
+        env:
+          BOT_WEBHOOK_URL: ${{ secrets.https://levi-interoceanic-nonuniversally.ngrok-free.dev }}
+          BOT_WEBHOOK_SECRET_HASH: ${{ secrets.BOT_WEBHOOK_SECRET_HASH }}
