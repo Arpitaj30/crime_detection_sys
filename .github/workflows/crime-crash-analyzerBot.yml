@@ -48,6 +48,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug workflow_run payload
+        run: |
+          echo "Workflow name: ${{ github.event.workflow_run.name }}"
+          echo "Workflow conclusion: ${{ github.event.workflow_run.conclusion }}"
+          echo "Workflow status: ${{ github.event.workflow_run.status }}"
+          echo "Run ID: ${{ github.event.workflow_run.id }}"
+
       - name: Download CI artifacts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
