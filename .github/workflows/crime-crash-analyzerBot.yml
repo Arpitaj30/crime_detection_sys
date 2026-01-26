@@ -11,9 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Collect CI logs
+      - name: Download CI logs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo '${{ toJson(github.event.workflow_run) }}' > ci_logs.json
+          mkdir logs
+          gh run download ${{ github.event.workflow_run.id }} \
+            --repo ${{ github.repository }} \
+            --dir logs
+          cat logs/** > ci_logs.txt
 
       - name: Send logs to CI Agent
         env:
@@ -24,5 +30,5 @@ jobs:
           -d '{
             "repo": "'"${{ github.repository }}"'",
             "run_id": "'"${{ github.event.workflow_run.id }}"'",
-            "logs": "'"$(cat ci_logs.json | sed 's/"/\\"/g')"'"
+            "logs": "'"$(cat ci_logs.txt | sed 's/"/\\"/g')"'"
           }'
