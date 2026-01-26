@@ -1,3 +1,40 @@
+# name: Notify AI CI Bot
+
+# on:
+#   workflow_run:
+#     workflows: ["CI"]
+#     types: [completed]
+
+# jobs:
+#   analyze-failure:
+#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Download CI logs
+#         env:
+#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           mkdir logs
+#           gh run view ${{ github.event.workflow_run.id }} \
+#             --repo ${{ github.repository }} \
+#             --dir logs
+#           cat logs/** > ci_logs.txt
+
+#       - name: Send logs to CI Agent
+#         env:
+#           CI_AGENT: ${{ secrets.CI_AGENT }}
+#         run: |
+#           curl -X POST "$CI_AGENT/analyze" \
+#           -H "Content-Type: application/json" \
+#           -d '{
+#             "repo": "'"${{ github.repository }}"'",
+#             "run_id": "'"${{ github.event.workflow_run.id }}"'",
+#             "logs": "'"$(cat ci_logs.txt | sed 's/"/\\"/g')"'"
+#           }'
+
+
+
 name: Notify AI CI Bot
 
 on:
@@ -11,14 +48,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download CI logs
+      - name: Download CI artifacts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir logs
-          gh run view ${{ github.event.workflow_run.id }} \
+          gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --dir logs
+
           cat logs/** > ci_logs.txt
 
       - name: Send logs to CI Agent
@@ -27,8 +65,10 @@ jobs:
         run: |
           curl -X POST "$CI_AGENT/analyze" \
           -H "Content-Type: application/json" \
-          -d '{
-            "repo": "'"${{ github.repository }}"'",
-            "run_id": "'"${{ github.event.workflow_run.id }}"'",
-            "logs": "'"$(cat ci_logs.txt | sed 's/"/\\"/g')"'"
-          }'
+          -d @- <<EOF
+          {
+            "repo": "${{ github.repository }}",
+            "run_id": "${{ github.event.workflow_run.id }}",
+            "logs": "$(sed 's/"/\\"/g' ci_logs.txt)"
+          }
+          EOF
