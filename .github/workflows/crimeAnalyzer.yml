@@ -16,10 +16,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir logs
-          gh run view ${{ github.event.workflow_run.id }} \
+          gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --dir logs
-          cat logs/** > ci_logs.txt
+
 
       - name: Send logs to CI Agent
         env:
