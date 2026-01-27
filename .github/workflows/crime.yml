@@ -33,6 +33,7 @@ jobs:
           echo "Running training" > train.log
           python train_zone_model.py >> train.log 2>&1 || true
 
+      # Upload logs as artifact
       - name: Upload CI logs
         if: always()
         uses: actions/upload-artifact@v4
