@@ -11,8 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check CI_AGENT
-        run: echo $CI_AGENT
+      - name: Checkout crime_detection_sys repository
+        uses: actions/checkout@v4
+
+      - name: Checkout BOT_AGENT_CICD repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/BOT_AGENT_CICD
+          path: bot-agent
+          token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Download CI logs artifact
         env:
@@ -27,62 +34,35 @@ jobs:
           # Concatenate all downloaded log files into a single file
           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt
 
-      - name: Send logs to CI Agent
-        env:
-          CI_AGENT: ${{ secrets.CI_AGENT }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
         run: |
-          # Base64 encode logs to safely include in JSON
-          LOG_CONTENT=$(base64 -w 0 logs/ci_logs.txt)
+          python -m pip install --upgrade pip
+          pip install -r bot-agent/requirements.txt
 
-          curl -X POST "$CI_AGENT/analyze" \
-            -H "Content-Type: application/json" \
-            -d "{
-              \"repo\": \"${{ github.repository }}\",
-              \"run_id\": \"${{ github.event.workflow_run.id }}\",
-              \"logs_b64\": \"$LOG_CONTENT\"
-            }"
-
-
-
-
-
-
-
-
-# name: Notify AI CI Bot
-
-# on:
-#   workflow_run:
-#     workflows: ["CI"]
-#     types: [completed]
-
-# jobs:
-#   analyze-failure:
-#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Download CI logs artifact
-#         env:
-#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#         run: |
-#           mkdir -p logs
-#           # Download all artifacts from the workflow run
-#           gh run download ${{ github.event.workflow_run.id }} \
-#             --repo ${{ github.repository }} \
-#             --dir logs
-
-#           # Concatenate all downloaded log files into a single file
-#           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt
-
-#       - name: Send logs to CI Agent
-#         env:
-#           CI_AGENT: ${{ secrets.CI_AGENT }}
-#         run: |
-#           curl -X POST "$CI_AGENT/analyze" \
-#             -H "Content-Type: application/json" \
-#             -d '{
-#               "repo": "'"${{ github.repository }}"'",
-#               "run_id": "'"${{ github.event.workflow_run.id }}"'",
-#               "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'"
-#             }'
+      - name: Send logs to AI CI Bot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          cd bot-agent
+          # Create a Python script to process and analyze logs
+          python -c "
+          import sys
+          import os
+          sys.path.insert(0, 'bot')
+          
+          # Read the logs
+          with open('../logs/ci_logs.txt', 'r') as f:
+            logs_content = f.read()
+            print(f'Crime Detection System CI Failed')
+            print(f'Repository: ${{ github.repository }}')
+            print(f'Run ID: ${{ github.event.workflow_run.id }}')
+            print(f'Logs Length: {len(logs_content)} bytes')
+            print('---')
+            print(logs_content[:500])  # Print first 500 chars
+          "
