@@ -11,55 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # - name: Download CI logs artifact
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   run: |
-      #     mkdir -p logs
-      #     # Download all artifacts from the workflow run
-      #     gh run download ${{ github.event.workflow_run.id }} \
-      #       --repo ${{ github.repository }} \
-      #       --dir logs
-
-      #     # Concatenate all downloaded log files into a single file
-      #     find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt
-
-      # - name: Send logs to CI Agent
-      #   env:
-      #     CI_AGENT: ${{ secrets.CI_AGENT }}
-      #   run: |
-      #     curl -X POST "$CI_AGENT/analyze" \
-      #       -H "Content-Type: application/json" \
-      #       -d '{
-      #         "repo": "'"${{ github.repository }}"'",
-      #         "run_id": "'"${{ github.event.workflow_run.id }}"'",
-      #         "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'"
-            # }'
-
       - name: Download CI logs artifact
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p logs
+          # Download all artifacts from the workflow run
           gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --dir logs
+
+          # Concatenate all downloaded log files into a single file
           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt
 
-      - name: Send data to CI Bot
+      - name: Send logs to CI Agent
         env:
-          CI_AGENT_URL: ${{ secrets.CI_AGENT }}
-          # PAT with 'repo' scope stored in Repo 2 Secrets
-          BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
-          # We use jq to handle log escaping (newlines/quotes) perfectly
-          PAYLOAD=$(jq -n \
-            --arg repo "${{ github.repository }}" \
-            --arg run_id "${{ github.event.workflow_run.id }}" \
-            --arg logs "$(cat logs/ci_logs.txt)" \
-            --arg token "$BOT_TOKEN" \
-            '{repository: $repo, run_id: $run_id, logs: $logs, github_token: $token}')
-
-          curl -X POST "$CI_AGENT_URL/analyze" \
+          curl -X POST "$CI_AGENT/analyze" \
             -H "Content-Type: application/json" \
-            -d "$PAYLOAD"
+            -d '{
+              "repo": "'"${{ github.repository }}"'",
+              "run_id": "'"${{ github.event.workflow_run.id }}"'",
+              "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'"
+            }'
