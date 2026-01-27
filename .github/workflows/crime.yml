@@ -12,12 +12,10 @@ jobs:
 
     steps:
       # Step 1: Checkout code
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       # Step 2: Setup Python
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
@@ -33,10 +31,12 @@ jobs:
           python -m py_compile streamlit_dashboard.py >> syntax.log 2>&1 || true
           python -m py_compile train_zone_model.py >> syntax.log 2>&1 || true
 
-      # Step 5: Test AI bot call
-      - name: Test AI bot call
+      # Step 5: Call AI bot via webhook instead of import
+      - name: Call AI bot via webhook
         run: |
-          python -c "from ai_bot_client import call_bot; print(call_bot('train_zone_model.py'))"
+          curl -X POST https://your-ngrok-url/webhook \
+               -H "Content-Type: application/json" \
+               -d '{"file":"train_zone_model.py"}' > bot.log 2>&1
 
       # Step 6: Run training
       - name: Run training
@@ -52,3 +52,4 @@ jobs:
           path: |
             syntax.log
             train.log
+            bot.log
