@@ -11,24 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download CI logs
+      - name: Download CI logs artifact
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir logs
+          mkdir -p logs
+          # Download all artifacts from the workflow run
           gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --dir logs
 
+          # Concatenate all downloaded log files into a single file
+          find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt
 
       - name: Send logs to CI Agent
         env:
           CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
           curl -X POST "$CI_AGENT/analyze" \
-          -H "Content-Type: application/json" \
-          -d '{
-            "repo": "'"${{ github.repository }}"'",
-            "run_id": "'"${{ github.event.workflow_run.id }}"'",
-            "logs": "'"$(cat ci_logs.txt | sed 's/"/\\"/g')"'"
-          }'
+            -H "Content-Type: application/json" \
+            -d '{
+              "repo": "'"${{ github.repository }}"'",
+              "run_id": "'"${{ github.event.workflow_run.id }}"'",
+              "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'"
+            }'
