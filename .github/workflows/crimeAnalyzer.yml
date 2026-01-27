@@ -28,10 +28,58 @@ jobs:
         env:
           CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
+          # Base64 encode logs to safely include in JSON
+          LOG_CONTENT=$(base64 -w 0 logs/ci_logs.txt)
+
           curl -X POST "$CI_AGENT/analyze" \
             -H "Content-Type: application/json" \
-            -d '{
-              "repo": "'"${{ github.repository }}"'",
-              "run_id": "'"${{ github.event.workflow_run.id }}"'",
-              "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'"
-            }'
+            -d "{
+              \"repo\": \"${{ github.repository }}\",
+              \"run_id\": \"${{ github.event.workflow_run.id }}\",
+              \"logs_b64\": \"$LOG_CONTENT\"
+            }"
+
+
+
+
+
+
+
+
+# name: Notify AI CI Bot
+
+# on:
+#   workflow_run:
+#     workflows: ["CI"]
+#     types: [completed]
+
+# jobs:
+#   analyze-failure:
+#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Download CI logs artifact
+#         env:
+#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           mkdir -p logs
+#           # Download all artifacts from the workflow run
+#           gh run download ${{ github.event.workflow_run.id }} \
+#             --repo ${{ github.repository }} \
+#             --dir logs
+
+#           # Concatenate all downloaded log files into a single file
+#           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt
+
+#       - name: Send logs to CI Agent
+#         env:
+#           CI_AGENT: ${{ secrets.CI_AGENT }}
+#         run: |
+#           curl -X POST "$CI_AGENT/analyze" \
+#             -H "Content-Type: application/json" \
+#             -d '{
+#               "repo": "'"${{ github.repository }}"'",
+#               "run_id": "'"${{ github.event.workflow_run.id }}"'",
+#               "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'"
+#             }'
