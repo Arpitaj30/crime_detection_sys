@@ -15,20 +15,21 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir logs
+          mkdir -p logs
           gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
-            --dir logs
+            --name ci-logs \
+            --dir logs || echo "No logs found"
 
+      - name: Combine logs
+        run: |
+          cat logs/* > ci_logs.txt || echo "No logs to combine"
 
       - name: Send logs to CI Agent
         env:
           CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
+          LOG_CONTENT=$(sed ':a;N;$!ba;s/"/\\"/g' ci_logs.txt)
           curl -X POST "$CI_AGENT/analyze" \
-          -H "Content-Type: application/json" \
-          -d '{
-            "repo": "'"${{ github.repository }}"'",
-            "run_id": "'"${{ github.event.workflow_run.id }}"'",
-            "logs": "'"$(cat ci_logs.txt | sed 's/"/\\"/g')"'"
-          }'
+            -H "Content-Type: application/json" \
+            -d "{\"repo\": \"${{ github.repository }}\", \"run_id\": \"${{ github.event.workflow_run.id }}\", \"logs\": \"$LOG_CONTENT\"}"
