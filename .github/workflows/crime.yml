@@ -24,12 +24,12 @@ jobs:
 
       - name: Syntax check
         run: |
-          python -m py_compile streamlit_dashboard.py
-          python -m py_compile train_zone_model.py
+          python -m py_compile streamlit_dashboard.py > syntax.log 2>&1
+          python -m py_compile train_zone_model.py >> syntax.log 2>&1
 
       - name: Run training
         run: |
-          python train_zone_model.py
+          python train_zone_model.py > train.log 2>&1
 
       - name: Upload CI logs
         if: always()
@@ -39,3 +39,5 @@ jobs:
           path: |
             syntax.log
             train.log
+          if-no-files-found: warn
+          compression-level: 6
