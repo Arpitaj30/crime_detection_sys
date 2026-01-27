@@ -69,7 +69,7 @@ jobs:
 
       - name: Send logs to AI CI Bot
         run: |
-          curl -X POST "$CI_AGENT/analyze" \
+          curl -X POST "$CI_AGENT" \
           -H "Content-Type: application/json" \
           -d '{
             "repo": "${{ github.repository }}",
