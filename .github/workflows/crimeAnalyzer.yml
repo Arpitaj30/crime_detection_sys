@@ -14,22 +14,36 @@ jobs:
       - name: Setup GH CLI
         uses: actions/setup-gh@v2
 
-      # Step 1: Download CI logs from the completed workflow
-      - name: Download CI logs
+      - name: Check workflow conclusion
+        if: ${{ github.event.workflow_run.conclusion != 'failure' }}
+        run: |
+          echo "Workflow did not fail. Skipping analysis."
+          exit 0
+
+      - name: Setup GH CLI
+        uses: actions/setup-gh@v2
+
+      - name: Download and send CI logs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
           mkdir -p logs
           gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --dir logs
-          # Combine all logs into one file
+
           echo "Combining logs..." > ci_logs.txt
           for f in logs/*; do
             echo "===== $f =====" >> ci_logs.txt
             cat "$f" >> ci_logs.txt
             echo -e "\n\n" >> ci_logs.txt
           done
+
+          LOG_CONTENT=$(sed ':a;N;$!ba;s/"/\\"/g' ci_logs.txt)
+          curl -X POST "$CI_AGENT/analyze" \
+            -H "Content-Type: application/json" \
+            -d "{\"repo\": \"${{ github.repository }}\", \"run_id\": \"${{ github.event.workflow_run.id }}\", \"logs\": \"$LOG_CONTENT\"}" 
 
       # Step 2: Upload combined logs (optional, if you want artifact)
       - name: Upload combined CI logs
