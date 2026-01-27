@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check CI_AGENT
+        run: echo $CI_AGENT
+        
       - name: Download CI logs artifact
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
