@@ -66,3 +66,14 @@ jobs:
             print('---')
             print(logs_content[:500])  # Print first 500 chars
           "
+
+      - name: Send logs to AI CI Bot
+        run: |
+          curl -X POST "$CI_AGENT/analyze" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "repo": "${{ github.repository }}",
+            "run_id": "${{ github.event.workflow_run.id }}",
+            "installation_id": "${{ github.event.workflow_run.installation.id }}",
+            "logs": "'"$(cat logs/ci_logs.txt | sed 's/"/\\"/g')"'" 
+          }'
