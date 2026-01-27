@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup GH CLI
+        uses: actions/setup-gh@v2
+
       - name: Download CI logs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -19,11 +22,20 @@ jobs:
           gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --name ci-logs \
-            --dir logs || echo "No logs found"
+            --dir logs || echo "No CI logs found"
 
       - name: Combine logs
         run: |
-          cat logs/* > ci_logs.txt || echo "No logs to combine"
+          echo "Combining logs..." > ci_logs.txt
+          if [ -d logs ]; then
+            for f in logs/*; do
+              echo "===== $f =====" >> ci_logs.txt
+              cat "$f" >> ci_logs.txt
+              echo -e "\n\n" >> ci_logs.txt
+            done
+          else
+            echo "No logs found" >> ci_logs.txt
+          fi
 
       - name: Send logs to CI Agent
         env:
