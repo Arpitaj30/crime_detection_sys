@@ -22,10 +22,10 @@ jobs:
       # -------------------------------------------------
       # 2. Checkout AI CI Bot repository
       # -------------------------------------------------
-      - name: Checkout BOT_AGENT_CICD repository
+      - name: Checkout Ci-Smart-Bot repository
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository_owner }}/BOT_AGENT_CICD
+          repository: ${{ github.repository_owner }}/Ci-Smart-Bot
           path: bot-agent
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -66,30 +66,40 @@ jobs:
       # -------------------------------------------------
       - name: Send logs to AI CI Bot
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM_PROVIDER: groq
         run: |
           cd bot-agent
-
           python - << 'EOF'
           import os
           import sys
 
-          sys.path.insert(0, "bot")
+          sys.path.insert(0, ".")  # repo root
+          from bot.error_analyzer import analyze_error
 
           logs_path = "../logs/ci_logs.txt"
 
           if not os.path.exists(logs_path):
-              print(" No CI logs found")
-              sys.exit(1)
+            print("No CI logs found")
+            sys.exit(1)
 
           with open(logs_path, "r") as f:
-              logs_content = f.read()
+            logs_content = f.read()
 
           print("🚨 Crime Detection System CI Failed")
           print(f"Repository: ${{ github.repository }}")
           print(f"Run ID: ${{ github.event.workflow_run.id }}")
           print(f"Logs Size: {len(logs_content)} bytes")
           print("-" * 50)
-          print(logs_content[:500])
+
+          # Call bot function to analyze logs
+          suggestion = analyze_error(logs_content)
+          print("💡 Suggested Fix:")
+          print(suggestion)
           EOF
+
+      - name: Comment PR with bot suggestion
+        if: ${{ github.event.workflow_run.pull_requests }}
+        run: |
+          BOT_SUGGESTION=$(python -c "from bot.error_analyzer import analyze_error; print(analyze_error(open('../logs/ci_logs.txt').read()))")
+          gh pr comment ${{ github.event.workflow_run.pull_requests[0].number }} --body "$BOT_SUGGESTION"
