@@ -71,9 +71,8 @@ jobs:
           import os
           import sys
 
-          sys.path.insert(0, "bot")
-
-          from analyzer import analyze_logs
+          sys.path.insert(0, ".")  # repo root
+          from bot.error_analyzer import analyze_logs
 
           logs_path = "../logs/ci_logs.txt"
 
