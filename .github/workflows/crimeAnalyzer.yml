@@ -93,3 +93,13 @@ jobs:
           print("-" * 50)
           print(logs_content[:500])
           EOF
+
+
+      - name: Send logs to AI CI Bot
+        run: |
+          BOT_RESPONSE=$(curl -s -X POST https://your-ngrok-url/webhook \
+          - H "Content-Type: application/json" \
+          -d @"../logs/ci_logs.txt")
+          echo "💡 Bot Suggested Fix:"
+          echo "$BOT_RESPONSE"
+
