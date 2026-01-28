@@ -34,7 +34,7 @@ jobs:
       # Step 5: Run training (continue even if fails)
       - name: Run training
         run: |
-          python train_zone_model.py > train.log 2>&1 || true
+          python train_zone_model.py > train.log 2>&1
 
       # Step 6: Upload CI logs (always)
       - name: Upload CI logs
