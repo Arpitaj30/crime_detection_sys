@@ -102,8 +102,3 @@ jobs:
         if: ${{ github.event.workflow_run.pull_requests }}
         run: |
           BOT_SUGGESTION=$(python -c "from bot.error_analyzer import analyze_error; print(analyze_error(open('../logs/ci_logs.txt').read()))")
-<<<<<<< HEAD
-          gh pr comment ${{ github.event.workflow_run.pull_requests[0].number }} --body "$BOT_SUGGESTION"
-=======
-          gh pr comment ${{ github.event.workflow_run.pull_requests[0].number }} --body "$BOT_SUGGESTION"
->>>>>>> eeb6a937a98ca1932ee370d07ab45c7163f27108
