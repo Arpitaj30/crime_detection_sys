@@ -72,7 +72,7 @@ jobs:
           import sys
 
           sys.path.insert(0, ".")  # repo root
-          from bot.error_analyzer import analyze_logs
+          from bot.error_analyzer import analyze_error
 
           logs_path = "../logs/ci_logs.txt"
 
