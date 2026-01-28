@@ -31,20 +31,12 @@ jobs:
           python -m py_compile streamlit_dashboard.py >> syntax.log 2>&1 || true
           python -m py_compile train_zone_model.py >> syntax.log 2>&1 || true
 
-      # Step 5: Call AI bot via webhook instead of import
-      - name: Call AI bot via webhook
-        run: |
-          curl -X POST https://levi-interoceanic-nonuniversally.ngrok-free.dev/webhook \
-               -H "Content-Type: application/json" \
-               -d '{"file":"train_zone_model.py"}' > bot.log 2>&1
-
-      # Step 6: Run training
+      # Step 5: Run training (continue even if fails)
       - name: Run training
         run: |
           python train_zone_model.py > train.log 2>&1 || true
 
-
-      # Step 7: Upload CI logs (always)
+      # Step 6: Upload CI logs (always)
       - name: Upload CI logs
         if: always()
         uses: actions/upload-artifact@v4
@@ -53,4 +45,3 @@ jobs:
           path: |
             syntax.log
             train.log
-            bot.log
