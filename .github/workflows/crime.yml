@@ -44,4 +44,8 @@ jobs:
           name: ci-logs
           path: |
             syntax.log
+<<<<<<< HEAD
             train.log
+=======
+            train.log
+>>>>>>> eeb6a937a98ca1932ee370d07ab45c7163f27108
