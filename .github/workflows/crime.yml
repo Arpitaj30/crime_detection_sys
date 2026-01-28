@@ -34,7 +34,7 @@ jobs:
       # Step 5: Call AI bot via webhook instead of import
       - name: Call AI bot via webhook
         run: |
-          curl -X POST https://https://levi-interoceanic-nonuniversally.ngrok-free.dev/webhook \
+          curl -X POST https://levi-interoceanic-nonuniversally.ngrok-free.dev/webhook \
                -H "Content-Type: application/json" \
                -d '{"file":"train_zone_model.py"}' > bot.log 2>&1
 
