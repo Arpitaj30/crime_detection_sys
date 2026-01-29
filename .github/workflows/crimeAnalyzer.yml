@@ -44,66 +44,111 @@ jobs:
           python-version: "3.10"
 
       - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+        run: sudo apt-get install -y jq curl openssl
 
-
-      # -------------------------------------------------
-      # Send logs to AI CI Bot
-      # -------------------------------------------------
-      # - name: Send logs to AI CI Bot (via ngrok)
-      #   env:
-      #     CI_AGENT: ${{ secrets.CI_AGENT }}
-      #   run: |
-      #     echo "Sending logs to AI Bot server..."
-
-      #     curl -X POST "$CI_AGENT/analyze" \
-      #     -H "Content-Type: application/json" \
-      #     -d @- << EOF
-      #     {
-      #       "repository": "${{ github.repository }}",
-      #       "run_id": "${{ github.event.workflow_run.id }}",
-      #       "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
-      #     }
-      #     EOF
-
-      - name: Get bot suggestion from AI server
-        id: bot
-        env:
-          CI_AGENT: ${{ secrets.CI_AGENT }}
+      - name: Generate GitHub App JWT
+        id: generate_jwt
         run: |
-          echo "Sending logs to AI Bot server..."
+          APP_ID="${{ secrets.GITHUB_APP_ID }}"
+          PRIVATE_KEY="${{ secrets.GITHUB_APP_PRIVATE_KEY }}"
           
-          LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
+          # Replace literal \n in private key
+          PRIVATE_KEY="${PRIVATE_KEY//\\n/$'\n'}"
+          
+          # Generate JWT using openssl
+          JWT=$(ruby -ropenssl -rbase64 -e '
+            require "openssl"
+            require "base64"
+            payload = {
+              iat: Time.now.to_i,
+              exp: Time.now.to_i + 600,
+              iss: ENV["APP_ID"].to_i
+            }
+            key = OpenSSL::PKey::RSA.new(ENV["PRIVATE_KEY"])
+            token = JWT.encode(payload, key, "RS256")
+            puts token
+          ' 2>/dev/null)
+          echo "jwt=$JWT" >> $GITHUB_OUTPUT
+
+      - name: Get Installation ID
+        id: get_installation
+        run: |
+          REPO="${{ github.repository }}"
+          JWT="${{ steps.generate_jwt.outputs.jwt }}"
+          INSTALLATION_ID=$(curl -s -H "Authorization: Bearer $JWT" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/$REPO/installation \
+            | jq -r .id)
+          echo "installation_id=$INSTALLATION_ID" >> $GITHUB_OUTPUT
+
+      - name: Send CI logs to AI Bot
+        id: send
+        run: |
+          CI_AGENT="${{ secrets.CI_AGENT }}"
+          INSTALLATION_ID="${{ steps.get_installation.outputs.installation_id }}"
+          LOGS_JSON=$(jq -Rs . < logs/ci_logs.txt)
+
+          echo "Sending logs to AI Bot server..."
           
           RESPONSE=$(curl -s -X POST "$CI_AGENT/analyze" \
             -H "Content-Type: application/json" \
             -d @- << EOF
           {
             "repo": "${{ github.repository }}",
-            "run_id": "${{ github.event.workflow_run.id }}",
-            "installation_id": "${{ secrets.GH_APP_INSTALLATION_ID }}",
-            "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
+            "run_id": "${{ github.run_id }}",
+            "installation_id": "$INSTALLATION_ID",
+            "logs": $LOGS_JSON
           }
           EOF
           )
+
+          echo "LLM Response:"
+          echo "$RESPONSE" | jq
+
           # Save suggestion safely to GitHub Actions output
           echo "suggestion<<EOF" >> $GITHUB_OUTPUT
           echo "$RESPONSE" | jq -r .suggestion >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
+          
+      # - name: Get bot suggestion from AI server
+      #   id: bot
+      #   env:
+      #     CI_AGENT: ${{ secrets.CI_AGENT }}
+      #   run: |
+      #     echo "Sending logs to AI Bot server..."
+          
+      #     LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
+          
+      #     RESPONSE=$(curl -s -X POST "$CI_AGENT/analyze" \
+      #       -H "Content-Type: application/json" \
+      #       -d @- << EOF
+      #     {
+      #       "repo": "${{ github.repository }}",
+      #       "run_id": "${{ github.event.workflow_run.id }}",
+      #       "installation_id": "${{ secrets.GH_APP_INSTALLATION_ID }}",
+      #       "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
+      #     }
+      #     EOF
+      #     )
+      #     # Save suggestion safely to GitHub Actions output
+      #     echo "suggestion<<EOF" >> $GITHUB_OUTPUT
+      #     echo "$RESPONSE" | jq -r .suggestion >> $GITHUB_OUTPUT
+      #     echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: Comment PR with bot suggestion
-        if: ${{ github.event.workflow_run.pull_requests }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          PR_NUMBER=$(jq -r '.[0].number' <<< '${{ toJson(github.event.workflow_run.pull_requests) }}')
 
-          gh pr comment "$PR_NUMBER" \
-            --repo "${{ github.repository }}" \
-            --body "$(cat << 'EOF'
-            🤖 **AI CI Bot Analysis**
+      # - name: Comment PR with bot suggestion
+      #   if: ${{ github.event.workflow_run.pull_requests }}
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     PR_NUMBER=$(jq -r '.[0].number' <<< '${{ toJson(github.event.workflow_run.pull_requests) }}')
 
-            ${{ steps.bot.outputs.suggestion }}
-            EOF
-            )"
+      #     gh pr comment "$PR_NUMBER" \
+      #       --repo "${{ github.repository }}" \
+      #       --body "$(cat << 'EOF'
+      #       🤖 **AI CI Bot Analysis**
+
+      #       ${{ steps.bot.outputs.suggestion }}
+      #       EOF
+      #       )"
