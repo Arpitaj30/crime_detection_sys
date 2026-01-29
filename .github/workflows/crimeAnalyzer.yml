@@ -48,6 +48,40 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
+      - name: Get bot suggestion from AI server
+        id: bot
+        env:
+          CI_AGENT: ${{ secrets.CI_AGENT }}
+        run: |
+          set -e
+
+          echo "CI_AGENT=$CI_AGENT"
+
+          if [ -z "$CI_AGENT" ]; then
+            echo "❌ CI_AGENT is not set"
+            exit 1
+          fi
+          echo "Preparing logs..."
+          LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
+      
+          echo "Sending logs to AI Bot server..."
+
+          RESPONSE=$(curl --fail --show-error -s \
+            -X POST "$CI_AGENT/analyze" \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"repo\": \"${{ github.repository }}\",
+              \"run_id\": \"${{ github.event.workflow_run.id }}\",
+              \"installation_id\": \"${{ secrets.INSTALLATION_ID }}\",
+              \"logs\": $LOGS_JSON
+            }"
+          )
+
+          echo "LLM Response:"
+          echo "$RESPONSE" | jq
+          echo "suggestion<<EOF" >> $GITHUB_OUTPUT
+          echo "$RESPONSE" | jq -r '.suggestion // \"No suggestion returned\"' >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       # - name: Send CI logs to AI Bot
       #   id: send
@@ -79,34 +113,34 @@ jobs:
       #     echo "EOF" >> $GITHUB_OUTPUT
 
           
-      - name: Get bot suggestion from AI server
-        id: bot
-        env:
-          CI_AGENT: ${{ secrets.CI_AGENT }}
-        run: |
-          echo "Sending logs to AI Bot server..."
+      # - name: Get bot suggestion from AI server
+      #   id: bot
+      #   env:
+      #     CI_AGENT: ${{ secrets.CI_AGENT }}
+      #   run: |
+      #     echo "Sending logs to AI Bot server..."
           
-          LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
+      #     LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
           
-          RESPONSE=$(curl -s -X POST "$CI_AGENT/analyze" \
-            -H "Content-Type: application/json" \
-            -d @- << EOF
-          {
-            "repo": "${{ github.repository }}",
-            "run_id": "${{ github.event.workflow_run.id }}",
-            "installation_id": "${{ secrets.INSTALLATION_ID }}",
-            "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
-          }
-          EOF
-          )
+      #     RESPONSE=$(curl -s -X POST "$CI_AGENT/analyze" \
+      #       -H "Content-Type: application/json" \
+      #       -d @- << EOF
+      #     {
+      #       "repo": "${{ github.repository }}",
+      #       "run_id": "${{ github.event.workflow_run.id }}",
+      #       "installation_id": "${{ secrets.INSTALLATION_ID }}",
+      #       "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
+      #     }
+      #     EOF
+      #     )
 
-          echo "LLM Response:"
-          echo "$RESPONSE" | jq
+      #     echo "LLM Response:"
+      #     echo "$RESPONSE" | jq
           
-          # Save suggestion safely to GitHub Actions output
-          echo "suggestion<<EOF" >> $GITHUB_OUTPUT
-          echo "$RESPONSE" | jq -r .suggestion >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+      #     # Save suggestion safely to GitHub Actions output
+      #     echo "suggestion<<EOF" >> $GITHUB_OUTPUT
+      #     echo "$RESPONSE" | jq -r .suggestion >> $GITHUB_OUTPUT
+      #     echo "EOF" >> $GITHUB_OUTPUT
 
 
       # - name: Comment PR with bot suggestion
