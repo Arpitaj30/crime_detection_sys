@@ -14,23 +14,13 @@ jobs:
 
     steps:
       # -------------------------------------------------
-      # 1. Checkout the failed repository (crime_detection_sys)
+      #  Checkout the failed repository (crime_detection_sys)
       # -------------------------------------------------
       - name: Checkout target repository
         uses: actions/checkout@v4
 
       # -------------------------------------------------
-      # 2. Checkout AI CI Bot repository
-      # -------------------------------------------------
-      - name: Checkout Ci-Smart-Bot repository
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ github.repository_owner }}/Ci-Smart-Bot
-          path: bot-agent
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # -------------------------------------------------
-      # 3. Download CI logs from failed workflow
+      #  Download CI logs from failed workflow
       # -------------------------------------------------
       - name: Download CI logs artifact
         env:
@@ -46,7 +36,7 @@ jobs:
           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt || true
 
       # -------------------------------------------------
-      # 4. Setup Python
+      #  Setup Python
       # -------------------------------------------------
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -54,7 +44,7 @@ jobs:
           python-version: "3.10"
 
       # -------------------------------------------------
-      # 5. Install AI Bot dependencies
+      # Install AI Bot dependencies
       # -------------------------------------------------
       - name: Install dependencies
         run: |
@@ -62,46 +52,51 @@ jobs:
           pip install -r bot-agent/requirements.txt
 
       # -------------------------------------------------
-      # 6. Send logs to AI CI Bot
+      # Send logs to AI CI Bot
       # -------------------------------------------------
-      - name: Send logs to AI CI Bot
+      - name: Send logs to AI CI Bot (via ngrok)
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          LLM_PROVIDER: groq
+          CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
-          cd bot-agent
-          python - << 'EOF'
-          import os
-          import sys
+          echo "Sending logs to AI Bot server..."
 
-          sys.path.insert(0, ".")  # repo root
-          from bot.error_analyzer import analyze_error
-
-          logs_path = "../logs/ci_logs.txt"
-
-          if not os.path.exists(logs_path):
-            print("No CI logs found")
-            sys.exit(1)
-
-          with open(logs_path, "r") as f:
-            logs_content = f.read()
-
-          print("🚨 Crime Detection System CI Failed")
-          print(f"Repository: ${{ github.repository }}")
-          print(f"Run ID: ${{ github.event.workflow_run.id }}")
-          print(f"Logs Size: {len(logs_content)} bytes")
-          print("-" * 50)
-
-          # Call bot function to analyze logs
-          suggestion = analyze_error(logs_content)
-          print("💡 Suggested Fix:")
-          print(suggestion)
+          curl -X POST "$CI_AGENT_URL/analyze" \
+          -H "Content-Type: application/json" \
+          -d @- << EOF
+          {
+            "repository": "${{ github.repository }}",
+            "run_id": "${{ github.event.workflow_run.id }}",
+            "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
+          }
           EOF
+
+      - name: Get bot suggestion from AI server
+        id: bot
+        env:
+          CI_AGENT: ${{ secrets.CI_AGENT }}
+        run: |
+          RESPONSE=$(curl -s -X POST "$CI_AGENT_URL/analyze" \
+            -H "Content-Type: application/json" \
+            -d @- << EOF
+          {
+            "repo": "${{ github.repository }}",
+            "run_id": "${{ github.event.workflow_run.id }}",
+            "installation_id": "${{ secrets.GH_APP_INSTALLATION_ID }}",
+            "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
+          }
+          EOF
+          )
+          echo "suggestion=$(echo "$RESPONSE" | jq -r .suggestion)" >> $GITHUB_OUTPUT
 
       - name: Comment PR with bot suggestion
         if: ${{ github.event.workflow_run.pull_requests }}
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          LLM_PROVIDER: groq
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          BOT_SUGGESTION=$(python -c "from bot.error_analyzer import analyze_error; print(analyze_error(open('../logs/ci_logs.txt').read()))")
+          PR_NUMBER=$(jq -r '.[0].number' <<< '${{ toJson(github.event.workflow_run.pull_requests) }}')
+
+          gh pr comment "$PR_NUMBER" \
+            --repo "${{ github.repository }}" \
+            --body "🤖 **AI CI Bot Analysis**
+          ${{ steps.bot.outputs.suggestion }}"
+          
