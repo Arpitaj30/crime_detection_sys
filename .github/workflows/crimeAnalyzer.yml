@@ -44,8 +44,8 @@ jobs:
           python-version: "3.10"
 
       - name: Install jq
-        run: sudo apt-get install -y jq curl openssl
-             sudo update
+        run: sudo apt-get update
+             sudo apt-get install -y jq
 
       # - name: Send CI logs to AI Bot
       #   id: send
