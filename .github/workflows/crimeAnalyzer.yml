@@ -88,7 +88,7 @@ jobs:
           echo "suggestion<<EOF" >> $GITHUB_OUTPUT
           echo "$RESPONSE" | jq -r .suggestion >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-          echo "suggestion=$(echo "$RESPONSE" | jq -r .suggestion)" >> $GITHUB_OUTPUT
+
 
       - name: Comment PR with bot suggestion
         if: ${{ github.event.workflow_run.pull_requests }}
