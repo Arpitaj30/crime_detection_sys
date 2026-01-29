@@ -43,31 +43,37 @@ jobs:
         with:
           python-version: "3.10"
 
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+
       # -------------------------------------------------
       # Send logs to AI CI Bot
       # -------------------------------------------------
-      - name: Send logs to AI CI Bot (via ngrok)
-        env:
-          CI_AGENT: ${{ secrets.CI_AGENT }}
-        run: |
-          echo "Sending logs to AI Bot server..."
+      # - name: Send logs to AI CI Bot (via ngrok)
+      #   env:
+      #     CI_AGENT: ${{ secrets.CI_AGENT }}
+      #   run: |
+      #     echo "Sending logs to AI Bot server..."
 
-          curl -X POST "$CI_AGENT_URL/analyze" \
-          -H "Content-Type: application/json" \
-          -d @- << EOF
-          {
-            "repository": "${{ github.repository }}",
-            "run_id": "${{ github.event.workflow_run.id }}",
-            "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
-          }
-          EOF
+      #     curl -X POST "$CI_AGENT/analyze" \
+      #     -H "Content-Type: application/json" \
+      #     -d @- << EOF
+      #     {
+      #       "repository": "${{ github.repository }}",
+      #       "run_id": "${{ github.event.workflow_run.id }}",
+      #       "logs": "$(sed 's/"/\\"/g' logs/ci_logs.txt)"
+      #     }
+      #     EOF
 
       - name: Get bot suggestion from AI server
         id: bot
         env:
           CI_AGENT: ${{ secrets.CI_AGENT }}
         run: |
-          RESPONSE=$(curl -s -X POST "$CI_AGENT_URL/analyze" \
+          echo "Sending logs to AI Bot server..."
+          
+          RESPONSE=$(curl -s -X POST "$CI_AGENT/analyze" \
             -H "Content-Type: application/json" \
             -d @- << EOF
           {
@@ -89,6 +95,9 @@ jobs:
 
           gh pr comment "$PR_NUMBER" \
             --repo "${{ github.repository }}" \
-            --body "🤖 **AI CI Bot Analysis**
-          ${{ steps.bot.outputs.suggestion }}"
-          
+            --body "$(cat << 'EOF'
+            🤖 **AI CI Bot Analysis**
+
+            ${{ steps.bot.outputs.suggestion }}
+            EOF
+            )"
