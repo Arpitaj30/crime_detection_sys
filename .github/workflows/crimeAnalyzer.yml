@@ -77,11 +77,16 @@ jobs:
             }"
           )
 
+          
           echo "LLM Response:"
           echo "$RESPONSE" | jq
+          
+          SUGGESTION=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g' | tr '\n' '\\n')
+
           echo "suggestion<<EOF" >> $GITHUB_OUTPUT
-          echo "$RESPONSE" | jq -r '.suggestion // \"No suggestion returned\"' >> $GITHUB_OUTPUT
+          echo "$SUGGESTION" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+
 
       # - name: Send CI logs to AI Bot
       #   id: send
