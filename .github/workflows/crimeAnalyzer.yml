@@ -73,6 +73,8 @@ jobs:
         run: |
           echo "Sending logs to AI Bot server..."
           
+          LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
+          
           RESPONSE=$(curl -s -X POST "$CI_AGENT/analyze" \
             -H "Content-Type: application/json" \
             -d @- << EOF
