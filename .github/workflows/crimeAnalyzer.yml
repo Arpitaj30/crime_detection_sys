@@ -72,22 +72,46 @@ jobs:
           echo "LLM Response:"
           echo "$RESPONSE" | jq
 
-          # --- Extract suggestion and patch safely ---
-          # Remove triple backticks and keep readable format
-          SUGGESTION=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g')
-          PATCH=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g' | jq '.patch? // empty')
+          # 1️⃣ Extract the JSON block inside triple backticks
+          SUGGESTION_JSON=$(echo "$RESPONSE" | \
+            grep -oP '(?s)```json\n(.*?)\n```' | \
+            sed 's/```json//g' | sed 's/```//g')
+          
+          # 2️⃣ Parse patch safely from JSON
+          PATCH=$(echo "$SUGGESTION_JSON" | jq -r '.patch? // empty')
+          
+          # 3️⃣ Extract readable suggestion text (remove triple backticks, preserve explanation)
+          SUGGESTION_TEXT=$(echo "$RESPONSE" | sed 's/```json//g' | sed 's/```//g')
 
-          # Save suggestion and patch to GitHub Actions outputs
+          # Write suggestion text
           echo "suggestion<<EOF" >> $GITHUB_OUTPUT
-          echo "$SUGGESTION" >> $GITHUB_OUTPUT
+          echo "$SUGGESTION_TEXT" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-
+          
+          # Write patch JSON
           echo "patch<<EOF" >> $GITHUB_OUTPUT
           echo "$PATCH" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-          echo "✅ Suggestion and patch saved."
+          COMMENT_BODY=$(cat << EOF
+          🤖 **AI CI Bot Analysis**
+          
+          **Suggestion:**
+          $SUGGESTION_TEXT
+          
+          **Patch (if available):**
+          \`\`\`json
+          $PATCH
+          \`\`\`
+          EOF
+          )
+          
+          gh pr comment "$PR_NUMBER" \
+            --repo "${{ github.repository }}" \
+            --body "$COMMENT_BODY"
 
+
+          
       # 5️⃣ Comment PR with bot suggestion and patch
       # - name: Comment PR with AI Bot suggestion
       #   if: ${{ github.event.workflow_run.pull_requests }}
