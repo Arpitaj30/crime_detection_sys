@@ -93,23 +93,36 @@ jobs:
           echo "$PATCH" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
+
+      - name: Comment PR with AI Bot suggestion
+        if: ${{ github.event.workflow_run.pull_requests }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 👈 THIS is required
+        run: |
+          PR_NUMBER=$(jq -r '.[0].number' <<< '${{ toJson(github.event.workflow_run.pull_requests) }}')
+
+          if [ -z "$PR_NUMBER" ] || [ "$PR_NUMBER" = "null" ]; then
+            echo "No PR found, skipping comment."
+            exit 0
+          fi
+          echo "Commenting on PR #$PR_NUMBER..."
+          
           COMMENT_BODY=$(cat << EOF
           🤖 **AI CI Bot Analysis**
           
           **Suggestion:**
-          $SUGGESTION_TEXT
+          ${{ steps.bot.outputs.suggestion }}
           
           **Patch (if available):**
           \`\`\`json
-          $PATCH
+          ${{ steps.bot.outputs.patch }}
           \`\`\`
           EOF
-          )
+              )
           
-          gh pr comment "$PR_NUMBER" \
-            --repo "${{ github.repository }}" \
-            --body "$COMMENT_BODY"
-
+              gh pr comment "$PR_NUMBER" \
+                --repo "${{ github.repository }}" \
+                --body "$COMMENT_BODY"
 
           
       # 5️⃣ Comment PR with bot suggestion and patch
