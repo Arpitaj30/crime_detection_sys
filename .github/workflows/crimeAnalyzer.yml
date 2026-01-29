@@ -13,31 +13,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # -------------------------------------------------
-      #  Checkout the failed repository (crime_detection_sys)
-      # -------------------------------------------------
+      # 1️⃣ Checkout the failed repository
       - name: Checkout target repository
         uses: actions/checkout@v4
 
-      # -------------------------------------------------
-      #  Download CI logs from failed workflow
-      # -------------------------------------------------
+      # 2️⃣ Download CI logs artifact
       - name: Download CI logs artifact
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p logs
-
           gh run download ${{ github.event.workflow_run.id }} \
             --repo ${{ github.repository }} \
             --dir logs
-
           # Merge all .log files into one
           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt || true
 
-      # -------------------------------------------------
-      #  Setup Python
-      # -------------------------------------------------
+      # 3️⃣ Setup Python and jq
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -48,44 +40,189 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
+      # 4️⃣ Send logs to AI Bot and get suggestion & patch
       - name: Get bot suggestion from AI server
         id: bot
         env:
           CI_AGENT: ${{ secrets.CI_AGENT }}
+          INSTALLATION_ID: ${{ secrets.INSTALLATION_ID }}
         run: |
           set -e
-
-          echo "CI_AGENT=$CI_AGENT"
 
           if [ -z "$CI_AGENT" ]; then
             echo "❌ CI_AGENT is not set"
             exit 1
           fi
+
           echo "Preparing logs..."
           LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
-      
-          echo "Sending logs to AI Bot server..."
 
+          echo "Sending logs to AI Bot server..."
           RESPONSE=$(curl --fail --show-error -s \
             -X POST "$CI_AGENT/analyze" \
             -H "Content-Type: application/json" \
             -d "{
               \"repo\": \"${{ github.repository }}\",
               \"run_id\": \"${{ github.event.workflow_run.id }}\",
-              \"installation_id\": \"${{ secrets.INSTALLATION_ID }}\",
+              \"installation_id\": \"$INSTALLATION_ID\",
               \"logs\": $LOGS_JSON
             }"
           )
 
-          
           echo "LLM Response:"
           echo "$RESPONSE" | jq
-          
-          SUGGESTION=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g' | tr '\n' '\\n')
 
+          # --- Extract suggestion and patch safely ---
+          # Remove triple backticks and keep readable format
+          SUGGESTION=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g')
+          PATCH=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g' | jq '.patch? // empty')
+
+          # Save suggestion and patch to GitHub Actions outputs
           echo "suggestion<<EOF" >> $GITHUB_OUTPUT
           echo "$SUGGESTION" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "patch<<EOF" >> $GITHUB_OUTPUT
+          echo "$PATCH" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "✅ Suggestion and patch saved."
+
+      # 5️⃣ Comment PR with bot suggestion and patch
+      # - name: Comment PR with AI Bot suggestion
+      #   if: ${{ github.event.workflow_run.pull_requests }}
+      #   env:
+      #     GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     PR_NUMBER=$(jq -r '.[0].number' <<< '${{ toJson(github.event.workflow_run.pull_requests) }}')
+
+      #     if [ -z "$PR_NUMBER" ] || [ "$PR_NUMBER" = "null" ]; then
+      #       echo "No PR found, skipping comment."
+      #       exit 0
+      #     fi
+
+      #     echo "Commenting on PR #$PR_NUMBER..."
+          
+      #     COMMENT_BODY=$(cat << EOF
+      #     🤖 **AI CI Bot Analysis**
+          
+      #     **Suggestion:**
+      #     ${{ steps.bot.outputs.suggestion }}
+          
+      #     **Patch (if available):**
+      #     \`\`\`json
+      #     ${{ steps.bot.outputs.patch }}
+      #     \`\`\`
+      #     EOF
+      #               )
+          
+      #               gh pr comment "$PR_NUMBER" \
+      #                 --repo "${{ github.repository }}" \
+      #                 --body "$COMMENT_BODY"
+          
+      #               echo "✅ PR commented with AI suggestion."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# name: Notify AI CI Bot
+
+# on:
+#   workflow_run:
+#     workflows: ["CI"]
+#     types:
+#       - completed
+
+# jobs:
+#   analyze-failure:
+#     name: Analyze CI Failure with AI Bot
+#     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       # -------------------------------------------------
+#       #  Checkout the failed repository (crime_detection_sys)
+#       # -------------------------------------------------
+#       - name: Checkout target repository
+#         uses: actions/checkout@v4
+
+#       # -------------------------------------------------
+#       #  Download CI logs from failed workflow
+#       # -------------------------------------------------
+#       - name: Download CI logs artifact
+#         env:
+#           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         run: |
+#           mkdir -p logs
+
+#           gh run download ${{ github.event.workflow_run.id }} \
+#             --repo ${{ github.repository }} \
+#             --dir logs
+
+#           # Merge all .log files into one
+#           find logs -type f -name "*.log" -exec cat {} + > logs/ci_logs.txt || true
+
+#       # -------------------------------------------------
+#       #  Setup Python
+#       # -------------------------------------------------
+#       - name: Set up Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.10"
+
+#       - name: Install jq
+#         run: |
+#           sudo apt-get update
+#           sudo apt-get install -y jq
+
+#       - name: Get bot suggestion from AI server
+#         id: bot
+#         env:
+#           CI_AGENT: ${{ secrets.CI_AGENT }}
+#         run: |
+#           set -e
+
+#           echo "CI_AGENT=$CI_AGENT"
+
+#           if [ -z "$CI_AGENT" ]; then
+#             echo "❌ CI_AGENT is not set"
+#             exit 1
+#           fi
+#           echo "Preparing logs..."
+#           LOGS_JSON=$(tail -n 200 logs/ci_logs.txt | jq -Rs .)
+      
+#           echo "Sending logs to AI Bot server..."
+
+#           RESPONSE=$(curl --fail --show-error -s \
+#             -X POST "$CI_AGENT/analyze" \
+#             -H "Content-Type: application/json" \
+#             -d "{
+#               \"repo\": \"${{ github.repository }}\",
+#               \"run_id\": \"${{ github.event.workflow_run.id }}\",
+#               \"installation_id\": \"${{ secrets.INSTALLATION_ID }}\",
+#               \"logs\": $LOGS_JSON
+#             }"
+#           )
+
+          
+#           echo "LLM Response:"
+#           echo "$RESPONSE" | jq
+          
+#           SUGGESTION=$(echo "$RESPONSE" | jq -r '.suggestion' | sed 's/```//g' | tr '\n' '\\n')
+
+#           echo "suggestion<<EOF" >> $GITHUB_OUTPUT
+#           echo "$SUGGESTION" >> $GITHUB_OUTPUT
+#           echo "EOF" >> $GITHUB_OUTPUT
 
 
       # - name: Send CI logs to AI Bot
